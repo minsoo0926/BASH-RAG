@@ -9,3 +9,5 @@ nltk
 swifter
 jsonlines
 modelscope
+spacy
+networkx
