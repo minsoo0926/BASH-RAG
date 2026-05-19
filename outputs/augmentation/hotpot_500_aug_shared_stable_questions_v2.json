@@ -1,0 +1,3365 @@
+{
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1693->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1629": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8068",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8004",
+    "question": "Which college is mentioned as Nityanand Jha College of Education (SNJCOE) and Shri Ram Polytechnic (SRP)?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1693->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:522": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10193",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9022",
+    "question": "What type of educational institution is Downers Grove North High School?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1263->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9763",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9746",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1263->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2050": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9763",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10550",
+    "question": "What event led to George H. W. Bush becoming a resident of the neighborhood?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1263->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1454": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9763",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9954",
+    "question": "Who was chosen by the Libertarian National Convention in May, 2012 to be the party's candidate?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1675->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1159": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10175",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9659",
+    "question": "Which professional soccer team competes with MLS teams in the Continental Rivals of the CONCACAF Champions League?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1675->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1451": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10175",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9951",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:628->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:920": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9128",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9420",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1438->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:54": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9938",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8554",
+    "question": "What event took place in Sydney, Australia, involving a Lindt chocolate café?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1438->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:522": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9938",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9022",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:54->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8554",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10606",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:54->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:631": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8554",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9131",
+    "question": "Who was Glass's role during the July Putsch?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1912": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8512",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10412",
+    "question": "What date did the penultimate event of the UFC take place?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:599->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1142": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9099",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9642",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:40->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1142": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8540",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9642",
+    "question": "What venue did the game take place at?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:40->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:694": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8540",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9194",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:31->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:463": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8531",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8963",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:31->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8531",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8567",
+    "question": "What division did the West Virginia Mountaineers compete in?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1377": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8567",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9877",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1159": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8567",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9659",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1835": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8567",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10335",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1195": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8567",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9695",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1784": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8567",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10284",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1142->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9642",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9746",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:560->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2042": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9060",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10542",
+    "question": "What was the name of the second full-length album released by The Group?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1133->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9633",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10309",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10441",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9746",
+    "question": "What attraction opened in 1994?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:684": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10441",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9184",
+    "question": "Who produced Halliwell's debut album 'Schizophonic'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2074->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:337": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10574",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8837",
+    "question": "Who is Casey's older half-brother?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10579",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10309",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:534->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9034",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8905",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8900",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8905",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1596": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8900",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10096",
+    "question": "Who directed the film starring Russell Crowe, Daniel Pollock, Jacqueline McKenzie, and Tony Lee?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:394": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8900",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8894",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1868": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8900",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10368",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:739": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8900",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9239",
+    "question": "Who directed the Halloween film featuring John Astin?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2122->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:193": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10622",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8693",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2122->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:325": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10622",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8825",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:694->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1211": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9194",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9711",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:255->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1211": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8755",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9711",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:255->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1912": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8755",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10412",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1216->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9716",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8905",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1634->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1016": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10134",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9516",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1634->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:128": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10134",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8628",
+    "question": "What Canadian subsidiary of The Dow Chemical Company did investors include in their investments?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:128->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:668": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8628",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9168",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:505->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:920": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9005",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9420",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1958->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1369": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10458",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9869",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1958->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:325": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10458",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8825",
+    "question": "What type of radioactive isotope does Caesium-137 represent?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:218->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1451": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8718",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9951",
+    "question": "What is the approximate number of species in the Bahá'u'lláh's family?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:218->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1189": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8718",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9689",
+    "question": "Who was Mary Robinson, the wife of Bahá'u'lláh?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1778->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10278",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8905",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:593->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1310": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9093",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9810",
+    "question": "What type of houses can be found on many of the city's streets?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1431->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1835": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9931",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10335",
+    "question": "What event led to the headquarters becoming a museum of coast defense?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:172->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8672",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8905",
+    "question": "What position did Richard DeVos hold after becoming a television director?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:172->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:690": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8672",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9190",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1607->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10107",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8905",
+    "question": "What position did Rumen Petkov hold before becoming a television director?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:844->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:434": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9344",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8934",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:844->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:684": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9344",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9184",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:844->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1876": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9344",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10376",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10618",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10606",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10618",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10309",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:828": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10618",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9328",
+    "question": "When was the Pergamon Museum first established?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2119->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10619",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9746",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1451->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1369": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9951",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9869",
+    "question": "What does the genus consist of, and how many species are there?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1451->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1475": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9951",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9975",
+    "question": "What is the total population of the species in the genus?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1385->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9885",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9746",
+    "question": "What year did the attraction open?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1817->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10317",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10309",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:576->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9076",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10240",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9746",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10606",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:690->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1617": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9190",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10117",
+    "question": "Who was reportedly involved with Mrs. Kahn as alleged Soviet intelligence agents?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:213->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:920": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8713",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9420",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:213->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2050": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8713",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10550",
+    "question": "What organization did George H. W. Bush join as a resident in the neighborhood?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1016->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9516",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8905",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:414->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:307": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8914",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8807",
+    "question": "Which Amtrak trains does the station serve?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8905",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10240",
+    "question": "What action films did Jay Van Andel direct?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1408": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8905",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9908",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:460->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8960",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10240",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:460->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:783": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8960",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9283",
+    "question": "Who directed the film 'The Piano'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1310->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2050": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9810",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10550",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10309",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10240",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:528->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:522": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9028",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9022",
+    "question": "What high school does Downers Grove Suburban Life cover?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:397->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8897",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10240",
+    "question": "Who directed the action film produced by Classic Cinemas?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1053->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2050": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9553",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10550",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1835->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2111": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10335",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10611",
+    "question": "What was the former name of Ganzhou?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2050->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:682": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10550",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:9182",
+    "question": "What nickname did George H. W. Bush use before 2001?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1784->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7851",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8259",
+    "question": "Which division did The Black Crowes play for?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2042->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:560": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8109",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6627",
+    "question": "What was the first live album by The Black Crowes released after their second full-length album?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1868->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7935",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6467",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:172->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:846": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8364",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6913",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:319->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6386",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8185",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1415->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1159": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7482",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7226",
+    "question": "Which MLS team competes with Paul Bravo's former clubs for the CONCACAF Champions League?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:534": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6472",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6601",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1216": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6472",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7283",
+    "question": "What position did Jay Van Andel hold after leaving the 'Father Murphy' series?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6472",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8445",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6472",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6467",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1016": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6472",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7083",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1778": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6472",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7845",
+    "question": "Who directed the 1984 television film 'I Married a Centerfold'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:337->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2074": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6404",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8141",
+    "question": "Who is one of the final recordings of guitarist Dick Wagner?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:325->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2122": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6392",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8189",
+    "question": "Who assisted Alexander Grothendieck in writing 'The Elements of Algebraic Geometry'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:325->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1958": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6392",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8025",
+    "question": "What research does VARI scientists conduct on cancer?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1263": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7313",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7330",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2119": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7313",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8186",
+    "question": "What was the opening year of the 'sensual side' Cirque du Soleil show?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7313",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8008",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1246->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1385": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7313",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7452",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1769->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1053": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7836",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7120",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:739->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6806",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6467",
+    "question": "Who directed the 1977 American made-for-television comedy horror film 'Halloween with the New Addams Family'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1310->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:593": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7377",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6660",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:828->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6895",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8185",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:382->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6449",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8445",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:463->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:31": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6530",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8223",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:463->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:872": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6530",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6939",
+    "question": "What university did Wuerffel play college football for?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1876->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:576": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7943",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6643",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1817": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7876",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7884",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7876",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8185",
+    "question": "What date did the film production for 'The Film' debut?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7876",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8146",
+    "question": "Which library did the Winnie the Pooh short originally come from?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1133": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7876",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7200",
+    "question": "Who directed the films 'The System of Doctor Tarr' and 'The Premature Burial'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:394->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6461",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6467",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:522->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1693": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6589",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7760",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1629->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1693": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7696",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7760",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1195->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7262",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8259",
+    "question": "Which division did Anne Arundel County, Baltimore County, Harford County, Howard County, Montgomery County, Prince George's County, and Wicomico County belong to in the ACC?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:684->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6751",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8008",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1454->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1263": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7521",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7330",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:920->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:505": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6987",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6572",
+    "question": "What position did Doug DeVos hold at Amway?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1142->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:40": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7209",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8232",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1142->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:599": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7209",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6666",
+    "question": "What country hosted both the 1997 and 2005 Rugby World Cup Sevens?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1159->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7226",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8259",
+    "question": "What conference did the MLS teams compete against in the Continental Rivals?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1159->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1912": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7226",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7979",
+    "question": "Which professional wrestling promotion hosted the final event of the year in 2011?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1912->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7979",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8204",
+    "question": "What event took place during July and August, sponsored by J.P Morgan Asset Management?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1475->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1451": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7542",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7518",
+    "question": "Which genus contains approximately 97 to 107 species?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1835->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7902",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8259",
+    "question": "Who was part of the Coastal Division of the Atlantic Coast Conference (ACC)?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1835->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1431": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7902",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7498",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1377->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:67": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7444",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8259",
+    "question": "Which conference did the teams in the region belong to?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:172->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1016": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8364",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7083",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1415->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7482",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8445",
+    "question": "What position did Paul Bravo play in American football?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:460->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1655": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6527",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7722",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1216->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:534": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7283",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6601",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:828->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1835": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6895",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7902",
+    "question": "What organization's headquarters is currently being used as a museum?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:382->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:872": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6449",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6939",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:463->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:40": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6530",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8232",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:534->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:460": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6601",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6527",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1016->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7083",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8445",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1263->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7330",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8008",
+    "question": "What magazine was one of the first to release a dub album?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:872->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:31": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6939",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8223",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1817->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:576": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:7884",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6643",
+    "question": "Who directed 'Ready Player One'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:40->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:31": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8232",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:8223",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1693->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1580": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12318",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12205",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1693->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:516": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12318",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11141",
+    "question": "What high school does the story take place at?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1159->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1415": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11784",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12040",
+    "question": "What MLS team did Paul Bravo play for?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:872->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:463": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11497",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11088",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:382": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10878",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11007",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:405": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10878",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11030",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1958->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1451": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12583",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12076",
+    "question": "What is the approximate number of species in the VARI scientists study?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:593->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:587": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11218",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11212",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1451->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1370": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12076",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11995",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:576->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1876": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11201",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12501",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:40->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:463": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10665",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11088",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:31->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:872": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10656",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11497",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:534->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1216": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11159",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11841",
+    "question": "What NBC drama did Richard Chamberlain star in after leaving 'The Rockford Files'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:872->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:382": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11497",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11007",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:463": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10878",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:11088",
+    "question": "Who coached Wuerffel during his time at Florida State University?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1415": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10878",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12040",
+    "question": "What position did Paul Bravo hold in professional soccer?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:772->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13522",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14856",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:772->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1454": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13522",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14204",
+    "question": "Who did the Libertarian National Convention in May, 2012 choose as the party's candidate?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:475->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1502": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13225",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14252",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12760",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14856",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:81->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:51": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12831",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12801",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:51->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1544": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12801",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14294",
+    "question": "What university did Jay Van Andel play college football for?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:51->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1142": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12801",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13892",
+    "question": "What restaurant did the game take place at?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1454->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1464": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14204",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14214",
+    "question": "Who was the first sitting vice president to be elected president since Martin Van Buren?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1454->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1919": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14204",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14669",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1142->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13892",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14856",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1818->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:631": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14568",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13381",
+    "question": "Who was Glass's predecessor during the July Putsch?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14691",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14868",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2042": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14691",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14792",
+    "question": "What event led to the release of 'The First Dub Album' by The Black Crowes?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2070": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14829",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14820",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:434": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14829",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13184",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:534->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:832": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13284",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13582",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:490->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:325": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13240",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13075",
+    "question": "What type of radiation does cesium-137 emit?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:255->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1544": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13005",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14294",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1502->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1544": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14252",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14294",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1634->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1933": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14384",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14683",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1634->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:213": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14384",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12963",
+    "question": "What company did Dr. Maurice Moloney serve as Chairman of the Board and Chief Executive Officer for?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1634->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:690": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14384",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13440",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:631->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13381",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14856",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:505->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:213": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13255",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12963",
+    "question": "What position did Doug DeVos hold at Amway before becoming the Chairman and CEO?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:394->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:832": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13144",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13582",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:218->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1375": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12968",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14125",
+    "question": "What five to ten species have been listed for Bahá'u'lláh's family?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1313->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14063",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14856",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2062->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:307": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14812",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13057",
+    "question": "Which Amtrak trains does the Fredericksburg Station serve?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2062->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1310": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14812",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14060",
+    "question": "What type of houses line many of the streets around the junction?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:164->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1868": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12914",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14618",
+    "question": "Who directed the Cirque du Soleil show featuring these artists?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:846->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:434": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13596",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13184",
+    "question": "What single by 5 Seconds of Summer won 'Song of the Year' at the 2014 ARIA Awards?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2070": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14868",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14820",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1375->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1933": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14125",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14683",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1375->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1195": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14125",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13945",
+    "question": "Which counties in Maryland have a county executive?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1868->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14618",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14490",
+    "question": "Who directed the action films by these artists?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1896->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1310": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14646",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14060",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1896->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1475": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14646",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14225",
+    "question": "What is the current population of the country?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1475->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1933": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14225",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14683",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1475->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14225",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14856",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1475->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:325": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14225",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13075",
+    "question": "What type of isotope was Caesium-137?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1243->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2070": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13993",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14820",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:832->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1408": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13582",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14158",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2070->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14820",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14490",
+    "question": "What type of films did Jay Van Andel direct?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1310->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:528": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14060",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13278",
+    "question": "What organization publishes the Downers Grove Suburban Life?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1263->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:735": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16138",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15610",
+    "question": "Who founded the Van Andel Institute?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:772->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:594": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15647",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15469",
+    "question": "What type of food does Fiesta Foods specialize in?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:772->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1844": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15647",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16719",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1688->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1686": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16563",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16561",
+    "question": "Which school does Jerry Jordan's McKinley Elementary School share a building with?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:773->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15648",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16816",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1692->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:525": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16567",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15400",
+    "question": "What high school does South Holland School District 151 serve?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1692->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1686": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16567",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16561",
+    "question": "Which school district does South Holland School District 151 belong to?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:299->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:661": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15174",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15536",
+    "question": "Who is Gary Earl Johnson's American businessman, author, and politician co-founder?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1675->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1158": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16550",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16033",
+    "question": "Which MLS team competes against teams from other divisions in the U.S. Open Cup?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1675->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1615": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16550",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16490",
+    "question": "Who was Epstein's position before joining the International Brigades?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:628->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:705": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15503",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15580",
+    "question": "What position did Jay Van Andel hold after serving as Vice Chief of Staff of the Army?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:476->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:255": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15351",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15130",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1357->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1348": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16232",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16223",
+    "question": "What division did General Omar Bradley command in the army group headquarters?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1357->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1617": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16232",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16492",
+    "question": "Who were reportedly stationed in Mexico City during World War II?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1348->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16223",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15275",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:10": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14881",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14885",
+    "question": "Who was responsible for the fourth and final hostage-taker during the April 4, 1991, hostage crisis?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:54": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14881",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14929",
+    "question": "Who was the lone gunman responsible for the 2014 Sydney hostage crisis?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:6->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1404": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14881",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16279",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:726->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1893": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15601",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16768",
+    "question": "Who was awarded both the Public Service Star and Public Service Medal by the government of Singapore?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:81->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1459": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14956",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16334",
+    "question": "Which rugby sevens series does the 2017–18 World Rugby Sevens Series replace?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:81->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1155": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14956",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16030",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:34->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:12": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14909",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14887",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:34->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1766": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14909",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16641",
+    "question": "Which Rugby Union 7-a-side competition did Chris Catchings win in 2012?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1459->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1912": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16334",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16787",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1459->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:200": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16334",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15075",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:51->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1223": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14926",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16098",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:51->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:38": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14926",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14913",
+    "question": "What event led to the Alabama Crimson Tide defeating the Notre Dame Fighting Irish?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:61->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:63": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14936",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14938",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:61->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:40": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14936",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14915",
+    "question": "Who organized the 2015 Orange Bowl game?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:61->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1544": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14936",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16419",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:38->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:63": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14913",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14938",
+    "question": "What team did Alabama finish with a perfect record?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:63->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:52": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14938",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14927",
+    "question": "Which bowl game did both Clemson and Alabama participate in?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:63->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:26": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14938",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14901",
+    "question": "Which poll did both Clemson and Alabama participate in at the end of their season?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:13->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:40": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14888",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14915",
+    "question": "What organization organized the 2011 Discover Orange Bowl?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:40->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:75": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14915",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14950",
+    "question": "What organization organized the 2016 Lamar Hunt U.S. Open Cup?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1454->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1176": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16329",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16051",
+    "question": "Who was the National Chairman of the United States Libertarian Party from 2012?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1452->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1462": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16327",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16337",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1455->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1464": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16330",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16339",
+    "question": "Who was the previous sitting vice president to win a presidential nomination after serving as vice president?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:661->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15536",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15275",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:661->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1545": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15536",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16420",
+    "question": "Who founded Amway alongside Gary Earl Johnson?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:661->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2040": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15536",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16915",
+    "question": "Who is Miller Newman?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1158->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:75": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16033",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14950",
+    "question": "Which MLS team won the 2016 Lamar Hunt U.S. Open Cup?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1158->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1155": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16033",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16030",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1148->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:503": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16023",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15378",
+    "question": "Which MLS team did Donald W. 'Donnie' Smith play for?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:503->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1415": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15378",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16290",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1155->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1059": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16030",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15934",
+    "question": "Which team was part of the Arena Football League?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:560->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:556": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15435",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15431",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1429->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1106": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16304",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15981",
+    "question": "When did the song 'The Sound of Silence' by Simon & Garfunkel first appear in its original form?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1429->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1003": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16304",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15878",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1429->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:89": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16304",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14964",
+    "question": "What was written by Alun Owen and originally released by United Artists?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1429->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1358": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16304",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16233",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:556->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1784": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15431",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16659",
+    "question": "What American rock band was formed in 1989?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1805->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1819": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16680",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16694",
+    "question": "Who directed Jan Švankmajer's first film?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1135->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1819": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16010",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16694",
+    "question": "What is Jan Švankmajer's first film?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1135->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:163": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16010",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15038",
+    "question": "What year did the film production take place?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1819->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:971": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16694",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15846",
+    "question": "What is Švankmajer's first film?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1819->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1847": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16694",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16722",
+    "question": "What was the first Circle-Vision show featuring a real plot?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1819->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16694",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16816",
+    "question": "Who directed Švankmajer's first film?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1819->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1648": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16694",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16523",
+    "question": "Who directed Švankmajer's first film?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1819->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:832": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16694",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15707",
+    "question": "Who directed Švankmajer's first film?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1133->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1557": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16008",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16432",
+    "question": "Which other films were based on works by Edgar Allan Poe besides 'The System of Doctor Tarr and Professor Fether' and 'The Premature Burial'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1941->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1117": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16816",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15992",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2074->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:380": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16949",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15255",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:89->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:844": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14964",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15719",
+    "question": "Who directed 'Uma Thurman' by Fall Out Boy?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:89->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1553": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14964",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16428",
+    "question": "Who licensed 'Lambada' for the film?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:803->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1536": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15678",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16411",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:763->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1840": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15638",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16715",
+    "question": "What was the original source material for 'The Many Adventures of Winnie the Pooh'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:763->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1085": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15638",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15960",
+    "question": "Who directed the song 'The Blustery Day' from the 1968 musical film featurette 'Winnie the Pooh and the Blustery Day'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:887->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:358": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15762",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15233",
+    "question": "Who directed the film 'Back to the Future Part II'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1732": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16957",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16607",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1840->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2032": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16715",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16907",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1840->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1927": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16715",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16802",
+    "question": "Who directed the 1977 musical film 'The Many Adventures of Winnie the Pooh'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:534->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1404": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15409",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16279",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:534->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:885": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15409",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15760",
+    "question": "What other television series did Richard Chamberlain appear in besides 'The Jim Backus Show'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:979->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1404": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15854",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16279",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:502->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:501": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15377",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15376",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:502->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:434": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15377",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15309",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:502->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:971": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15377",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15846",
+    "question": "Which countries did the first two films achieve success in?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:502->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1112": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15377",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15987",
+    "question": "What did Alyssa release alongside 'Look In My Heart'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1494": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15275",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16369",
+    "question": "Who directed the silent film era in America?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:358": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15275",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15233",
+    "question": "What American stand-up comedian, actor, voice actor, writer, and musician did Charles Fleischer co-found with Clinton Eastwood Jr.?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2031": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15275",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16906",
+    "question": "Who directed the Cirque du Soleil show 'Viva Elvis'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:782": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15275",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15657",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:501->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:687": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15376",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15562",
+    "question": "What album by Jay Van Andel was certified Gold and distributed over 500,000 copies?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:501->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1003": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15376",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15878",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:97->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14972",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16615",
+    "question": "What film did Jay Van Andel direct after becoming a permanent fixture at AVM Films?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:447->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1612": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15322",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16487",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:447->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:395": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15322",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15270",
+    "question": "What TV series did Damon Dark appear in for 5 weeks?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1404->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16279",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16615",
+    "question": "Who directed the action film featuring him as a tough authority figure?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1325->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1331": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16200",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16206",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1325->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2122": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16200",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16997",
+    "question": "Who wrote the Éléments de géométrie algébrique in French?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1331->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16206",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16615",
+    "question": "What are his major works in the field of action films?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:694->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1544": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15569",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16419",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1211": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15128",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16086",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:110": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15128",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14985",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1498": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15128",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16373",
+    "question": "What team did Cunningham play for during his time with the Minnesota Vikings?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:253->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:545": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15128",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15420",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:110->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1544": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14985",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16419",
+    "question": "What university did Jay Van Andel play college football for?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:110->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:118": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14985",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14993",
+    "question": "What position did Ainsley Battles hold before resigning as DB Coach?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:108->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:525": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14983",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15400",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:871->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1220": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15746",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16095",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:118->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:349": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14993",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15224",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:118->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:243": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:14993",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15118",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1502->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1211": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16377",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16086",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1228->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:711": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16103",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15586",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1220->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1545": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16095",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16420",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:572->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:512": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15447",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15387",
+    "question": "What is the predecessor of the merged company DowDuPont?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:572->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:571": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15447",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15446",
+    "question": "What company developed the Enlist Weed Control System?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:572->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1637": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15447",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16512",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:512->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:417": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15387",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15292",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:512->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:153": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15387",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15028",
+    "question": "What was the founding year of Amway North America?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:512->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1247": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15387",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16122",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:512->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:325": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15387",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15200",
+    "question": "What event led to the formation of Caesium-137?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:417->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1375": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15292",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16250",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:496->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:140": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15371",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15015",
+    "question": "Who did Alois Brunner work with as Adolf Eichmann's assistant?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:250->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1763": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15125",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16638",
+    "question": "What city played a key role in ancient times?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:153->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:156": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15028",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15031",
+    "question": "What year did Amway North America first start operations?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:153->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1545": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15028",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16420",
+    "question": "What business did Richard Marvin DeVos Sr. co-found alongside Jay Van Andel?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:153->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:592": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15028",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15467",
+    "question": "What grocery store chain does Amway North America operate?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:153->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:593": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15028",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15468",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1958->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1534": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16833",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16409",
+    "question": "What role does the PTEN gene play in preventing cancer?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1958->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1071": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16833",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15946",
+    "question": "What type of educational institutions does the Indian higher education system consist of?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1545->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:158": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16420",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15033",
+    "question": "What year did Jay Van Andel co-found Amway?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:735->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:158": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15610",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15033",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:147->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1334": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15022",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16209",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:218->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1320": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15093",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16195",
+    "question": "Who is the husband of Mary Robinson?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1334->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1269": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16209",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16144",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1334->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:959": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16209",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15834",
+    "question": "What role did Chloë Sevigny play in her films?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1313->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1808": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16188",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16683",
+    "question": "Which museum hosted the screening of 'The Film' in New York?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:593->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1468": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15468",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16343",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1538->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:592": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16413",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15467",
+    "question": "What grocery store chain was Rex Gene Foods part of before going bankrupt?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:592->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:594": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15467",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15469",
+    "question": "What are some characteristics of Fiesta Foods chain stores?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1947->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1071": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16822",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15946",
+    "question": "What university did the creation of the Utah System of Higher Education end?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2063->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2066": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16938",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16941",
+    "question": "What organization operates the Whalebone Junction Information Station?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2066->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1835": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16941",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16710",
+    "question": "What organization now uses Whalebone Junction Information Station as its headquarters?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1430->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1376": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16305",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16251",
+    "question": "What landmark in the Outer Banks is Pigman's Bar-B-Que?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:164->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1616": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15039",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16491",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1592->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:675": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16467",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15550",
+    "question": "Who directed the 1992 film 'Romper Stomper'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1592->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:977": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16467",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15852",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:163->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1278": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15038",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16153",
+    "question": "Who directed the 1993 French film 'My Life and Times with Antonin Artaud'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:163->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2070": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15038",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16945",
+    "question": "What year did the film featuring both live-action and animation begin production?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:163->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15038",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16993",
+    "question": "What date did the film's production begin?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:163->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1557": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15038",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16432",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:163->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1643": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15038",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16518",
+    "question": "What production company produced the film in 1993-94?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1597->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1309": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16472",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16184",
+    "question": "What was one of the city's oldest suburbs?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1612->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1309": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16487",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16184",
+    "question": "Which Australian city is described as an inner city residential suburb?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1612->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1408": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16487",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16283",
+    "question": "Where was the author born?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:675->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:343": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15550",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15218",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:675->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1727": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15550",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16602",
+    "question": "Who directed the film 'Romper Stomper'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:172->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:959": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15047",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15834",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1727->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2020": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16602",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16895",
+    "question": "Who co-directed 'A Town Called Panic' with Stéphane Aubier in 2009?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:840->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:310": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15715",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15185",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:977->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15852",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16615",
+    "question": "Who directed the action film 'The Fast and the Furious'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1606->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:460": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16481",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15335",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1606->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1893": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16481",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16768",
+    "question": "What awards did Mr. Toh receive for his contributions to charities?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1254": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16993",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16129",
+    "question": "What year did the movie premiere in the PAL region?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2118->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:991": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16993",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15866",
+    "question": "Who directed the Cirque du Soleil show 'Le Reve'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:990->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:408": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15865",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15283",
+    "question": "Who directed the Cirque du Soleil show Le Reve?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:990->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1518": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15865",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16393",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1282->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:408": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16157",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15283",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2032->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:310": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16907",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15185",
+    "question": "What additional songs are included in the album besides those from the show?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2032->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1120": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16907",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15995",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2032->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:311": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16907",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15186",
+    "question": "What tour's recordings were used to create the album?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2032->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:959": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16907",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15834",
+    "question": "Who produced and wrote many of her films?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2032->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:882": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16907",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15757",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:991->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1865": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15866",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16740",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1375->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1447": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16250",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16322",
+    "question": "What genus contains the Podocarpus plant?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1375->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1370": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16250",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16245",
+    "question": "What section of Osmundaceae does the genus belong to?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1447->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1426": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16322",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16301",
+    "question": "What species of larvae mine the leaves of Podocarpus totara?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1370->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1372": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16245",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16247",
+    "question": "What section does Osmunda wehrii belong to?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1896->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:837": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16771",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15712",
+    "question": "What freight facility and yard are located next to the original station?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1896->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:372": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16771",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15247",
+    "question": "What is the current location of Chongwenmen station?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1896->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16771",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16856",
+    "question": "What was done to preserve the path up the hillside?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1414->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1385": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16289",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16260",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:183->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1413": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15058",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16288",
+    "question": "What event led to the opening of the station in April 1917?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:183->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2105": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15058",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16980",
+    "question": "What city does the Zhangye West Railway Station serve?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1475->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2099": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16350",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16974",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1763->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1722": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16638",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16597",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1763->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1761": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16638",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16636",
+    "question": "What ancient Greek city was mentioned as one of the major powers of the Mediterranean world?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1761->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1423": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16636",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16298",
+    "question": "Who is the mother of Princess Leontes?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:583->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1722": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15458",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16597",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:932->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1722": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15807",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16597",
+    "question": "What time period did Nebuchadnezzar II rule over Babylon, Iraq?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1817->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1717": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16692",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16592",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1817->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1517": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16692",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16392",
+    "question": "What director paid close attention to the detail of the era when making 'The Diary of a Young Girl'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1717->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16592",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16615",
+    "question": "What type of films did Steven Spielberg direct during his career?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1560->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:460": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16435",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15335",
+    "question": "What award did Carter win in 2013 besides the Academy Award?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1560->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:345": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16435",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15220",
+    "question": "Who directed Katharine Hepburn's role in 'The Aviator'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1919->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:738": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16794",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15613",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1919->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1201": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16794",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16076",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1243->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1247": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16118",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16122",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1254->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16129",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16684",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1847->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1510": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16722",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16385",
+    "question": "Who directed 'Rebel Without a Cause'?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1616->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1615": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16491",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16490",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1726->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16601",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16684",
+    "question": "Which library houses the 26th most attended domestic film in the Soviet Union?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1599->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:692": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16474",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15567",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:213->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1017": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15088",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15892",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:705->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1238": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15580",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16113",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:705->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:920": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15580",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15795",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:705->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:289": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15580",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15164",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:289->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:898": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15164",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15773",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1016->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1017": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15891",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15892",
+    "question": "What company did Lee Roy Mitchell serve as the Director for?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1703->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:898": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16578",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15773",
+    "question": "What position did Jay Van Andel hold at Toyota?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:707->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2050": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15582",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16925",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:271->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:290": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15146",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15165",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:711->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1053": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15586",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15928",
+    "question": "What university did Jay Van Andel attend?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1195->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:699": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16070",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15574",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:590->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:836": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15465",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15711",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:699->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1309": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15574",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16184",
+    "question": "What was one of the city's oldest suburbs?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:699->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2048": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15574",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16923",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:699->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2050": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15574",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16925",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:699->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2099": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15574",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16974",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:994->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15869",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16856",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:413->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:307": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15288",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15182",
+    "question": "Which Amtrak train routes pass through the station?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:837->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:587": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15712",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15462",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:837->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2048": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15712",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16923",
+    "question": "Which location is closer to Tanglewood, the freight facility or Norfolk Southern's Simpson Yard?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:837->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:307": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15712",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15182",
+    "question": "Which Amtrak trains does the station serve?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1517->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:388": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16392",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15263",
+    "question": "Who designed the Hollywood Chateau?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:959->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15834",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16615",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2071->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:360": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16946",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15235",
+    "question": "What movie did Eddie Valiant reprise as Roger Rabbit?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:828->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1389": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15703",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16264",
+    "question": "What museum houses the reconstruction of the Pergamon Altar?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:372->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2113": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15247",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16988",
+    "question": "What was the significance of Chongwenmen Gate in ancient times?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1389->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1722": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16264",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16597",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1395->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2048": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16270",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16923",
+    "question": "What organization is located east of and close to Tanglewood proper?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1544->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:382": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16419",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15257",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1876->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1494": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16751",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16369",
+    "question": "Who directed Ralph Ince's early films?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1809->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1835": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16684",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16710",
+    "question": "What organization's headquarters now serves as a museum?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:587->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:518": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15462",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15393",
+    "question": "Which station on Metra's BNSF Railway Line does the main parking lot of Burlington Avenue belong to?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:525->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1799": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15400",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16674",
+    "question": "Who directed the movie 'Downers Grove' based on the 1999 novel by Michael Hornburg?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:522->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:518": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15397",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15393",
+    "question": "What station does Downers Grove North High School serve?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1629->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1071": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16504",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15946",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1468->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1071": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16343",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15946",
+    "question": "What type of universities does the Indian higher education system consist of?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1071->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:937": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15946",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15812",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:936->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:937": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15811",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15812",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1053->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1054": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15928",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15929",
+    "question": "Who is a notable alumni of Columbia University who graduated from Barnard College?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1184->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1462": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16059",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16337",
+    "question": "Who succeeded Mary Robinson as president in 1997?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1188->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1835": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16063",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16710",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1833->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1297": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16708",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16172",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2050->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2046": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16925",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16921",
+    "question": "What neighborhood did George H. W. Bush reside in during his time as a resident?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:682->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1462": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15557",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16337",
+    "question": "What did George H. W. Bush hold before becoming the 41st President of the United States?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:971": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16615",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15846",
+    "question": "Which of his major works was a hit in overseas markets?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1740->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:964": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16615",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15839",
+    "question": "Who directed the Indian film starring N. T. Rama Rao and Akkineni Nageswara Rao?",
+    "skipped": false,
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1651->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:965": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:16526",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:15840",
+    "question": null,
+    "skipped": true,
+    "validation_reason": "skipped after failed retries"
+  }
+}

@@ -1,0 +1,2102 @@
+{
+  "summary": {
+    "label": "hotpot_bgeen_qwen2_5_1b5_spacy_500",
+    "relationship": "pen2ans_hotpot_bgeen_qwen2_5_1b5_spacy_500",
+    "data": "dataset/hotpot_500docs.jsonl",
+    "limit": 50,
+    "traversal": "bfs",
+    "entry_type": "edge",
+    "topk": 5,
+    "max_hop": 4,
+    "evaluated_questions": 50,
+    "questions_with_any_support_hit": 28,
+    "questions_with_all_supports_hit": 12,
+    "support_fact_hit_rate": 0.36885245901639346,
+    "avg_elapsed_seconds": 6.116267538070678,
+    "total_elapsed_seconds": 305.81337690353394
+  },
+  "results": [
+    {
+      "id": "5ade063d5542995b365fabcd",
+      "question": "Donnie Smith who plays as a left back for New England Revolution belongs to what league featuring 22 teams?",
+      "answer": "Major League Soccer",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 8.07171893119812,
+      "support_hits": [
+        {
+          "title": "Donnie Smith",
+          "sentence_idx": 0,
+          "sentence": "Donald W. \"Donnie\" Smith (born December 7, 1990 in Detroit, Michigan) is an American soccer player who plays as a left back for New England Revolution in Major League Soccer.",
+          "hit": false
+        },
+        {
+          "title": "Major League Soccer",
+          "sentence_idx": 0,
+          "sentence": "Major League Soccer (MLS) is a men's professional soccer league, sanctioned by U.S. Soccer, that represents the sport's highest level in both the United States and Canada.",
+          "hit": false
+        },
+        {
+          "title": "Major League Soccer",
+          "sentence_idx": 2,
+          "sentence": "The league comprises 22 teams—19 in the U.S. and 3 in Canada.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " MLS teams also compete against continental rivals in the CONCACAF Champions League.",
+        "Kareem Smith (born January 18, 1985 in Boston, Massachusetts) is a Trinidadian footballer who plays as a centre back for Colorado Springs Switchbacks in the USL Professional Division and for the Trinidad and Tobago national football team.",
+        " MLS teams also play in other domestic competitions against teams from other divisions in the U.S. Open Cup and in the Canadian Championship.",
+        " Out of the ten original MLS teams only three have not competed in these rivalry cups: Sporting K.C., New England Revolution and the defunct Tampa Bay Mutiny.",
+        " The only rivalry between two original MLS clubs that do not compete for a cup is the San Jose Earthquakes and the LA Galaxy in the yearly edition of the California Clasico."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ac3b4e0554299741d48a2ec",
+      "question": "Are The Datsuns and The Black Crowes both rock bands?",
+      "answer": "yes",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 6.655035972595215,
+      "support_hits": [
+        {
+          "title": "The Datsuns",
+          "sentence_idx": 0,
+          "sentence": "The Datsuns are a hard rock band from Cambridge, New Zealand, formed in 2000.",
+          "hit": false
+        },
+        {
+          "title": "The Black Crowes",
+          "sentence_idx": 0,
+          "sentence": "The Black Crowes were an American rock band formed in 1989.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " This marks their return from hiatus and is the first Black Crowes live album since \"Warpaint Live\" in 2009.",
+        " This is the first Black Crowes live album since \"\" in 2006 and it features live versions of the whole \"Warpaint\" album.",
+        " The band was signed to Def American Recordings in 1989 by producer George Drakoulias and released their debut album, \"Shake Your Money Maker\", the following year.",
+        "The Black Crowes were an American rock band formed in 1989.",
+        " The album is a compilation from several shows at the Roxy Theatre in Los Angeles, California recorded during the 2006 Brothers of a Feather tour."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae63b2255429908198fa526",
+      "question": "What is the date played of this college football game at Sun Life Stadium in Miami Gardens, Florida, where Clemson defeated the No. 4 Oklahoma Sooners, 37-17?",
+      "answer": "December 31, 2015",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 5.578488111495972,
+      "support_hits": [
+        {
+          "title": "2015 Clemson Tigers football team",
+          "sentence_idx": 0,
+          "sentence": "The 2015 Clemson Tigers football team represented Clemson University in the 2015 NCAA Division I FBS football season.",
+          "hit": false
+        },
+        {
+          "title": "2015 Clemson Tigers football team",
+          "sentence_idx": 5,
+          "sentence": "Ranked No. 1 throughout the College Football Playoff (CFP) rankings, Clemson defeated the No. 4 Oklahoma Sooners, 37–17, in the 2015 Orange Bowl to advance to the College Football Playoff National Championship.",
+          "hit": false
+        },
+        {
+          "title": "2015 Orange Bowl",
+          "sentence_idx": 0,
+          "sentence": "The 2015 Capital One Orange Bowl was a college football bowl game that was played on December 31, 2015 at Sun Life Stadium in Miami Gardens, Florida.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " Two additional polls are released midway through the season; the Harris Interactive Poll is released after the sixth week of the season, and the Bowl Championship Series (BCS) standings are released after the seventh week.",
+        "The 2013 Discover BCS National Championship Game was a postseason college football bowl game that took place on Monday, January 7, 2013, at Sun Life Stadium in Miami Gardens, Florida.",
+        " It was one of the 2015–16 bowl games that concluded the 2015 FBS football season.",
+        " They were members of the Coastal Division of the Atlantic Coast Conference (ACC).",
+        " The Harris Poll and Coaches Poll are factors in the BCS standings."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab5574b554299488d4d994e",
+      "question": "Robin R. Bottin is known for his collaboration with an American director and producer who won an Academy Award, Golden Globe and BAFTA award for what movie?",
+      "answer": "The Social Network",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 5,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 8.34479284286499,
+      "support_hits": [
+        {
+          "title": "Rob Bottin",
+          "sentence_idx": 0,
+          "sentence": "Robin R. Bottin (born April 1, 1959) is an American special make-up effects creator.",
+          "hit": false
+        },
+        {
+          "title": "Rob Bottin",
+          "sentence_idx": 1,
+          "sentence": "Known for his collaborations with directors John Carpenter, Paul Verhoeven and David Fincher, Bottin worked with Carpenter on both \"The Fog\" and \"The Thing\", with Verhoeven on \"RoboCop\", \"Total Recall\" and \"Basic Instinct\", and with Fincher on \"Se7en\" and \"Fight Club\".",
+          "hit": false
+        },
+        {
+          "title": "David Fincher",
+          "sentence_idx": 0,
+          "sentence": "David Andrew Leo Fincher (born August 28, 1962) is an American director and producer, notably for films, television series and music videos.",
+          "hit": false
+        },
+        {
+          "title": "David Fincher",
+          "sentence_idx": 1,
+          "sentence": "He was nominated for the Academy Award for Best Director for \"The Curious Case of Benjamin Button\" (2008) and \"The Social Network\" (2010).",
+          "hit": false
+        },
+        {
+          "title": "David Fincher",
+          "sentence_idx": 2,
+          "sentence": "For the latter, he won the Golden Globe Award for Best Director and the BAFTA Award for Best Direction.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " Many of the films that he has worked on are directed by Steven Spielberg or Robert Zemeckis.",
+        " Leading directors, including Martin Scorsese, Steven Spielberg, George Lucas, James Cameron, Woody Allen, Terry Gilliam, the Coen Brothers, Ridley Scott, Paul Thomas Anderson, Christopher Nolan, David Lynch, and George A. Romero, have cited Kubrick as a source of inspiration, and in the case of Spielberg, collaboration.",
+        " Scream Team (released as Monsters, Inc.",
+        "Monsters, Inc. is a 2001 American computer-animated comedy film produced by Pixar Animation Studios and distributed by Walt Disney Pictures.",
+        " The series, based on the book by the same name, was created by Maurice Sendak and directed by Neil Affleck, Lynn Reist, and Glenn Sylvestor."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a907bf05542995651fb5164",
+      "question": "How many miles does the train, which passes through the Amtrak Jacksonville station and shares the track with the Silver Meteor, run?",
+      "answer": "1522",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 6.568994760513306,
+      "support_hits": [
+        {
+          "title": "Jacksonville station",
+          "sentence_idx": 1,
+          "sentence": "It serves the \"Silver Meteor\" and \"Silver Star\" trains as well as the Thruway Motorcoach to Lakeland.",
+          "hit": true
+        },
+        {
+          "title": "Silver Star (Amtrak train)",
+          "sentence_idx": 0,
+          "sentence": "The Silver Star is a 1522 mi passenger train route in the \"Silver Service\" brand operated by Amtrak, running from New York City south to Miami, Florida via the Northeast Corridor to Washington, D.C., then via Richmond, Virginia; Raleigh, North Carolina; Columbia, South Carolina; Savannah, Georgia; Jacksonville, Florida; Orlando, Florida; and Tampa, Florida.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " The \"Silver Star\" shares much of its track with the \"Silver Meteor\", which runs further east through North Carolina and South Carolina.",
+        " It serves the \"Silver Meteor\" and \"Silver Star\" trains as well as the Thruway Motorcoach to Lakeland.",
+        "The Silver Meteor is a passenger train operated by Amtrak between New York City and Miami, Florida.",
+        "The Silver Star is a 1522 mi passenger train route in the \"Silver Service\" brand operated by Amtrak, running from New York City south to Miami, Florida via the Northeast Corridor to Washington, D.C., then via Richmond, Virginia; Raleigh, North Carolina; Columbia, South Carolina; Savannah, Georgia; Jacksonville, Florida; Orlando, Florida; and Tampa, Florida.",
+        "Jacksonville station is an Amtrak train station in Jacksonville, Florida, United States."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae238375542994d89d5b39a",
+      "question": "Which former American football player had a part in the movie \"Gamer?\"",
+      "answer": "Terry Crews",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 7.0082080364227295,
+      "support_hits": [
+        {
+          "title": "Gamer (film)",
+          "sentence_idx": 2,
+          "sentence": "Alongside Butler and Lerman, it also stars Michael C. Hall, Ludacris, Amber Valletta, Terry Crews, Alison Lohman, John Leguizamo, and Zoë Bell.",
+          "hit": false
+        },
+        {
+          "title": "Terry Crews",
+          "sentence_idx": 0,
+          "sentence": "Terry Alan Crews (born July 30, 1968) is an American actor, artist, and former American football player.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " He played college football at Southern Methodist University (SMU).",
+        " He was drafted by the Eagles in the sixth round of the 1986 NFL Draft.",
+        " He played four seasons for the Pittsburgh Steelers and the Jacksonville Jaguars.",
+        " He played at the University of Minnesota and was a star in the American Football League for the Boston Patriots, winning the 1964 American Football League Most Valuable Player award.",
+        " He played at outside linebacker."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae5be02554299546bf82f3e",
+      "question": "Who is the Chief Executive Officer of the corporation that owns Space Dev?",
+      "answer": "Fatih Ozmen",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 8.451135873794556,
+      "support_hits": [
+        {
+          "title": "SpaceDev",
+          "sentence_idx": 0,
+          "sentence": "SpaceDev, a part of the \"Space Systems Business\" of Sierra Nevada Corporation, is prominent for its spaceflight and microsatellite work.",
+          "hit": false
+        },
+        {
+          "title": "Sierra Nevada Corporation",
+          "sentence_idx": 1,
+          "sentence": "Sierra Nevada Corporation operates under the leadership of Chief Executive Officer, Fatih Ozmen and President, Eren Ozmen.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " He was Chairman of the Board and Chief Executive Officer from 1990 until March 1998 of Public Storage Properties XI, Inc., which was renamed PS Business Parks, Inc. (\"PSB\"), an affiliated REIT.",
+        " He is the former executive vice president and interim chief executive officer of RealNetworks, the former chief executive officer of Rhapsody, a joint venture between RealNetworks and Viacom, and the former president and interim chief executive officer of Earthlink.",
+        " He became the president and chief operating officer of CenturyTel in 1990.",
+        "Bradley Wayne Hughes (born September 28, 1933) is the founder and chairman of Public Storage, the largest self-storage company in America doing business as a REIT or real estate investment trust.",
+        " Known all his life by his middle name, B. Wayne Hughes was the company's President and Co-Chief Executive Officer from 1980 until November 1991 when he became Chairman of the Board and sole Chief Executive Officer."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5abbd12b55429931dba14577",
+      "question": "The Cromwell station is located in which Maryland county?",
+      "answer": "Anne Arundel County",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 4.534273147583008,
+      "support_hits": [
+        {
+          "title": "Cromwell station",
+          "sentence_idx": 0,
+          "sentence": "Cromwell station, also known as Cromwell Station/Glen Burnie or Cromwell/Glen Burnie, is a Baltimore Light Rail station in Glen Burnie, Maryland.",
+          "hit": true
+        },
+        {
+          "title": "Glen Burnie, Maryland",
+          "sentence_idx": 0,
+          "sentence": "Glen Burnie is a census-designated place (CDP) in Anne Arundel County, Maryland, United States.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " Trains depart Cromwell/Glen Burnie bound for Timonium station (during peak commuting hours on weekdays) or Hunt Valley station (at all other times).",
+        " Northbound trains depart for Timonium, continuing on at off-peak hours to Hunt Valley; southbound trains depart for Cromwell Station / Glen Burnie.",
+        "Cromwell station, also known as Cromwell Station/Glen Burnie or Cromwell/Glen Burnie, is a Baltimore Light Rail station in Glen Burnie, Maryland.",
+        " It is one of the system's two southern terminals, and one of two stations in Glen Burnie.",
+        " This station is the last station on the light rail's trunk line; southbound trains depart onto branches to BWI Marshall Airport station and Cromwell station."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a90a9a45542990a9849367e",
+      "question": "Which species is the most numerous, Podocarpus or Osmunda? ",
+      "answer": "Podocarpus",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 4,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 5.897613048553467,
+      "support_hits": [
+        {
+          "title": "Podocarpus",
+          "sentence_idx": 0,
+          "sentence": "Podocarpus ( ) is a genus of conifers, the most numerous and widely distributed of the podocarp family, Podocarpaceae.",
+          "hit": false
+        },
+        {
+          "title": "Podocarpus",
+          "sentence_idx": 1,
+          "sentence": "\"Podocarpus\" are evergreen shrubs or trees, usually from 1 to tall, known to reach 40 m at times.",
+          "hit": true
+        },
+        {
+          "title": "Podocarpus",
+          "sentence_idx": 4,
+          "sentence": "There are approximately 97 to 107 species in the genus depending on the circumscription of the species.",
+          "hit": false
+        },
+        {
+          "title": "Osmunda",
+          "sentence_idx": 1,
+          "sentence": "Five to ten species have been listed for this genus.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " Five to ten species have been listed for this genus.",
+        " \"Podocarpus\" are evergreen shrubs or trees, usually from 1 to tall, known to reach 40 m at times.",
+        " Its putative parents are \"Osmunda angustifolia\" (section \"Plenasium\") and \"O. japonica\" (section \"Osmunda\").",
+        "Osmunda spectabilis is a species of fern once thought to be the same as \"Osmunda regalis\", but recent genetic studies have shown it to be a separate species.",
+        "Osmunda is a genus of primarily temperate-zone ferns of family Osmundaceae."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae0d9c555429924de1b719a",
+      "question": "Van Andel Institute was founded in part by what American businessman, who was best known as co-founder of the Amway Corporation?",
+      "answer": "Jay Van Andel",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 7.178365230560303,
+      "support_hits": [
+        {
+          "title": "Van Andel Institute",
+          "sentence_idx": 1,
+          "sentence": "VAI was founded by Jay and Betty Van Andel in 1996 and is composed of two institutes: Van Andel Research Institute (VARI) and Van Andel Education Institute (VAEI).",
+          "hit": false
+        },
+        {
+          "title": "Jay Van Andel",
+          "sentence_idx": 0,
+          "sentence": "Jay Van Andel (June 3, 1924 – December 7, 2004) was an American businessman, best known as co-founder of the Amway Corporation, along with Richard DeVos.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        "Richard Marvin DeVos Sr. (born March 4, 1926) is an American businessman, co-founder of Amway along with Jay Van Andel (company restructured as Alticor in 2000), and owner of the Orlando Magic NBA basketball team.",
+        "Amway (short for \"American Way\") is an American company specializing in the use of multi-level marketing to sell health, beauty, and home care products.",
+        " The company was founded in 1959 by Jay Van Andel and Richard DeVos and is based in Ada, Michigan.",
+        "Doug DeVos (born october 6, 1964 in Grand Rapids, Michigan) is an American businessman.",
+        " As President of Amway since 2002, Doug DeVos oversees daily operations of the company with Chairman Steve Van Andel."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab8f57b5542991b5579f097",
+      "question": "Were Thomas H. Ince and Joseph McGrath of the same nationality?",
+      "answer": "no",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 4.0092222690582275,
+      "support_hits": [
+        {
+          "title": "Thomas H. Ince",
+          "sentence_idx": 0,
+          "sentence": "Thomas Harper Ince (November 16, 1880 – November 19, 1924) was an American silent film producer, director, screenwriter, and actor.",
+          "hit": true
+        },
+        {
+          "title": "Joseph McGrath (film director)",
+          "sentence_idx": 0,
+          "sentence": "Joseph McGrath (born 1930, Glasgow) is a Scottish film and television director and screenwriter.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " Taves rejects the idea that William Randolph Hearst was responsible for Ince's death.",
+        "Thomas Harper Ince (November 16, 1880 – November 19, 1924) was an American silent film producer, director, screenwriter, and actor.",
+        " Ralph Ince was the brother of John Ince and Thomas H. Ince.",
+        "Thomas Ince: Hollywood's Independent Pioneer is a biography of Thomas H. Ince, written by Brian Taves and published by University Press of Kentucky in 2012.",
+        "John Ince, also known as John E. Ince, (August 29, 1878 – April 10, 1947) was an American stage and motion pictures actor, a film director, and the eldest brother of Thomas H. Ince and Ralph Ince."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5add9bfa5542990dbb2f7e85",
+      "question": "What type of product is the sponsor of the Premiership Rugby Sevens SeriesSeries ? ",
+      "answer": "pale lager",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 3.5625641345977783,
+      "support_hits": [
+        {
+          "title": "Premiership Rugby Sevens Series",
+          "sentence_idx": 0,
+          "sentence": "The Premiership Rugby Sevens Series (known as the Singha Premiership Rugby 7s Series from 2015, though sponsorship from Singha) is a Rugby Sevens competition for the twelve Aviva Premiership clubs that will play the following season (i.e. the 2010 competition features the teams playing in the Aviva Premiership in the 2010–11 season).",
+          "hit": true
+        },
+        {
+          "title": "Singha",
+          "sentence_idx": 0,
+          "sentence": "Singha (Thai: สิงห์ ; ) is a 5% abv pale lager produced by Boon Rawd Brewery.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        "The 2010 Premiership Rugby Sevens Series, (known for sponsorship reasons as the 2010 J.P Morgan Asset Management Premiership Rugby 7s Series) was the inaugural Rugby Union 7-a-side competition for the twelve 2010–11 Aviva Premiership Clubs.",
+        "The 2012 Premiership Rugby Sevens Series (styled for sponsorship reasons as the 2012 J.P Morgan Asset Management Premiership Rugby 7s Series) was the third Rugby Union 7-a-side competition for the twelve 2012–13 Aviva Premiership Clubs.",
+        "The 2011 Premiership Rugby Sevens Series, (styled for sponsorship reasons as the 2011 J.P Morgan Asset Management Premiership Rugby 7s Series) was the second Rugby Union 7-a-side competition for the 12 2011-12 Aviva Premiership Clubs.",
+        "The Premiership Rugby Sevens Series (known as the Singha Premiership Rugby 7s Series from 2015, though sponsorship from Singha) is a Rugby Sevens competition for the twelve Aviva Premiership clubs that will play the following season (i.e. the 2010 competition features the teams playing in the Aviva Premiership in the 2010–11 season).",
+        " Between 2014 and 2016 the competition included the four Welsh regions which compete in the Pro14."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a7d109855429909bec7692f",
+      "question": "The director of Panic 5 Bravo was born in what year?",
+      "answer": "1978",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 3.1246938705444336,
+      "support_hits": [
+        {
+          "title": "Panic 5 Bravo",
+          "sentence_idx": 0,
+          "sentence": "Panic 5 Bravo is an action-thriller film directed by Kuno Becker about American paramedics that become trapped on the Mexican side of the border and terrorized by a violent psychopath.",
+          "hit": true
+        },
+        {
+          "title": "Kuno Becker",
+          "sentence_idx": 0,
+          "sentence": "Eduardo Kuno Becker Paz (born January 14, 1978) is a Mexican actor who has worked in telenovelas, Mexican cinema and U.S. cinema, but is best known for his portrayal of Ruben Berrizabal in \"Soñadoras\" and Santiago Muñez in the football movie \"Goal!",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " In 2009, he wrote and directed the animated film \"A Town Called Panic\" along with Vincent Patar.",
+        " Sinclair co-wrote and produced Panic!",
+        "Panic 5 Bravo is an action-thriller film directed by Kuno Becker about American paramedics that become trapped on the Mexican side of the border and terrorized by a violent psychopath.",
+        " In 2009 he wrote and directed the animated film \"A Town Called Panic\" along with Stéphane Aubier.",
+        "Eduardo Kuno Becker Paz (born January 14, 1978) is a Mexican actor who has worked in telenovelas, Mexican cinema and U.S. cinema, but is best known for his portrayal of Ruben Berrizabal in \"Soñadoras\" and Santiago Muñez in the football movie \"Goal!"
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae532f85542990ba0bbb20a",
+      "question": "Who was the gunman of the hostage crisis which Chris Reason was awarded the Graham Perkin Australian Journalist of the Year Award for his coverage of?",
+      "answer": "Man Haron",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 5.513167142868042,
+      "support_hits": [
+        {
+          "title": "Chris Reason",
+          "sentence_idx": 1,
+          "sentence": "He was awarded the Graham Perkin Australian Journalist of the Year Award for his coverage of the Lindt Cafe siege in December 2014.",
+          "hit": false
+        },
+        {
+          "title": "2014 Sydney hostage crisis",
+          "sentence_idx": 0,
+          "sentence": "The 2014 Sydney hostage crisis, also known as the Sydney siege and Lindt Cafe siege, occurred on 15–16 December 2014 when a lone gunman, Man Haron Monis, held hostage ten customers and eight employees of a Lindt chocolate café located at Martin Place in Sydney, Australia.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " Police treated the event as a terrorist attack at the time but Monis' motives have subsequently been debated.",
+        "On April 4, 1991, in Sacramento, California forty-one people were taken hostage at a Good Guys!",
+        "The 2014 Sydney hostage crisis, also known as the Sydney siege and Lindt Cafe siege, occurred on 15–16 December 2014 when a lone gunman, Man Haron Monis, held hostage ten customers and eight employees of a Lindt chocolate café located at Martin Place in Sydney, Australia.",
+        " electronics store located near the Florin Mall, by four Vietnamese gunmen after botching a prior robbery.",
+        " Fifty-two American diplomats and citizens were held hostage for 444 days from November 4, 1979, to January 20, 1981 after a group of Iranian students belonging to the Muslim Student Followers of the Imam's Line, who supported the Iranian Revolution, took over the U.S. Embassy in Tehran."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae0e5655542990adbacf6b8",
+      "question": "What country is both Thornton–Cleveleys railway station and Poulton-le-Fylde railway station located?",
+      "answer": "England",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 6.572972059249878,
+      "support_hits": [
+        {
+          "title": "Thornton–Cleveleys railway station",
+          "sentence_idx": 1,
+          "sentence": "Located on the now disused line between Poulton-le-Fylde and Fleetwood , the station also had a shunting yard for the making-up of freight trains for Preston and beyond.",
+          "hit": true
+        },
+        {
+          "title": "Poulton-le-Fylde railway station",
+          "sentence_idx": 0,
+          "sentence": "Poulton-le-Fylde railway station serves the town of Poulton-le-Fylde in Lancashire, England.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " Originally, the station was built 300 metres from the present-day location, near a curve.",
+        " Located on the now disused line between Poulton-le-Fylde and Fleetwood , the station also had a shunting yard for the making-up of freight trains for Preston and beyond.",
+        " \"Istravoz\" (from Greek σταυρóς) means Cross in Turkish.",
+        " After the Republic of Turkey was formed in 1923, the station's name was changed to \"Hilal\" which means 'crescent', due to the majority of the city's population being Muslim.",
+        " The Hilal subway station, which opened in 2000, is located adjacent to the railway station."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ac471a5554299194317399a",
+      "question": "When was the Austrian \"Schutzstaffel\" (SS) officer born based on who's life Schapira co-authored a book?",
+      "answer": "8 April 1912",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 5.017961025238037,
+      "support_hits": [
+        {
+          "title": "Esther Schapira",
+          "sentence_idx": 0,
+          "sentence": "Schapira is co-author of \"The Act of Alois Brunner\", and producer of two award-winning documentaries, \"Drei Kugeln und ein totes Kind\" (\"Three bullets and a dead child\") (2002), about the death of Muhammad al-Durrah in Gaza in 2000, and \"Der Tag, als Theo van Gogh ermordet wurde\" (\"The day Theo van Gogh was murdered\") (2007), about the killing in 2004 of Dutch filmmaker, Theo van Gogh.",
+          "hit": false
+        },
+        {
+          "title": "Alois Brunner",
+          "sentence_idx": 0,
+          "sentence": "Alois Brunner (8 April 1912 – 2001 or 2010) was an Austrian \"Schutzstaffel\" (SS) officer who worked as Adolf Eichmann's assistant.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " The latter won her and her co-producer, Kamil Taylan, a Prix Europa award.",
+        "Alois Brunner (8 April 1912 – 2001 or 2010) was an Austrian \"Schutzstaffel\" (SS) officer who worked as Adolf Eichmann's assistant.",
+        " Diebitsch worked with graphic designer Walter Heck to draft the well-known all-black SS uniform.",
+        " They also represented virtues seen as desirable in SS members, and were based on \"völkisch\" mystic Guido von List's Armanen runes, which he loosely based on the historical runic alphabets. SS runes are commonly used by members of the neo-nazis.",
+        "Karl Diebitsch (3 January 1899 – 6 August 1985) was an artist and the Schutzstaffel (SS) officer responsible for designing much of the SS regalia in the Third Reich, including the chained SS officer's dagger scabbard."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a8d64305542994ba4e3dc80",
+      "question": "What Province in Sicily, founded in the eighth century B.C., was the birthplace of the famous historical mathematician Archimedes?",
+      "answer": "Province of Syracuse",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 3.456550121307373,
+      "support_hits": [
+        {
+          "title": "Province of Syracuse",
+          "sentence_idx": 0,
+          "sentence": "The Province of Syracuse (Italian: Provincia di Siracusa ; Sicilian: Pruvincia di Sarausa) is a province in the autonomous island region of Sicily in Italy.",
+          "hit": false
+        },
+        {
+          "title": "Province of Syracuse",
+          "sentence_idx": 1,
+          "sentence": "Its capital is the city of Syracuse, a town which was established by Greek colonists arriving from Corinth in the eighth century B.C.",
+          "hit": false
+        },
+        {
+          "title": "Syracuse, Sicily",
+          "sentence_idx": 1,
+          "sentence": "The city is notable for its rich Greek history, culture, amphitheatres, architecture, and as the birthplace of the preeminent mathematician and engineer Archimedes.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " It was Otto Stolz who gave the axiom of Archimedes its name because it appears as Axiom V of Archimedes’ \"On the Sphere and Cylinder\".",
+        "Archimedean means of or pertaining to or named in honor of the Greek mathematician Archimedes and may refer to:",
+        "The Archimedean spiral (also known as the arithmetic spiral) is a spiral named after the 3rd century BC Greek mathematician Archimedes.",
+        " It is named after the crater Archimedes that lies to the north, which in turn is an eponym of the Greek mathematician Archimedes.",
+        " Roughly speaking, it is the property of having no \"infinitely large\" or \"infinitely small\" elements."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a7b443c5542992d025e67ce",
+      "question": "Who was the director behind the Cirque du Soleil show in Las Vegas that was first performed on December 25, 1993?",
+      "answer": "Franco Dragone",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 4,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 7.719010829925537,
+      "support_hits": [
+        {
+          "title": "Le Rêve (show)",
+          "sentence_idx": 2,
+          "sentence": "The production was created by Franco Dragone and is similar to the shows produced by Cirque du Soleil.",
+          "hit": false
+        },
+        {
+          "title": "Le Rêve (show)",
+          "sentence_idx": 3,
+          "sentence": "Dragone, who was the director behind \"O\", \"La Nouba\", \"Mystère\", \"Alegría\", and \"Quidam\", has not revealed the cost of the production.",
+          "hit": false
+        },
+        {
+          "title": "Mystère (Cirque du Soleil)",
+          "sentence_idx": 0,
+          "sentence": "Mystère is a Cirque du Soleil show in permanent residence at the Treasure Island Hotel and Casino in Las Vegas, Nevada, United States.",
+          "hit": false
+        },
+        {
+          "title": "Mystère (Cirque du Soleil)",
+          "sentence_idx": 2,
+          "sentence": "\"Mystère\" was first performed on December 25, 1993 and quickly won over audiences with its unique style of circus entertainment.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " Cirque du Soleil partnered with Elvis Presley Enterprises to produce this show, similar to how they partnered with The Beatles' Apple Corps Ltd to produce the resident show \"Love\" at the Mirage.",
+        " It stars Erica Linz and Igor Zaripov as the main characters and incorporates acts from some of the Cirque du Soleil shows that were running in Las Vegas in 2011 including O, Mystère, Kà, Love, and Viva Elvis.",
+        " It is a theatrical production created in partnership of Cirque du Soleil and magician Criss Angel, who is billed as the \"co-writer, illusions creator and designer, original concept creator and star\" of the show.",
+        " The show's creation was directed by Franco Dragone, who also directed many of Cirque du Soleil's earlier shows.",
+        "Viva Elvis was the seventh resident Cirque du Soleil show on the Las Vegas Strip."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae2bba35542992decbdcd89",
+      "question": "Which Beatles movie did the John's Children's  studio album Orgasm dub audience screams from?",
+      "answer": "A Hard Day's Night",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 7.290125131607056,
+      "support_hits": [
+        {
+          "title": "Orgasm (John's Children album)",
+          "sentence_idx": 0,
+          "sentence": "Orgasm is John's Children's sole studio album, projected for release on 18 March 1967, and eventually released in September 1970.",
+          "hit": true
+        },
+        {
+          "title": "Orgasm (John's Children album)",
+          "sentence_idx": 2,
+          "sentence": "Originally intended as a regular studio album, it was transformed into a fake \"live\" album by producer Simon Napier-Bell by dubbing audience screams lifted from The Beatles' movie \"A Hard Day's Night\".",
+          "hit": false
+        },
+        {
+          "title": "A Hard Day's Night (film)",
+          "sentence_idx": 0,
+          "sentence": "A Hard Day's Night is a 1964 British musical comedy film directed by Richard Lester and starring the Beatles—John Lennon, Paul McCartney, George Harrison, and Ringo Starr—during the height of Beatlemania.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        "John's Children were a 1960s pop art/mod rock band from Leatherhead, England that briefly featured future T. Rex frontman Marc Bolan.",
+        "Orgasm is John's Children's sole studio album, projected for release on 18 March 1967, and eventually released in September 1970.",
+        " Their US record label delayed the release of their album, \"Orgasm\" for four years from its recording date due to objections from Daughters of the American Revolution.",
+        " The album was released only four days before \"Let It Be\", The Beatles' final studio album.",
+        " The film portrays several days in the lives of the group."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab874ba5542990e739ec904",
+      "question": "The Twelfth United States Army Group commander was the first chairman of what?",
+      "answer": "Joint Chiefs of Staff",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 5.921235084533691,
+      "support_hits": [
+        {
+          "title": "Twelfth United States Army Group",
+          "sentence_idx": 2,
+          "sentence": "It was commanded by General Omar Bradley with its headquarters established in London on 14 July 1944.",
+          "hit": false
+        },
+        {
+          "title": "Omar Bradley",
+          "sentence_idx": 1,
+          "sentence": "Bradley was the first Chairman of the Joint Chiefs of Staff and oversaw the U.S. military's policy-making in the Korean War.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " It controlled the majority of American forces on the Western Front in 1944 and 1945.",
+        "The Sixth United States Army Group was an Allied Army Group that fought in the European Theater of Operations during World War II.",
+        " He also served as Vice Chief of Staff of the Army from 1978 to 1979.",
+        " He was commander of the United States Army Western Command (later United States Army Pacific), from 1985 to 1989.",
+        "The Twelfth United States Army Group was the largest and most powerful United States Army formation ever to take to the field."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5abcfc365542993a06baf9d6",
+      "question": "What year did the series on CBS, starring the actor who known for his role in \"Rebel Without a Cause,\" air?",
+      "answer": "1952",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 4.247653007507324,
+      "support_hits": [
+        {
+          "title": "CBS Television Workshop",
+          "sentence_idx": 0,
+          "sentence": "CBS Television Workshop is an American anthology series which aired on CBS from January to April 1952.",
+          "hit": false
+        },
+        {
+          "title": "CBS Television Workshop",
+          "sentence_idx": 1,
+          "sentence": "The series is noted for featuring early television appearances of several well known actors including Audrey Hepburn, James Dean and Grace Kelly.",
+          "hit": false
+        },
+        {
+          "title": "James Dean",
+          "sentence_idx": 1,
+          "sentence": "He is remembered as a cultural icon of teenage disillusionment and social estrangement, as expressed in the title of his most celebrated film, \"Rebel Without a Cause\" (1955), in which he starred as troubled teenager Jim Stark.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        "Salvatore Mineo, Jr. (January 10, 1939February 12, 1976), was an American film and theatre actor, known for his performance as John \"Plato\" Crawford opposite James Dean in the film \"Rebel Without a Cause\" (1955).",
+        " \"Rebel Without a Cause\" was his first movie where he received a screen credit.",
+        " He is best known for writing the screenplay for the film \"Rebel Without a Cause\" (1955), starring James Dean.",
+        " The title is a reference to the 1955 film \"Rebel Without a Cause\".",
+        " The River Boys cause trouble in Summer Bay and producers were inspired by Koby Abberton's Bra Boys in the creation process."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Indirectly Relevant",
+        "Indirectly Relevant",
+        "Indirectly Relevant"
+      ]
+    },
+    {
+      "id": "5a82028a554299676cceb1d6",
+      "question": "What defines Downers Grove as a thriller?",
+      "answer": "by the moods they elicit",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 3.1562530994415283,
+      "support_hits": [
+        {
+          "title": "The Curse of Downers Grove",
+          "sentence_idx": 0,
+          "sentence": "The Curse of Downers Grove is an American thriller film written by Bret Easton Ellis.",
+          "hit": true
+        },
+        {
+          "title": "Thriller (genre)",
+          "sentence_idx": 1,
+          "sentence": "Thrillers are characterized and defined by the moods they elicit, giving viewers heightened feelings of suspense, excitement, surprise, anticipation and anxiety.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        "Downers Grove is a 1999 American coming-of-age horror novel by Michael Hornburg.",
+        "The Curse of Downers Grove is an American thriller film written by Bret Easton Ellis.",
+        " The film is based on the 1999 novel \"Downers Grove\" by Michael Hornburg, the film stars Kevin Zegers, Bella Heathcote, Penelope Mitchell, Lucas Till, Zane Holtz, Helen Slater, and Tom Arnold.",
+        " Thrillers are characterized and defined by the moods they elicit, giving viewers heightened feelings of suspense, excitement, surprise, anticipation and anxiety.",
+        " Successful examples of thrillers are the films of Alfred Hitchcock."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a90b4fe55429916514e7525",
+      "question": "How many films did the star of Tum Milo Toh Sahi appear in? ",
+      "answer": "110",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 8.606992959976196,
+      "support_hits": [
+        {
+          "title": "Tum Milo Toh Sahi",
+          "sentence_idx": 1,
+          "sentence": "It stars Nana Patekar, Dimple Kapadia, Suniel Shetty, Vidya Malvade, Rehan Khan and Anjana Sukhani in the lead roles.",
+          "hit": true
+        },
+        {
+          "title": "Suniel Shetty",
+          "sentence_idx": 0,
+          "sentence": "Sunil Shetty (born 11 August 1961) is an Indian film actor, producer and entrepreneur predominantly active in Bollywood who has acted in more than 110 films.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        "Sunil Shetty (born 11 August 1961) is an Indian film actor, producer and entrepreneur predominantly active in Bollywood who has acted in more than 110 films.",
+        " His debut film as writer was Aashiqui, which proved to be a hit film.",
+        " It stars Nana Patekar, Dimple Kapadia, Suniel Shetty, Vidya Malvade, Rehan Khan and Anjana Sukhani in the lead roles.",
+        " His latest film is \"Sir C. P.\" (2015).",
+        " The third film was released on 1 November 2013 and was declared a blockbuster shattering many box office records grossing over () at the box office."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a7af08655429931da12c989",
+      "question": "What are caesium-137, radium and uranium-234 examples of?",
+      "answer": "radionuclides",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 2.7439451217651367,
+      "support_hits": [
+        {
+          "title": "Hyperaccumulators table – 3",
+          "sentence_idx": 0,
+          "sentence": "This list covers hyperaccumulators, plant species which accumulate, or are tolerant of radionuclides (Cd, Cs-137, Co, Pu-238, Ra, Sr, U-234, 235, 238), hydrocarbons and organic solvents (Benzene, BTEX, DDT, Dieldrin, Endosulfan, Fluoranthene, MTBE, PCB, PCNB, TCE and by-products), and inorganic solvents (Potassium ferrocyanide).",
+          "hit": true
+        },
+        {
+          "title": "Caesium-137",
+          "sentence_idx": 0,
+          "sentence": "Caesium-137 ( Cs , Cs-137), cesium-137, or radiocaesium, is a radioactive isotope of caesium which is formed as one of the more common fission products by the nuclear fission of uranium-235 and other fissionable isotopes in nuclear reactors and nuclear weapons.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        "This list covers hyperaccumulators, plant species which accumulate, or are tolerant of radionuclides (Cd, Cs-137, Co, Pu-238, Ra, Sr, U-234, 235, 238), hydrocarbons and organic solvents (Benzene, BTEX, DDT, Dieldrin, Endosulfan, Fluoranthene, MTBE, PCB, PCNB, TCE and by-products), and inorganic solvents (Potassium ferrocyanide).",
+        " It is among the most problematic of the short-to-medium-lifetime fission products because it easily moves and spreads in nature due to the high water solubility of caesium's most common chemical compounds, which are salts.",
+        "Caesium-137 ( Cs , Cs-137), cesium-137, or radiocaesium, is a radioactive isotope of caesium which is formed as one of the more common fission products by the nuclear fission of uranium-235 and other fissionable isotopes in nuclear reactors and nuclear weapons.",
+        " It is used to control weeds, woody and herbaceous plants, and sugar cane.",
+        "The Radium Girl is a stage illusion of the classic type involving a female assistant in a large box and is probably best categorised as a penetration or restoration-type illusion."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Completely Irrelevant"
+      ]
+    },
+    {
+      "id": "5ade99235542997c77adee7f",
+      "question": "Where is the headquarter of the American multinational chemical corporation who's part is Dow AgroSciences?",
+      "answer": "Midland, Michigan, United States",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 6.719173908233643,
+      "support_hits": [
+        {
+          "title": "Enlist Weed Control System",
+          "sentence_idx": 1,
+          "sentence": "The system was developed by Dow AgroSciences, part of Dow Chemical Company.",
+          "hit": false
+        },
+        {
+          "title": "Dow Chemical Company",
+          "sentence_idx": 0,
+          "sentence": "The Dow Chemical Company, commonly referred to as Dow, was an American multinational chemical corporation headquartered in Midland, Michigan, United States, and the predecessor of the merged company DowDuPont.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " In 2007, it was the second-largest chemical manufacturer in the world by revenue (after BASF) and as of February 2009, the third-largest chemical company in the world by market capitalization (after BASF and DuPont).",
+        " Dow AgroSciences operates brand names such as Sentricon, Vikane, Mycogen®, SmartStax®, Enlist™, Pfister Seed®, PhytoGen®, Prairie Brand Seed®, Alforex Seeds®, Profume, Dairyland Seed®, and Brodbeck Seed®.",
+        "Dow AgroSciences LLC is a wholly owned subsidiary of the Dow Chemical Company specializing in not only agricultural chemicals such as pesticides, but also seeds and biotechnology solutions.",
+        " Dow was the son of the Dow Chemical Company's founder, Herbert Henry Dow.",
+        " Its members include the world's largest agricultural biotechnology and agricultural pesticide businesses namely BASF, Bayer CropScience, Dow AgroSciences, DuPont, FMC Corp., Monsanto, Sumitomo and Syngenta."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae5b255554299546bf82f2c",
+      "question": "In which state was both Rex Gene Foods and Foodtown located in?",
+      "answer": "New Jersey",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 6.490403175354004,
+      "support_hits": [
+        {
+          "title": "Rex Gene Foods",
+          "sentence_idx": 0,
+          "sentence": "Rex Gene Foods was a United States supermarket chain of stores located in New Jersey from 1957 until the late 1990s.",
+          "hit": true
+        },
+        {
+          "title": "Foodtown (United States)",
+          "sentence_idx": 2,
+          "sentence": "Foodtown's corporate offices are located in Iselin, New Jersey.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " Currently, there are 73 Foodtown stores in New Jersey, New York and eastern Pennsylvania.",
+        "Rex Gene Foods was a United States supermarket chain of stores located in New Jersey from 1957 until the late 1990s.",
+        " Foodtown's corporate offices are located in Iselin, New Jersey.",
+        " One is located in the Midwest, where the individual stores are privately owned.",
+        " Fiesta Foods chain stores in California and other state tending to a Hispanic clientele with other cultures specializing in Mexican cuisine."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a8b59a65542995d1e6f137c",
+      "question": "Are Stephen Frears and Jan Švankmajer from the same country?",
+      "answer": "no",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 6.9778971672058105,
+      "support_hits": [
+        {
+          "title": "Stephen Frears",
+          "sentence_idx": 0,
+          "sentence": "Stephen Arthur Frears (born 20 June 1941) is an English film director.",
+          "hit": false
+        },
+        {
+          "title": "Jan Švankmajer",
+          "sentence_idx": 0,
+          "sentence": "Jan Švankmajer (] ; born 4 September 1934) is a Czech filmmaker and artist whose work spans several media.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " It was Švankmajer's first film.",
+        "The Last Trick (Czech: Poslední trik pana Schwarcewalldea a pana Edgara ) is a 1964 Czechoslovak animated short film by Jan Švankmajer.",
+        "Jan Švankmajer (] ; born 4 September 1934) is a Czech filmmaker and artist whose work spans several media.",
+        " Frears has directed British films since the 1980s including \"My Beautiful Laundrette\", \"Dangerous Liaisons\", \"High Fidelity\", \"The Queen\", \"Philomena\" and \"Florence Foster Jenkins\".",
+        " Švankmajer says that the film will be his last."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a7f89c75542994857a76775",
+      "question": "The terminology of algebraic geometry changed drastically with the introduction of the general methods, initiated by a mathematician of what nationality?",
+      "answer": "German",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 8.260171890258789,
+      "support_hits": [
+        {
+          "title": "Glossary of classical algebraic geometry",
+          "sentence_idx": 0,
+          "sentence": "The terminology of algebraic geometry changed drastically during the twentieth century, with the introduction of the general methods, initiated by David Hilbert and the Italian school of algebraic geometry in the beginning of the century, and later formalized by André Weil, Serre and Grothendieck.",
+          "hit": false
+        },
+        {
+          "title": "David Hilbert",
+          "sentence_idx": 0,
+          "sentence": "David Hilbert (] ; 23 January 1862 – 14 February 1943) was a German mathematician.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " Much of the classical terminology, mainly based on case study, was simply abandoned, with the result that books and papers written before this time can be hard to read.",
+        " Since its introduction it has proved to be quite useful in various branches of algebraic geometry, most notably birational geometry and singularity theory.",
+        "Derived algebraic geometry (also called spectral algebraic geometry) is a branch of mathematics that generalizes algebraic geometry to a situation where commutative rings, which provide a local chart, are replaced by ring spectra in algebraic topology, whose higher homotopy accounts for the non-discreteness (e.g., Tor) of the structure sheaf.",
+        "In universal algebraic geometry, algebraic geometry is generalized from the geometry of rings to geometry of arbitrary varieties of algebras, so that every \"variety of algebra\" has its own algebraic geometry.",
+        " The work is now considered the foundation stone and basic reference of modern algebraic geometry."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a89fc305542993b751ca9dc",
+      "question": "Which Outer Banks landmark and premiere BBQ restaurant has been featured in the magazine Southern Living?",
+      "answer": "Pigman's Bar-B-Que",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 4.202972888946533,
+      "support_hits": [
+        {
+          "title": "Pigmans Bar-B-Que",
+          "sentence_idx": 0,
+          "sentence": "Pigman's Bar-B-Que is an Outer Banks landmark as well as a premiere BBQ restaurant on the Outer Banks of North Carolina.",
+          "hit": true
+        },
+        {
+          "title": "Pigmans Bar-B-Que",
+          "sentence_idx": 2,
+          "sentence": "It has been featured in such publications as \"Southern Living\" magazine and \"The Coast\".",
+          "hit": true
+        },
+        {
+          "title": "Southern Living",
+          "sentence_idx": 0,
+          "sentence": "Southern Living is a widely read lifestyle magazine aimed at readers in the Southern United States featuring recipes, house plans, garden plans,and information about Southern culture and travel.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " The restaurant regularly wins \"Baltimore's Best BBQ\" by \"Baltimore Magazine\" and the \"City Paper\".",
+        " It has been featured in such publications as \"Southern Living\" magazine and \"The Coast\".",
+        "Pigman's Bar-B-Que is an Outer Banks landmark as well as a premiere BBQ restaurant on the Outer Banks of North Carolina.",
+        "Andy Nelson's Barbecue is a BBQ restaurant in Cockeysville, Maryland.",
+        " Founded by former Baltimore Colts safety and Super Bowl winner Andy Nelson, it is known for its hickory smoked BBQ."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae75eb15542995703ce8bf8",
+      "question": "Which former college football quarterback is the nephew Wade Watts?",
+      "answer": "Julius Caesar \"J. C.\" Watts Jr.",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 7.024502992630005,
+      "support_hits": [
+        {
+          "title": "Wade Watts",
+          "sentence_idx": 2,
+          "sentence": "He worked with Thurgood Marshall and developed a friendship with Martin Luther King during the American civil rights movement, and has been cited as a mentor by the current leader of the NAACP in Oklahoma, Miller Newman, and his nephew, former congressman, J. C. Watts.",
+          "hit": true
+        },
+        {
+          "title": "J. C. Watts",
+          "sentence_idx": 0,
+          "sentence": "Julius Caesar \"J. C.\" Watts Jr. (born November 18, 1957) is an American politician from Oklahoma who was a college football quarterback for the Oklahoma Sooners and later played professionally in the Canadian Football League.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " He worked with Thurgood Marshall and developed a friendship with Martin Luther King during the American civil rights movement, and has been cited as a mentor by the current leader of the NAACP in Oklahoma, Miller Newman, and his nephew, former congressman, J. C. Watts.",
+        " He played college football at UCLA.",
+        " Wuerffel was a prolific passer in coach Steve Spurrier's offense.",
+        "Julius Caesar \"J. C.\" Watts Jr. (born November 18, 1957) is an American politician from Oklahoma who was a college football quarterback for the Oklahoma Sooners and later played professionally in the Canadian Football League.",
+        "Randall Wade Cunningham (born March 27, 1963) is a former American football quarterback in the National Football League (NFL)."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab7f1b65542991d322237d3",
+      "question": "Bridge of Spies stars a Soviet intelligence officer with what name?",
+      "answer": "Rudolf Abel",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 10.181698083877563,
+      "support_hits": [
+        {
+          "title": "Bridge of Spies (film)",
+          "sentence_idx": 1,
+          "sentence": "Set during the Cold War, the film tells the story of lawyer James B. Donovan, who is entrusted with negotiating the release of Francis Gary Powers—a U.S. Air Force pilot whose U-2 spy plane was shot down over the Soviet Union in 1960—in exchange for Rudolf Abel, a convicted Soviet KGB spy held under the custody of the United States, whom he represented at trial.",
+          "hit": false
+        },
+        {
+          "title": "Rudolf Abel",
+          "sentence_idx": 0,
+          "sentence": "Rudolf Ivanovich Abel (Russian: Рудольф Иванович Абель ), real name Vilyam \"Willie\" Genrikhovich Fisher (Вильям \"Вилли\" Генрихович Фишер), (July 11, 1903 – November 15, 1971) was a Soviet intelligence officer.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " Charman started out writing for theatre, making his breakthrough as writer-in-residence at London’s National Theatre, where then director Nicholas Hytner described Charman as having \"a priceless nose for a story.\"",
+        " In a Venona transcript from Moscow, the Moscow Center suggested that Mrs. Kahn had been used for foreign intelligence work.",
+        " In the United States, he used the cover name Vasily Zubilin and served as Soviet intelligence Rezident from 1941 to 1944.",
+        " Other films include \"Cast Away\", \"War of the Worlds\", \"What Lies Beneath\", \"Jurassic Park\", \"Avatar\", and \"Back to the Future Part II\" and \"Part III\".",
+        "The following is a list of unproduced Steven Spielberg projects in roughly chronological order."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a7cdd6b55429909bec76858",
+      "question": "Which band formed earlier, Edward Sharpe and the Magnetic Zeros or Louis XIV?",
+      "answer": "Louis XIV",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 6.0182459354400635,
+      "support_hits": [
+        {
+          "title": "Edward Sharpe and the Magnetic Zeros",
+          "sentence_idx": 0,
+          "sentence": "Edward Sharpe and the Magnetic Zeros is an American folk rock band formed in Los Angeles, California in 2007.",
+          "hit": true
+        },
+        {
+          "title": "Louis XIV (band)",
+          "sentence_idx": 0,
+          "sentence": "Louis XIV is an American rock band from San Diego, California.",
+          "hit": false
+        },
+        {
+          "title": "Louis XIV (band)",
+          "sentence_idx": 1,
+          "sentence": "The band has released four EPs between 2003 and 2007, and three albums between 2003 and 2008, the latter two of which were distributed by Atlantic Records.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        "Alexander is the first solo album by American musician Alex Ebert, lead singer of Edward Sharpe and the Magnetic Zeros and Ima Robot.",
+        "Edward Sharpe and the Magnetic Zeros is the third album by Edward Sharpe and the Magnetic Zeros.",
+        " The group's first show was played July 18, 2007 at The Troubadour in West Hollywood, California.",
+        "Edward Sharpe and the Magnetic Zeros is an American folk rock band formed in Los Angeles, California in 2007.",
+        " The song \"Truth\" was featured in the season 4 premiere of AMC's \"Breaking Bad\" titled \"Box Cutter\"."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a8d0e4e5542994ba4e3dbbf",
+      "question": "Which former Republican won the presidential nomination at the 2012 United States Libertarian National Convention? ",
+      "answer": "Gary Earl Johnson",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 4,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 5.744570255279541,
+      "support_hits": [
+        {
+          "title": "2012 Libertarian National Convention",
+          "sentence_idx": 0,
+          "sentence": "The 2012 United States Libertarian National Convention, in which delegates of the Libertarian Party (LP) chose the party's nominees for President of the United States and Vice President of the United States in the 2012 general election, was held May 2–6, 2012 in Las Vegas, Nevada at the Red Rock Resort Spa and Casino.",
+          "hit": true
+        },
+        {
+          "title": "2012 Libertarian National Convention",
+          "sentence_idx": 1,
+          "sentence": "Former Governor of New Mexico Gary Johnson won the presidential nomination on the first ballot.",
+          "hit": false
+        },
+        {
+          "title": "Gary Johnson",
+          "sentence_idx": 0,
+          "sentence": "Gary Earl Johnson (born January 1, 1953) is an American businessman, author, and politician.",
+          "hit": false
+        },
+        {
+          "title": "Gary Johnson",
+          "sentence_idx": 1,
+          "sentence": "He was the 29th Governor of New Mexico from 1995 to 2003 as a member of the Republican Party.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " On May 5, 2012, after promoting his libertarian-oriented political positions to delegates, Johnson received the most votes at the convention and became the official 2012 Libertarian presidential nominee.",
+        " In December 2011 he announced he would pursue the presidential nomination of the Libertarian Party for the 2012 general election.",
+        "The 2012 United States Libertarian National Convention, in which delegates of the Libertarian Party (LP) chose the party's nominees for President of the United States and Vice President of the United States in the 2012 general election, was held May 2–6, 2012 in Las Vegas, Nevada at the Red Rock Resort Spa and Casino.",
+        " He was also the Libertarian Party nominee for President of the United States in the 2012 and 2016 elections.",
+        " The Libertarian National Convention in May, 2012 chose Johnson as the party's candidate."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a7b1c745542992d025e6777",
+      "question": "What was unique about the attraction that was replaced by Monsters, Inc. Laughing Floor on April 2,2007?",
+      "answer": "the first to utilize Audio-Animatronics",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 6.3109519481658936,
+      "support_hits": [
+        {
+          "title": "Monsters, Inc. Laugh Floor",
+          "sentence_idx": 2,
+          "sentence": "It opened on April 2, 2007 within the park's Tomorrowland section, where it replaced the Circle-Vision attraction The Timekeeper.",
+          "hit": false
+        },
+        {
+          "title": "The Timekeeper",
+          "sentence_idx": 1,
+          "sentence": "It was the first Circle-Vision show that was arranged and filmed with an actual plot and not just visions of landscapes, and the first to utilize Audio-Animatronics.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " The film centers on two monsters employed at the titular energy-producing factory Monsters, Inc. — top scarer James P. \"Sulley\" Sullivan and his one-eyed partner and best friend Mike Wazowski.",
+        " The series was produced by Wild Things Productions, Nelvana, Suzhou Hong Ying Animation Corporation Limited and Philippine Animation Studio Inc. (PASI Animation) from 2000–02.",
+        "Monster Planet of Godzilla was a theme park attraction at Sanrio Puroland.",
+        " It is a 3-D motion simulator featuring specially filmed sequences of Godzilla battling the monsters Mothra and Rodan.",
+        "Monsters, Inc."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae82ae555429952e35eaa71",
+      "question": "Martin Patterson \"Pat\" Hingle was a close friend of an actor who achieved success in what Western TV series? ",
+      "answer": "Rawhide",
+      "retrieved_count": 5,
+      "support_hit_count": 3,
+      "support_required_count": 4,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 6.408276081085205,
+      "support_hits": [
+        {
+          "title": "Pat Hingle",
+          "sentence_idx": 0,
+          "sentence": "Martin Patterson \"Pat\" Hingle (July 19, 1924 – January 3, 2009) was an American actor who appeared in hundreds of television shows and feature films.",
+          "hit": false
+        },
+        {
+          "title": "Pat Hingle",
+          "sentence_idx": 3,
+          "sentence": "Hingle was a close friend of Clint Eastwood and appeared in the Eastwood films \"Hang 'em High\", \"The Gauntlet\" and \"Sudden Impact\".",
+          "hit": true
+        },
+        {
+          "title": "Clint Eastwood",
+          "sentence_idx": 0,
+          "sentence": "Clinton Eastwood Jr. (born May 31, 1930) is an American actor, filmmaker, musician, and political figure.",
+          "hit": true
+        },
+        {
+          "title": "Clint Eastwood",
+          "sentence_idx": 1,
+          "sentence": "After achieving success in the Western TV series \"Rawhide\", he rose to international fame with his role as the Man with No Name in Sergio Leone's \"Dollars\" Trilogy of Spaghetti Westerns during the 1960s, and as antihero cop Harry Callahan in the five \"Dirty Harry\" films throughout the 1970s and 1980s.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " Hingle was a close friend of Clint Eastwood and appeared in the Eastwood films \"Hang 'em High\", \"The Gauntlet\" and \"Sudden Impact\".",
+        " After achieving success in the Western TV series \"Rawhide\", he rose to international fame with his role as the Man with No Name in Sergio Leone's \"Dollars\" Trilogy of Spaghetti Westerns during the 1960s, and as antihero cop Harry Callahan in the five \"Dirty Harry\" films throughout the 1970s and 1980s.",
+        "Clinton Eastwood Jr. (born May 31, 1930) is an American actor, filmmaker, musician, and political figure.",
+        " Her circle of friends extended to Alger Hiss.",
+        " He often played tough authority figures."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab9ba6855429970cfb8eb87",
+      "question": "Which novel by the author of \"Armada\" will adapted as a feature film by Steven Spielberg?",
+      "answer": "Ready Player One",
+      "retrieved_count": 5,
+      "support_hit_count": 3,
+      "support_required_count": 3,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 5.992379903793335,
+      "support_hits": [
+        {
+          "title": "Ernest Cline",
+          "sentence_idx": 0,
+          "sentence": "Ernest Christy Cline (born March 29, 1972) is an American novelist, spoken-word artist, and screenwriter.",
+          "hit": true
+        },
+        {
+          "title": "Ernest Cline",
+          "sentence_idx": 1,
+          "sentence": "He is mostly famous for his novels \"Ready Player One\" and \"Armada\"; he also co-wrote the screenplay of \"Ready Player One\"<nowiki>'</nowiki>s upcoming film adaptation by Steven Spielberg.",
+          "hit": true
+        },
+        {
+          "title": "Armada (novel)",
+          "sentence_idx": 0,
+          "sentence": "Armada is a science fiction novel by Ernest Cline, published on July 14, 2015 by Crown Publishing Group (a division of Random House).",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        "Ernest Christy Cline (born March 29, 1972) is an American novelist, spoken-word artist, and screenwriter.",
+        "Armada is a science fiction novel by Ernest Cline, published on July 14, 2015 by Crown Publishing Group (a division of Random House).",
+        " The film was also the first feature-length film directed by Spielberg for which John Williams did not compose the music.",
+        " It was Spielberg's eighth film as a director, and was a change from the summer blockbusters for which he had become famous.",
+        " He is mostly famous for his novels \"Ready Player One\" and \"Armada\"; he also co-wrote the screenplay of \"Ready Player One\"<nowiki>'</nowiki>s upcoming film adaptation by Steven Spielberg."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ac3908e554299741d48a297",
+      "question": "Currently, which division does the fighter, who lost to Jon Jones in the UFC 140 event, fight in?",
+      "answer": "middleweight",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 5.630711078643799,
+      "support_hits": [
+        {
+          "title": "UFC 140",
+          "sentence_idx": 0,
+          "sentence": "UFC 140: Jones vs. Machida was a mixed martial arts event held by the Ultimate Fighting Championship on December 10, 2011 at the Air Canada Centre in Toronto, Ontario, Canada.",
+          "hit": false
+        },
+        {
+          "title": "UFC 140",
+          "sentence_idx": 5,
+          "sentence": "In the main event, Lyoto Machida also suffered his first ever submission loss at the hands of Jon Jones.",
+          "hit": false
+        },
+        {
+          "title": "Lyoto Machida",
+          "sentence_idx": 0,
+          "sentence": "Lyoto Carvalho Machida (] ; 町田龍太) (born May 30, 1978) is a Brazilian mixed martial artist who currently competes in the middleweight division of the Ultimate Fighting Championship.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " However, the event was cancelled on August 23, when the UFC announced Henderson was unable to fight due to injury, and Jones refused to take a replacement fight against longtime middleweight contender, Chael Sonnen.",
+        " It was the penultimate event for the UFC in 2011.",
+        " He is a former UFC Light Heavyweight Champion.",
+        " Jackson has trained many successful fighters, including former UFC Light Heavyweight Champion Jon Jones, former UFC Welterweight Champion Georges St-Pierre, former UFC Women's Bantamweight Champion Holly Holm, former Light Heavyweight Champion Rashad Evans, and a roster of other UFC contenders and World Extreme Cagefighting champions.",
+        " It is the first UFC game since THQ sold the license to Electronic Arts."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab64285554299637185c67c",
+      "question": "George H. W. Bush,  a resident of West Oaks Subdivision in Houston Texas, became what number President in 1989? ",
+      "answer": "41st",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 5.43436074256897,
+      "support_hits": [
+        {
+          "title": "West Oaks, Houston",
+          "sentence_idx": 0,
+          "sentence": "West Oaks is a small subdivision in Houston, Texas.",
+          "hit": false
+        },
+        {
+          "title": "George H. W. Bush",
+          "sentence_idx": 0,
+          "sentence": "George Herbert Walker Bush (born June 12, 1924) is an American politician who was the 41st President of the United States from 1989 to 1993 and the 43rd Vice President of the United States from 1981 to 1989.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " \"Houston\" was commissioned on 25 September 1982, with Captain G. H. Mensch in command.",
+        "The presidency of George H. W. Bush began at noon EST on January 20, 1989, when George H. W. Bush was inaugurated as 41st President of the United States, and ended on January 20, 1993.",
+        "The inauguration of George H. W. Bush as the 41st President of the United States was held on Friday, January 20, 1989.",
+        " Chief Justice William Rehnquist administered the presidential oath of office to Bush and Associate Justice Sandra Day O'Connor administered the vice presidential oath of office to Quayle.",
+        "USS \"Houston\" (SSN-713), a \"Los Angeles\"-class attack submarine, was the fourth ship of the United States Navy to be named for Houston, Texas."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab4c8735542996a3a969fcb",
+      "question": "What is the nationality of this actor, film producer and musician who has lived most of his life in Australia and appeared in Romper Stomper alongside Daniel Pollock, Jacqueline McKenzie and Tony Lee?",
+      "answer": "New Zealand citizen",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 6.906754016876221,
+      "support_hits": [
+        {
+          "title": "Romper Stomper",
+          "sentence_idx": 1,
+          "sentence": "The film stars Russell Crowe, Daniel Pollock, Jacqueline McKenzie and Tony Lee.",
+          "hit": false
+        },
+        {
+          "title": "Russell Crowe",
+          "sentence_idx": 0,
+          "sentence": "Russell Ira Crowe (born 7 April 1964) is an actor, film producer and musician.",
+          "hit": false
+        },
+        {
+          "title": "Russell Crowe",
+          "sentence_idx": 1,
+          "sentence": "Although a New Zealand citizen, he has lived most of his life in Australia.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " It is created as a sequel to the 1992 film \"Romper Stomper\".",
+        "Romper Stomper is a 1992 Australian drama film written and directed by Geoffrey Wright in his feature film directorial debut.",
+        " The film tells the story of the exploits and downfall of a neo-Nazi group in blue-collar suburban Melbourne.",
+        " The film was released on 12 November 1992.",
+        "Angel Baby is a 1995 Australian drama film written and directed by Michael Rymer and starring John Lynch, Jacqueline McKenzie and Colin Friels."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab67bd355429954757d32f2",
+      "question": "Curt Menefee is the host of the Fox network's NFL show with co-host Michael Anthony Strahan who spent his entire 15-year career with what team?",
+      "answer": "New York Giants",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 5.7831878662109375,
+      "support_hits": [
+        {
+          "title": "Curt Menefee",
+          "sentence_idx": 0,
+          "sentence": "Curt Menefee (born July 22, 1965) is an American sportscaster who is the host of the Fox network's NFL show \"Fox NFL Sunday\".",
+          "hit": false
+        },
+        {
+          "title": "Michael Strahan",
+          "sentence_idx": 0,
+          "sentence": "Michael Anthony Strahan ( ; born November 21, 1971) is a media personality and former American football defensive end who spent his entire 15-year career with the New York Giants of the National Football League (NFL).",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        "Raymond Ernest Nitschke (December 29, 1936 – March 8, 1998) was a professional American football middle linebacker who spent his entire 15-year National Football League (NFL) career with the Green Bay Packers.",
+        " He played his entire 15-year professional football career in National Football League (NFL) as a defensive tackle with the Los Angeles Rams.",
+        " Strahan set a record for the most sacks in a season in 2001, and helped the Giants win Super Bowl XLII over the New England Patriots in his final season in 2007.",
+        " His co-hosts are Jimmy Johnson, Terry Bradshaw, Howie Long, and Michael Strahan.",
+        " He is currently a football analyst on \"Fox NFL Sunday\", and has also served as co-host on the syndicated morning talk show \"Live!"
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae6050f55429929b0807a5e",
+      "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+      "answer": "Sonic",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 5.320556163787842,
+      "support_hits": [
+        {
+          "title": "A Rather Blustery Day",
+          "sentence_idx": 1,
+          "sentence": "It was written by Robert & Richard Sherman and sung by Jim Cummings as \"Pooh\".",
+          "hit": false
+        },
+        {
+          "title": "Jim Cummings",
+          "sentence_idx": 1,
+          "sentence": "He is known for voicing the title character from \"Darkwing Duck\", Dr. Robotnik from \"Sonic the Hedgehog\", and Pete.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " It is also in the 1977 full-length feature film \"The Many Adventures of Winnie the Pooh\".",
+        " The song is also incorporated into (and used as the promotional tagline for) the 1977 musical film \"The Many Adventures of Winnie the Pooh\" which is an amalgamation of three Winnie-the-Pooh featurettes including \"Blustery Day\".",
+        "Winnie the Pooh and the Blustery Day is a 1968 animated featurette based on the third, fifth, ninth, and tenth chapters from \"Winnie-the-Pooh\" and the second, eighth, and ninth chapters from \"The House at Pooh Corner\" by A. A. Milne.",
+        " He has also provided voice-over work for video games, such as \"Icewind Dale\", \"Fallout\", \"\", \"Baldur's Gate\", \"Mass Effect 2\", \"\", \"\", \"\", and \"Splatterhouse\".",
+        " In 2010, she voiced Miles \"Tails\" Prower in the video game series \"Sonic the Hedgehog\"."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae0335655429925eb1afc28",
+      "question": "Who is the mother of Mary Robinson in Shakespeare's \"The Winter's Tale\"",
+      "answer": "Leontes",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 5.371744155883789,
+      "support_hits": [
+        {
+          "title": "Mary Robinson (poet)",
+          "sentence_idx": 3,
+          "sentence": "She earned her nickname \"Perdita\" for her role as Perdita (heroine of Shakespeare's \"The Winter's Tale\") in 1779.",
+          "hit": false
+        },
+        {
+          "title": "Perdita (The Winter's Tale)",
+          "sentence_idx": 1,
+          "sentence": "She is the daughter of Leontes, King of Sicilia, and his wife Hermione.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        "Mary Robinson McConnell Gish (September 16, 1876 - September 16, 1948) was an American actress and the mother of Lilian and Dorothy Gish.",
+        " – 26 December 1800) was an English actress, poet, dramatist, novelist, and celebrity figure.",
+        " He is the husband of Mary Robinson, the former United Nations High Commissioner for Human Rights and seventh President of Ireland.",
+        "Mary Robinson (née Darby; 27 November 1757?",
+        "Mary Blair (October 21, 1911 – July 26, 1978), born Mary Robinson, was an American artist who was prominent in producing art and animation for The Walt Disney Company, drawing concept art for such films as \"Alice in Wonderland\", \"Peter Pan\", \"Song of the South\" and \"Cinderella\"."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab69e8755429954757d3334",
+      "question": "Who is the album \"Look What You Made Me Do\" is on being released through?",
+      "answer": "Big Machine Records",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 3,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 8.779167890548706,
+      "support_hits": [
+        {
+          "title": "Look What You Made Me Do",
+          "sentence_idx": 0,
+          "sentence": "\"Look What You Made Me Do\" is a song recorded by American singer-songwriter Taylor Swift from her upcoming sixth studio album, \"Reputation\" (2017).",
+          "hit": false
+        },
+        {
+          "title": "Look What You Made Me Do",
+          "sentence_idx": 1,
+          "sentence": "The song was released on August 25, 2017, as the lead single from the album.",
+          "hit": true
+        },
+        {
+          "title": "Reputation (Taylor Swift album)",
+          "sentence_idx": 1,
+          "sentence": "It is scheduled for release on November 10, 2017, through Big Machine Records.",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " The song was released on August 25, 2017, as the lead single from the album.",
+        " The Black Crowes have played the song live many times over the years, but it is not included on this album.",
+        " The album features two new songs, some old Black Crowes songs, as well as some covers.",
+        " The album is a compilation from several shows at the Roxy Theatre in Los Angeles, California recorded during the 2006 Brothers of a Feather tour.",
+        " The band has performed on many festivals and concerts."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ade8f5955429975fa854f10",
+      "question": "What role was played in \"Who Framed Roger Rabbit\" by the actor who played an Addams Family character played by Jackie Coogan in the original television series?",
+      "answer": "Judge Doom",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 7.175399303436279,
+      "support_hits": [
+        {
+          "title": "Uncle Fester",
+          "sentence_idx": 1,
+          "sentence": "He was played by Jackie Coogan in the original television series, by Christopher Lloyd in the two feature films, and by Patrick Thomas in the direct-for-video film \"Addams Family Reunion\".",
+          "hit": false
+        },
+        {
+          "title": "Christopher Lloyd",
+          "sentence_idx": 0,
+          "sentence": "Christopher Allen Lloyd (born October 22, 1938) is an American actor, voice actor and comedian best known for his roles as Emmett \"Doc\" Brown in the \"Back to the Future\" trilogy, Judge Doom in \"Who Framed Roger Rabbit\" (1988), Merlock the Magician in \"\" (1990), Uncle Fester in \"The Addams Family\" (1991) and its sequel \"Addams Family Values\" (1993), and Grigori Rasputin in \"Anastasia\" (1997).",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        "Charles Fleischer (born August 27, 1950) is an American stand-up comedian, actor, voice actor, writer and musician, best known for appearing in films such as \"A Nightmare on Elm Street\", \"Who Framed Roger Rabbit\", \"Back to the Future Part II\", \"The Polar Express\", \"Rango\", and \"We're Back!",
+        " As a regular voice actor too, he was the Hungarian dubbing voice of Roger Rabbit in \"Who Framed Roger Rabbit\" and Gopher in \"The Many Adventures of Winnie the Pooh\".",
+        "\" and its loose film adaptation, \"Who Framed Roger Rabbit\".",
+        " The film is based on Gary K. Wolf's 1981 novel \"Who Censored Roger Rabbit?",
+        "Who Framed Roger Rabbit is a 1988 American live-action/animated fantasy film directed by Robert Zemeckis, produced by Frank Marshall and Robert Watts, and written by Jeffrey Price and Peter S. Seaman."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a73630655429901807db020",
+      "question": "Who was born first, Antonin Artaud or  Elizabeth Taylor?",
+      "answer": "Antonin Artaud",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 5.745754718780518,
+      "support_hits": [
+        {
+          "title": "Antonin Artaud",
+          "sentence_idx": 0,
+          "sentence": "Antoine Marie Joseph Artaud, better known as Antonin Artaud (] ; 4 September 1896 – 4 March 1948), was a French dramatist, poet, essayist, actor, and theatre director, widely recognized as one of the major figures of twentieth-century theatre and the European avant-garde.",
+          "hit": true
+        },
+        {
+          "title": "Elizabeth Taylor",
+          "sentence_idx": 0,
+          "sentence": "Dame Elizabeth Rosemond Taylor, DBE (February 27, 1932 – March 23, 2011) was a British-American actress, businesswoman, and humanitarian.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        "Antoine Marie Joseph Artaud, better known as Antonin Artaud (] ; 4 September 1896 – 4 March 1948), was a French dramatist, poet, essayist, actor, and theatre director, widely recognized as one of the major figures of twentieth-century theatre and the European avant-garde.",
+        " While Artaud was only able to produce one play in his lifetime that reflected the tenets of the Theatre of Cruelty, the works of many theatre artists reflect his theories.",
+        "Dame Elizabeth Rosemond Taylor, DBE (February 27, 1932 – March 23, 2011) was a British-American actress, businesswoman, and humanitarian.",
+        " Originally a member of the surrealist movement, Artaud eventually began to develop his own theatrical theories.",
+        "The Theatre of Cruelty (French: \"Théâtre de la Cruauté\" ) is a form of theatre developed by avant-garde playwright, actor, essayist, and theorist, Antonin Artaud, in \"The Theatre and its Double\"."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae04a2755429924de1b7091",
+      "question": "Are Columbia University and University of Colorado both private universities? ",
+      "answer": "no",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 2.411186933517456,
+      "support_hits": [
+        {
+          "title": "Columbia University",
+          "sentence_idx": 0,
+          "sentence": "Columbia University (Columbia; officially Columbia University in the City of New York), established in 1754, is a private Ivy League research university in Upper Manhattan, New York City, often cited as one of the world's most prestigious universities.",
+          "hit": true
+        },
+        {
+          "title": "University of Colorado",
+          "sentence_idx": 0,
+          "sentence": "The University of Colorado system is a system of public universities in Colorado consisting of four campuses: University of Colorado Boulder, University of Colorado Colorado Springs, University of Colorado Denver in downtown Denver and at the Anschutz Medical Campus in Aurora.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        "This is a sorted list of notable persons who are alumni of Columbia University, New York City.",
+        "This is a partially sorted list of notable persons who have had ties to Columbia University.",
+        " For further listing of notable Columbians see: Notable alumni at Columbia College of Columbia University; Columbia University School of General Studies; Columbia Law School; Columbia Business School; Columbia University Graduate School of Journalism; Columbia Graduate School of Architecture, Planning and Preservation; Columbia University College of Physicians and Surgeons; Columbia University Graduate School of Education (Teachers College); Fu Foundation School of Engineering and Applied Science; Columbia Graduate School of Arts and Sciences; Columbia University School of Professional Studies; Columbia University School of the Arts; and the School of International and Public Affairs.",
+        "Columbia University (Columbia; officially Columbia University in the City of New York), established in 1754, is a private Ivy League research university in Upper Manhattan, New York City, often cited as one of the world's most prestigious universities.",
+        "The University of Colorado system is a system of public universities in Colorado consisting of four campuses: University of Colorado Boulder, University of Colorado Colorado Springs, University of Colorado Denver in downtown Denver and at the Anschutz Medical Campus in Aurora."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ab50e0a5542990594ba9cf0",
+      "question": "The lead of the CBS series \"I Had Three Wives\" played what role in \"Godspell\"?",
+      "answer": "Jesus",
+      "retrieved_count": 5,
+      "support_hit_count": 0,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": false,
+      "elapsed_seconds": 4.597840785980225,
+      "support_hits": [
+        {
+          "title": "I Had Three Wives",
+          "sentence_idx": 1,
+          "sentence": "The series' lead was Victor Garber in his first starring role on television.",
+          "hit": false
+        },
+        {
+          "title": "Victor Garber",
+          "sentence_idx": 1,
+          "sentence": "He is known for playing Jesus in \"Godspell\", Anthony Hope in \"\", John Wilkes Booth in \"Assassins\", Jack Bristow in the television series \"Alias\", Max in \"Lend Me a Tenor\", Thomas Andrews in James Cameron's \"Titanic\", and Ken Taylor, Canadian Ambassador to Iran, in \"Argo\".",
+          "hit": false
+        }
+      ],
+      "contexts": [
+        " His most notable roles were as Max Merlin's apprentice Zachary Rogers in the CBS series \"Mr. Merlin\" and as Sean Fitzpatrick, the older brother, in the CBS series \"The Fitzpatricks\".",
+        " He is known for having portrayed Daniel Nyland in the CBS series \"Chicago Hope\", Greg Montgomery on the ABC series \"Dharma & Greg\", and Aaron Hotchner on the CBS series \"Criminal Minds\" (2005–2016).",
+        " He is currently a series regular on \"Legends of Tomorrow\" as Dr. Martin Stein, playing the same role as a guest star on \"The Flash\" and the web series \"Vixen.",
+        "Clark Brandon (born December 13, 1958) is an American actor.",
+        " He also starred with Jim Varney in the 1989 comedy film, \"Fast Food\"."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae1408a55429901ffe4ae2a",
+      "question": "Did Holland's Magazine and Moondance both begin in 1996?",
+      "answer": "no",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 6.589954853057861,
+      "support_hits": [
+        {
+          "title": "Holland's Magazine",
+          "sentence_idx": 0,
+          "sentence": "Holland's Magazine (originally known as \"Street's Weekly\", also known as \"Holland's: The Magazine of the South\") was a magazine published from 1876 to 1953.",
+          "hit": true
+        },
+        {
+          "title": "Moondance (magazine)",
+          "sentence_idx": 0,
+          "sentence": "Moondance is an online international women's literary, culture and art journal.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        " The magazine began in 1996.",
+        " It was a women's magazine which published recipes, fashion tips, gardening tips, sewing patterns, non-fiction, and short fiction.",
+        "Lewis Merenstein (October 23, 1934 – September 6, 2016) was an American record producer, most famous as the producer of the Van Morrison album \"Astral Weeks\", and as executive producer for \"Moondance\", Morrison's 1970 album. \"",
+        "Holland's Magazine (originally known as \"Street's Weekly\", also known as \"Holland's: The Magazine of the South\") was a magazine published from 1876 to 1953.",
+        "Moondance is an online international women's literary, culture and art journal."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5ae7eb3c5542994a481bbe20",
+      "question": "The Panel with striding lion  was one of many that lined the way north of the gate to the inner city of what location?",
+      "answer": "Babylon",
+      "retrieved_count": 5,
+      "support_hit_count": 1,
+      "support_required_count": 2,
+      "all_supports_hit": false,
+      "any_support_hit": true,
+      "elapsed_seconds": 9.237720012664795,
+      "support_hits": [
+        {
+          "title": "Panel with striding lion",
+          "sentence_idx": 1,
+          "sentence": "It was one of many that lined the Processional Way north of the Ishtar Gate.",
+          "hit": false
+        },
+        {
+          "title": "Ishtar Gate",
+          "sentence_idx": 0,
+          "sentence": "The Ishtar Gate (Arabic: بوابة عشتار‎ ‎ , Persian: دروازه ایشتار‎ ‎ ) was the eighth gate to the inner city of Babylon.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        "The Ishtar Gate (Arabic: بوابة عشتار‎ ‎ , Persian: دروازه ایشتار‎ ‎ ) was the eighth gate to the inner city of Babylon.",
+        "Parkdale is a mature, inner city neighbourhood in the city of Calgary, Alberta along the north bank of the Bow River between the communities of West Hillhurst and Point McKay.",
+        "Leicester City Centre is an area covering the core inner city area and central business district of the city of Leicester, England.",
+        " The gate is situated to the south of Tiananmen Square and once guarded the southern entry into the Inner City.",
+        " It is located four kilometres to the southeast of the city centre."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    },
+    {
+      "id": "5a8e42d15542995a26add4a6",
+      "question": "Zhangye and Nan'an, Fujian are both located where?",
+      "answer": "People's Republic of China",
+      "retrieved_count": 5,
+      "support_hit_count": 2,
+      "support_required_count": 2,
+      "all_supports_hit": true,
+      "any_support_hit": true,
+      "elapsed_seconds": 7.264030933380127,
+      "support_hits": [
+        {
+          "title": "Zhangye",
+          "sentence_idx": 0,
+          "sentence": "Zhangye, formerly romanized as Changyeh or known as Kanchow, is a prefecture-level city in central Gansu Province in the People's Republic of China.",
+          "hit": true
+        },
+        {
+          "title": "Nan'an, Fujian",
+          "sentence_idx": 0,
+          "sentence": "Nan'an () is a county-level city of southern Fujian province, People's Republic of China.",
+          "hit": true
+        }
+      ],
+      "contexts": [
+        "The Nan'ao General Headquarters (南澳总兵府) is located in Nan'ao County, Shantou, Guangdong province, China.",
+        "Zhangye West Railway Station () is a railway station located in China's Gansu Province, Zhangye City, Ganzhou District.",
+        "Zhangye, formerly romanized as Changyeh or known as Kanchow, is a prefecture-level city in central Gansu Province in the People's Republic of China.",
+        "Nan'an () is a county-level city of southern Fujian province, People's Republic of China.",
+        " Now the Headquarters is used as a museum of coast defense."
+      ],
+      "scores": [
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary",
+        "Relevant and Necessary"
+      ]
+    }
+  ]
+}

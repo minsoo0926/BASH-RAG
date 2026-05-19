@@ -2,6 +2,7 @@ import argparse
 import contextlib
 import json
 import os
+import threading
 import time
 
 
@@ -20,6 +21,12 @@ def parse_args():
     parser.add_argument("--topk", type=int, default=5)
     parser.add_argument("--max-hop", type=int, default=2)
     parser.add_argument("--output", default=None)
+    parser.add_argument(
+        "--progress-interval",
+        type=float,
+        default=30.0,
+        help="Seconds between heartbeat progress logs while a question is running. Use 0 to disable.",
+    )
     parser.add_argument(
         "--verbose",
         action="store_true",
@@ -71,6 +78,60 @@ def evaluate_hit(example, retrieved_contexts):
     return support_hits
 
 
+def format_duration(seconds):
+    seconds = max(0, int(seconds))
+    hours, remainder = divmod(seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    if hours:
+        return f"{hours}h {minutes}m {seconds}s"
+    if minutes:
+        return f"{minutes}m {seconds}s"
+    return f"{seconds}s"
+
+
+class ProgressHeartbeat:
+    def __init__(self, interval, state):
+        self.interval = interval
+        self.state = state
+        self.stop_event = threading.Event()
+        self.thread = None
+
+    def __enter__(self):
+        if self.interval and self.interval > 0:
+            self.thread = threading.Thread(target=self._run, daemon=True)
+            self.thread.start()
+        return self
+
+    def __exit__(self, exc_type, exc, tb):
+        self.stop_event.set()
+        if self.thread is not None:
+            self.thread.join(timeout=1)
+
+    def _run(self):
+        while not self.stop_event.wait(self.interval):
+            current_idx = self.state.get("current_idx", 0)
+            total = self.state.get("total", 0)
+            completed = self.state.get("completed", 0)
+            start = self.state.get("start", time.time())
+            item_start = self.state.get("item_start")
+            query = self.state.get("query", "")
+
+            elapsed_total = time.time() - start
+            avg_completed = elapsed_total / completed if completed else None
+            remaining = (total - completed) * avg_completed if avg_completed else None
+            item_elapsed = time.time() - item_start if item_start else 0.0
+            eta_text = format_duration(remaining) if remaining is not None else "unknown"
+            avg_text = f"{avg_completed:.2f}s/q" if avg_completed is not None else "unknown"
+            print(
+                "[progress] "
+                f"question={current_idx}/{total} completed={completed}/{total} "
+                f"current_elapsed={format_duration(item_elapsed)} "
+                f"total_elapsed={format_duration(elapsed_total)} "
+                f"avg={avg_text} eta={eta_text} :: {query}",
+                flush=True,
+            )
+
+
 def main():
     args = parse_args()
     os.environ["HOPRAG_NODE_NAME"] = args.label
@@ -99,15 +160,31 @@ def main():
 
     results = []
     start = time.time()
+    progress_state = {
+        "start": start,
+        "total": len(questions),
+        "completed": 0,
+        "current_idx": 0,
+        "query": "",
+        "item_start": None,
+    }
     for idx, example in enumerate(questions, start=1):
         query = example["question"]
         item_start = time.time()
-        if args.verbose:
-            contexts, scores = retriever.search_docs(query)
-        else:
-            with open(os.devnull, "w", encoding="utf-8") as devnull:
-                with contextlib.redirect_stdout(devnull):
-                    contexts, scores = retriever.search_docs(query)
+        progress_state.update(
+            {
+                "current_idx": idx,
+                "query": query,
+                "item_start": item_start,
+            }
+        )
+        with ProgressHeartbeat(args.progress_interval, progress_state):
+            if args.verbose:
+                contexts, scores = retriever.search_docs(query)
+            else:
+                with open(os.devnull, "w", encoding="utf-8") as devnull:
+                    with contextlib.redirect_stdout(devnull):
+                        contexts, scores = retriever.search_docs(query)
         elapsed = time.time() - item_start
 
         support_hits = evaluate_hit(example, contexts)
@@ -129,9 +206,14 @@ def main():
                 "scores": [str(score) for score in scores],
             }
         )
+        progress_state["completed"] = idx
+        total_elapsed_so_far = time.time() - start
+        avg_elapsed_so_far = total_elapsed_so_far / idx
+        eta = avg_elapsed_so_far * (len(questions) - idx)
         print(
             f"[{idx}/{len(questions)}] supports {hit_count}/{required_count} "
-            f"elapsed {elapsed:.2f}s :: {query}"
+            f"elapsed {elapsed:.2f}s avg {avg_elapsed_so_far:.2f}s/q "
+            f"eta {format_duration(eta)} :: {query}"
         )
 
     total_elapsed = time.time() - start

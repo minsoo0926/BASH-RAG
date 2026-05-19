@@ -273,6 +273,81 @@ class HopRetriever(HopQMixin):
             final_context.append(outcome[i][0])
             final_score.append(outcome[i][1])
         return final_context, final_score
+
+    def _keyword_set(self, keywords)->Set[str]:
+        if keywords is None:
+            return set()
+        if isinstance(keywords, str):
+            return set(keywords.lower().split())
+        try:
+            return {str(x).lower() for x in keywords}
+        except TypeError:
+            return {str(keywords).lower()}
+
+    def _node_query_similarity(self,current_node:Dict,query_embedding,query_keywords)->float:
+        dense_sim = 0.0
+        if current_node.get('embed') is not None:
+            node_embedding = np.array(current_node['embed'])
+            query_embedding = np.array(query_embedding)
+            denom = np.linalg.norm(node_embedding) * np.linalg.norm(query_embedding)
+            if denom > 0:
+                dense_sim = float(np.dot(node_embedding,query_embedding) / denom)
+        node_keywords = self._keyword_set(current_node.get('keywords'))
+        query_keywords = self._keyword_set(query_keywords)
+        sparse_sim = sparse_similarity(node_keywords, query_keywords) if node_keywords and query_keywords else 0.0
+        return 0.5 * dense_sim + 0.5 * sparse_sim
+
+    def search_docs_paper_bfs(self,query:str)->Tuple[List[str],List[float]]:
+        """HopRAG paper-style traversal.
+
+        Start from top-k retrieved nodes, let the LLM select at most one outgoing
+        edge per queued node per hop, count visits, then prune by Helpfulness:
+        H(v) = (SIM(v, q) + IMP(v, Ccount)) / 2.
+        """
+        query_embedding, query_keywords = self.process_query(query)
+        mock_result=self.search_docs_mock(query_embedding,query_keywords,self.topk)
+        if mock_result[0] is not None:
+            return mock_result
+        else:
+            start_node_dense=mock_result[1]
+
+        queue=[x[0] for x in start_node_dense][:self.topk]
+        visit_counter=defaultdict(int)
+        node_by_text={}
+        for node in queue:
+            node_text=node['text']
+            visit_counter[node_text]+=1
+            node_by_text[node_text]=node
+
+        for hop in range(self.max_hop):
+            next_queue=[]
+            api_call_time=0
+            for current_node in queue[:self.topk]:
+                api_call_time+=1
+                llm_choice=self.get_llm_choice(current_node,{},query)
+                if not isinstance(llm_choice,tuple) or len(llm_choice)!=2 or llm_choice[0]!="Follow-up":
+                    continue
+                next_node=llm_choice[1]
+                next_text=next_node['text']
+                already_seen=visit_counter[next_text] > 0
+                visit_counter[next_text]+=1
+                node_by_text[next_text]=next_node
+                if not already_seen:
+                    next_queue.append(next_node)
+            print(f"paper_bfs hop:{hop+1}, judging nodes:{api_call_time}, new nodes count:{len(next_queue)}")
+            if not next_queue:
+                break
+            queue=next_queue
+
+        total_visits=sum(visit_counter.values())
+        sim_dict={}
+        for node_text,count in visit_counter.items():
+            node=node_by_text[node_text]
+            sim=self._node_query_similarity(node,query_embedding,query_keywords)
+            importance=count / total_visits if total_visits else 0.0
+            sim_dict[node_text]=0.5 * sim + 0.5 * importance
+        final_context, final_score = self.topk_filter(sim_dict)
+        return final_context, final_score
     
     def search_docs_mock(self,query_embedding,query_keywords,topk)->Tuple[List[str],List[float]]:
         scores=[]
@@ -612,6 +687,8 @@ class HopRetriever(HopQMixin):
     def search_docs(self,query:str)->Tuple[List[str],List[float]]:
         if self.traversal=='dfs':
             return self.search_docs_dfs(query)
+        elif self.traversal=='paper_bfs':
+            return self.search_docs_paper_bfs(query)
         elif self.traversal in ['bfs','bfs_sim_node']:
             return self.search_docs_bfs(query)
         elif self.traversal=="bfs_node":
@@ -621,7 +698,7 @@ class HopRetriever(HopQMixin):
         elif self.traversal=="hopq":
             return self.search_docs_hopq(query)
         else:
-            raise ValueError("traversal type must be 'dfs' or 'bfs' or 'bfs_sim_node' or 'bfs_node' or 'bfs_hop2' or 'hopq'")
+            raise ValueError("traversal type must be 'dfs' or 'paper_bfs' or 'bfs' or 'bfs_sim_node' or 'bfs_node' or 'bfs_hop2'")
     
     def search_docs_rerank(self,query:str)->Tuple[List[str],List[float]]:
         context,_ = self.search_docs(query)

@@ -163,6 +163,7 @@ def fetch_graph_for_augmentation(session, label, relationship_type):
         f"""
         MATCH (n:{label})
         RETURN elementId(n) AS id,
+               coalesce(n.source_element_id, elementId(n)) AS stable_id,
                n.text AS text,
                n.keywords AS keywords,
                n.embed AS embed
@@ -174,6 +175,7 @@ def fetch_graph_for_augmentation(session, label, relationship_type):
             continue
         graph.add_node(
             record["id"],
+            stable_id=record["stable_id"],
             text=record["text"] or "",
             keywords=list(record["keywords"] or []),
             embed=np.array(embed, dtype=np.float32),
@@ -217,6 +219,7 @@ def greedy_r_dominating_set(graph, radius):
                 key=lambda node: (
                     len(neighborhoods[node] & uncovered),
                     component.degree(node),
+                    str(component.nodes[node].get("stable_id", node)),
                 ),
             )
             dominating_nodes.append(best_node)
@@ -257,38 +260,124 @@ def save_question_cache(cache_path, cache):
         json.dump(cache, f, indent=2, ensure_ascii=False)
 
 
-def fallback_bridge_question(shared_keywords):
+FORBIDDEN_QUESTION_PATTERNS = [
+    r"\[[^\]]+\]",
+    r"\bsource passage\b",
+    r"\btarget passage\b",
+    r"\bbridge\b",
+    r"\bretrieval\b",
+    r"\bgraph\b",
+    r"\bwhat related information\b",
+    r"\bconnects these passages\b",
+    r"\bwhat specific information is provided in the target passage\b",
+    r"\bwhat did (he|she|it|they)\b",
+    r"\b(what|which|who|where|when|why|how) .*\b(he|she|it|they|this|that)\b",
+    r"\bwhat position did (he|she|it|they)\b",
+    r"\bwhat company did (he|she|it|they)\b",
+    r"\bwhich .* does this (station|company|organization|person|passage)\b",
+    r"\bwhat .* does this (station|company|organization|person|passage)\b",
+]
+
+
+def fallback_bridge_question(shared_keywords, target_keywords=None):
     if shared_keywords:
         topic = ", ".join(shared_keywords[:3])
         return f"What specific information is provided about {topic}?"
-    return "What specific information is provided in the target passage?"
+    if target_keywords:
+        topic = ", ".join(target_keywords[:3])
+        return f"What specific information is provided about {topic}?"
+    return "What concrete fact is stated in the passage?"
 
 
-def generate_bridge_question(source_text, target_text, shared_keywords, question_model):
+def validate_bridge_question(question, target_text):
+    question = str(question or "").strip()
+    if len(question) < 20:
+        return False, "question is too short"
+
+    lowered = question.lower()
+    for pattern in FORBIDDEN_QUESTION_PATTERNS:
+        if re.search(pattern, lowered):
+            return False, f"forbidden pattern: {pattern}"
+
+    target_tokens = {
+        token.lower()
+        for token in re.findall(r"[A-Za-z][A-Za-z0-9'-]{3,}", str(target_text))
+        if token.lower()
+        not in {
+            "this",
+            "that",
+            "with",
+            "from",
+            "were",
+            "which",
+            "what",
+            "when",
+            "where",
+            "their",
+            "there",
+            "have",
+            "been",
+            "also",
+            "does",
+            "station",
+            "passage",
+        }
+    }
+    question_tokens = {
+        token.lower()
+        for token in re.findall(r"[A-Za-z][A-Za-z0-9'-]{3,}", question)
+    }
+    if target_tokens and not (target_tokens & question_tokens):
+        return False, "question has no concrete lexical overlap with target passage"
+
+    return True, "ok"
+
+
+def generate_bridge_question(
+    source_text,
+    target_text,
+    shared_keywords,
+    question_model,
+    max_retries=2,
+):
     from tool import get_chat_completion
 
-    prompt = augmentation_bridge_question_prompt.format(
+    base_prompt = augmentation_bridge_question_prompt.format(
         source_text=str(source_text).replace("\n", " ")[:900],
         target_text=str(target_text).replace("\n", " ")[:900],
         shared_keywords=", ".join(shared_keywords[:12]) if shared_keywords else "None",
     )
-    chat = [{"role": "user", "content": prompt}]
-    question, _ = get_chat_completion(
-        chat,
-        keys=["Question"],
-        model=question_model,
-        max_tokens=160,
-    )
-    if question is None:
-        return fallback_bridge_question(shared_keywords)
+    retry_note = ""
 
-    if isinstance(question, list):
-        question = question[0] if question else None
+    for attempt in range(max_retries + 1):
+        prompt = base_prompt + retry_note
+        chat = [{"role": "user", "content": prompt}]
+        question, _ = get_chat_completion(
+            chat,
+            keys=["Question"],
+            model=question_model,
+            max_tokens=160,
+        )
+        if isinstance(question, list):
+            question = question[0] if question else None
 
-    question = str(question or "").strip()
-    if not question:
-        return fallback_bridge_question(shared_keywords)
-    return question
+        question = str(question or "").strip()
+        valid, reason = validate_bridge_question(question, target_text)
+        if valid:
+            return question, attempt, False, reason
+
+        retry_note = f"""
+
+The previous question was invalid.
+Invalid question: {question}
+Reason: {reason}
+
+Rewrite it now. Use a real named entity or concrete phrase from the target passage.
+Return only JSON in this format:
+{{"Question":"<one valid target-grounded question>"}}
+"""
+
+    return None, max_retries + 1, True, "skipped after failed retries"
 
 
 def edge_key(source, target):
@@ -334,6 +423,9 @@ def build_backbone_edges(
         aug_degree[target] += 1
 
     if k <= 0:
+        for row in selected.values():
+            row["radius"] = radius
+            row["k"] = k
         return list(selected.values())
 
     for source in backbone_nodes:
@@ -383,16 +475,32 @@ def build_augmented_relationship_rows(
     question_cache_path=None,
     question_model=local_model_name,
     embedding_model_name=embed_model,
+    bidirectional=False,
+    question_max_retries=2,
 ):
     question_cache = load_question_cache(question_cache_path)
+    question_stats = Counter()
     embedder = None
     if generate_questions:
         from tool import get_doc_embeds, get_ner_eng, load_embed_model
 
         embedder = load_embed_model(embedding_model_name)
 
+    directed_edges = []
+    for edge in edges:
+        directed_edges.append({**edge, "direction": "forward"})
+        if bidirectional:
+            directed_edges.append(
+                {
+                    **edge,
+                    "source": edge["target"],
+                    "target": edge["source"],
+                    "direction": "reverse",
+                }
+            )
+
     rows = []
-    for idx, edge in enumerate(edges, start=1):
+    for idx, edge in enumerate(directed_edges, start=1):
         source = edge["source"]
         target = edge["target"]
         source_keywords = list(graph.nodes[source].get("keywords") or [])
@@ -401,23 +509,57 @@ def build_augmented_relationship_rows(
         keywords = list(dict.fromkeys(shared_keywords + source_keywords + target_keywords))[:24]
 
         if generate_questions:
-            cache_key = f"{source}->{target}"
-            if cache_key in question_cache:
-                question = question_cache[cache_key]["question"]
-            else:
-                question = generate_bridge_question(
+            source_cache_id = graph.nodes[source].get("stable_id", source)
+            target_cache_id = graph.nodes[target].get("stable_id", target)
+            cache_key = f"{source_cache_id}->{target_cache_id}"
+            cached = question_cache.get(cache_key)
+            if cached:
+                if cached.get("skipped"):
+                    question_stats["cache_skipped"] += 1
+                    continue
+                question = cached["question"]
+                valid, reason = validate_bridge_question(question, graph.nodes[target].get("text", ""))
+                if valid:
+                    question_stats["cache_hit"] += 1
+                else:
+                    cached = None
+                    question_stats["cache_invalid"] += 1
+
+            if not cached:
+                question, retry_count, used_fallback, reason = generate_bridge_question(
                     graph.nodes[source].get("text", ""),
                     graph.nodes[target].get("text", ""),
                     shared_keywords,
                     question_model,
+                    max_retries=question_max_retries,
                 )
+                question_stats["generated"] += 1
+                question_stats["retries"] += retry_count
+                if used_fallback:
+                    question_stats["fallback"] += 1
+                if question is None:
+                    question_stats["skipped"] += 1
+                    question_cache[cache_key] = {
+                        "source": source,
+                        "target": target,
+                        "question": None,
+                        "skipped": True,
+                        "validation_reason": reason,
+                    }
+                    save_question_cache(question_cache_path, question_cache)
+                    print(f"skipped invalid bridge question {idx}/{len(directed_edges)}: {reason}")
+                    continue
+
                 question_cache[cache_key] = {
                     "source": source,
                     "target": target,
                     "question": question,
+                    "skipped": False,
+                    "used_fallback": used_fallback,
+                    "validation_reason": reason,
                 }
                 save_question_cache(question_cache_path, question_cache)
-                print(f"generated bridge question {idx}/{len(edges)}: {question}")
+                print(f"generated bridge question {idx}/{len(directed_edges)}: {question}")
             question_keywords = list(get_ner_eng(question))
             keywords = list(dict.fromkeys(question_keywords + keywords))[:24]
             edge_embed = get_doc_embeds(question, embedder)
@@ -437,12 +579,13 @@ def build_augmented_relationship_rows(
                 "embed": edge_embed,
                 "similarity": edge["similarity"],
                 "edge_kind": edge["edge_kind"],
+                "edge_direction": edge["direction"],
                 "method": method,
                 "radius": edge["radius"],
                 "k": edge["k"],
             }
         )
-    return rows
+    return rows, dict(question_stats)
 
 
 def upload_augmented_relationships(session, label, relationship_type, rows):
@@ -463,6 +606,7 @@ def upload_augmented_relationships(session, label, relationship_type, rows):
             r.augmentation_edge = true,
             r.augmentation_method = row.method,
             r.augmentation_edge_kind = row.edge_kind,
+            r.augmentation_edge_direction = row.edge_direction,
             r.augmentation_r = row.radius,
             r.augmentation_k = row.k,
             r.augmentation_similarity = row.similarity
@@ -484,6 +628,8 @@ def augment_graph(
     question_cache_path=None,
     question_model=local_model_name,
     embedding_model_name=embed_model,
+    bidirectional=False,
+    question_max_retries=2,
 ):
     label = validate_neo4j_name(label, "label")
     relationship_type = validate_neo4j_name(relationship_type, "relationship type")
@@ -519,7 +665,7 @@ def augment_graph(
                 similarity_threshold=similarity_threshold,
                 max_aug_degree=max_aug_degree,
             )
-            rows = build_augmented_relationship_rows(
+            rows, question_stats = build_augmented_relationship_rows(
                 graph,
                 candidate_edges,
                 method,
@@ -527,6 +673,8 @@ def augment_graph(
                 question_cache_path=question_cache_path,
                 question_model=question_model,
                 embedding_model_name=embedding_model_name,
+                bidirectional=bidirectional,
+                question_max_retries=question_max_retries,
             )
             uploaded_edges = upload_augmented_relationships(session, label, relationship_type, rows)
             final_nodes, final_relationships = count_graph(session, label, relationship_type)
@@ -546,6 +694,9 @@ def augment_graph(
         "generate_questions": generate_questions,
         "question_cache_path": question_cache_path,
         "question_model": question_model,
+        "bidirectional": bidirectional,
+        "question_max_retries": question_max_retries,
+        "question_stats": question_stats if generate_questions else {},
         "node_count": graph.number_of_nodes(),
         "original_unique_edges": graph.number_of_edges(),
         "component_count": nx.number_connected_components(graph),
@@ -663,10 +814,13 @@ def print_augment_result(result):
     print(f"k: {result['k']}")
     print(f"Similarity threshold: {result['similarity_threshold']}")
     print(f"Max augmented degree: {result['max_aug_degree']}")
+    print(f"Bidirectional edges: {result['bidirectional']}")
     print(f"Generated bridge questions: {result['generate_questions']}")
     if result["generate_questions"]:
         print(f"Question model: {result['question_model']}")
         print(f"Question cache: {result['question_cache_path']}")
+        print(f"Question max retries: {result['question_max_retries']}")
+        print(f"Question stats: {result['question_stats']}")
     print("-" * 80)
     print(f"Nodes: {result['node_count']}")
     print(f"Original unique graph edges: {result['original_unique_edges']}")
@@ -727,6 +881,11 @@ def add_augment_args(parser):
         help="Generate bridge questions with the configured local LLM and use question embeddings.",
     )
     parser.add_argument(
+        "--bidirectional",
+        action="store_true",
+        help="Create both source->target and target->source augmented edges. Each direction gets its own question.",
+    )
+    parser.add_argument(
         "--question-cache",
         default=None,
         help="JSON cache path for generated bridge questions.",
@@ -735,6 +894,12 @@ def add_augment_args(parser):
         "--question-model",
         default=local_model_name,
         help="LLM used to generate augmentation bridge questions.",
+    )
+    parser.add_argument(
+        "--question-max-retries",
+        type=int,
+        default=2,
+        help="Retries per bridge question when validation fails.",
     )
     parser.add_argument(
         "--embedding-model",
@@ -806,6 +971,8 @@ def main():
             question_cache_path=args.question_cache,
             question_model=args.question_model,
             embedding_model_name=args.embedding_model,
+            bidirectional=args.bidirectional,
+            question_max_retries=args.question_max_retries,
         )
         print_augment_result(result)
         return

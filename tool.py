@@ -384,7 +384,12 @@ def get_ner_eng(text):
 
 def load_embed_model(model_name):
     if model_name in embed_model_dict:
-        return SentenceTransformer(embed_model_dict[model_name],device=llm_device)  #
+        local_files_only = os.getenv("HOPRAG_LOCAL_FILES_ONLY", "1").lower() not in {"0", "false", "no"}
+        return SentenceTransformer(
+            embed_model_dict[model_name],
+            device=llm_device,
+            local_files_only=local_files_only,
+        )
     else:
         raise NotImplementedError
     

@@ -1,0 +1,1192 @@
+{
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383",
+    "question": "Which field army did the Sixth United States Army Group include?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382",
+    "question": "Which Allied Army Group fought primarily in France, Germany, Austria, and briefly in Italy?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2304": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2304",
+    "question": "Who commanded the Sixth United States Army Group in World War II?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2304->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2304",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382",
+    "question": "Who commanded the Sixth United States Army Group during World War II?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132",
+    "question": "What position did General [name] hold?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112",
+    "question": "What position did General [name] hold?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2307->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2307",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383",
+    "question": "What countries' forces were involved in Operation Market Garden?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2307": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2307",
+    "question": "What field army did the Allied forces simulate for the Operation Overlord?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320",
+    "question": "What type of plant does this hybrid army formation resemble?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383",
+    "question": "What type of army was composed of forces from both the United States Army and the French Army?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982",
+    "question": "What did he do after retiring in 1989?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073",
+    "question": "What did he do after resigning as DB Coach?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007",
+    "question": "What position did he hold after retiring as Chief Executive Officer?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073",
+    "question": "What did he do after retiring as Chief Executive Officer?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220",
+    "question": "What position did Kareem Smith hold in the New England Patriots?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397",
+    "question": "What is the location of the Gillette Stadium where the Boston Patriots and Revolution teams play?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124",
+    "question": "What team did [name] play for before joining the New England Patriots?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397",
+    "question": "Which team did Jay F. Van Andel play for during his time with the Boston Patriots?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270",
+    "question": "Which MLS team participated in the 2005 MLS Cup?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277",
+    "question": "Which MLS team participated in the 10th edition of the MLS Cup?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288",
+    "question": "What major competition does MLS teams participate in besides their regular season?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274",
+    "question": "Which MLS team won the most recent CONCACAF Champions League?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270",
+    "question": "Which MLS team won the 2005 CONCACAF Champions League?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288",
+    "question": "Which team won the MLS Cup 2005?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2423->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2423",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439",
+    "question": "What date did the first disc of the album release?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2423": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2423",
+    "question": "What year did the re-release of the album occur?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2077": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2077",
+    "question": "What date did the film premiere?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2077->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2077",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439",
+    "question": "When did the film premiere in Japan?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1969": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1969",
+    "question": "Who wrote the disc that was released on March 7, 2006?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1969->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1969",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439",
+    "question": "What date did both discs in the album 'The Best of' series first appear?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2340": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2340",
+    "question": "What was the release date of the 'Peace of Mind' album?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2340->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2340",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2439",
+    "question": "What date did both the original and dub versions of 'Peace of Mind' albums release?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1969": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1969",
+    "question": "Who wrote the original version of 'Orgasm' before it was released by John's Children's?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1969->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1969",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311",
+    "question": "What record label did Orgasm originally come from?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2436": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2436",
+    "question": "What was Orgasm by John's Children's?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2436->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2436",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311",
+    "question": "What was Orgasm by John's Children?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2355": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2355",
+    "question": "What was Orgasm's predecessor album?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2355->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2355",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2311",
+    "question": "What was the first studio album by Orgasm?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2141->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2437": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2141",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2437",
+    "question": "Who performed the cover version of a piece written by classical composers on this album?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2437->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2141": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2437",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2141",
+    "question": "Who directed the album featuring cover versions by classical composers?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2355->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2435": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2355",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2435",
+    "question": "Which band was featured on the Rhythm Shower studio album?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2435->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2355": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2435",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2355",
+    "question": "What band was Rhythm Shower originally part of?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2340->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2437": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2340",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2437",
+    "question": "Who is one of the final recordings of guitarist Dick Wagner mentioned in the target passage?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2437->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2340": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2437",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2340",
+    "question": "Who performed the dub music legend Adrian Sherwood's final recording on this album?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982",
+    "question": "What position did Ainsley Battles hold before resigning as DB Coach?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974",
+    "question": "What position did Ainsley Battles hold before becoming a professional American football player?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184",
+    "question": "What business did Jay Van Andel and Richard DeVos co-found together?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991",
+    "question": "What year did the Amway Corporation first start operations?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2146": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2146",
+    "question": "What year did the Van Andel Institute start?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2146->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2146",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991",
+    "question": "What year did Jay Van Andel found the company that later became Van Andel Institute?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095",
+    "question": "Who directed the Cirque du Soleil show Le Reve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1991",
+    "question": "Who co-founded the company that Doug DeVos mentioned with Richard DeVos?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2426->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2426",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320",
+    "question": "What type of plant does VARI scientists study?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2426": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2426",
+    "question": "What disease does the source passage mention as being studied by VARI scientists?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184",
+    "question": "What business did Jay Van Andel co-found with Richard DeVos?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987",
+    "question": "Who founded the Amway Corporation along with Richard DeVos?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375",
+    "question": "What business did Richard DeVos contract with for the United States Armed Forces?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987",
+    "question": "What business did Richard DeVos co-found with Jay Van Andel?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008",
+    "question": "What company did Jay Van Andel chair the board for before becoming CEO?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987",
+    "question": "Who are the shareholders of Public Storage Properties XI, Inc.?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "question": "What position did [name] hold in CenturyTel from 1985 to 1987?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132",
+    "question": "What position did Jay Van Andel hold at CenturyTel before becoming President and Chief Executive Officer?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "question": "What position did John Deere hold from 1985 to 1987?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091",
+    "question": "What position did he hold at Toro Company between 1970 and 1981?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203",
+    "question": "What position did he hold in Daniels College of Business at the University of Denver?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091",
+    "question": "What company did he serve on the board of directors for before joining The Global Automakers?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2194": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2194",
+    "question": "Who are the top leaders mentioned in this passage?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2194->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2194",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375",
+    "question": "Which companies are part of the United States Armed Forces' contract network?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "question": "What position did Jay Ornstein hold at the predecessor corporation?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219",
+    "question": "What position did Jay Ornstein hold at the predecessor corporation?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "question": "What company did Jay Van Andel serve as the President and Chief Executive Officer for?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007",
+    "question": "What position did Jay Van Andel hold before becoming the CEO?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2138": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2138",
+    "question": "What university did Jay Van Andel attend?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2138->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2138",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203",
+    "question": "What organization did Jay Van Andel serve as chairman on the board of directors for?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2194->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2237": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2194",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2237",
+    "question": "Who directed the Cirque du Soleil show featuring 90 performers and 250 cast and crew members?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2237->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2194": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2237",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2194",
+    "question": "Who are the top leaders from the affiliate companies featured in this show?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2247->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2246": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2247",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2246",
+    "question": "What company did Lee Roy Mitchell serve as a director for from 1987 to 2006?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2246->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2247": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2246",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2247",
+    "question": "What company did Lee Roy Mitchell serve as a Director from 1987 to the present?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "question": "What company did Jay Van Andel serve as president and chief executive officer from 2007 to 2012?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2240",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035",
+    "question": "What company did Jay Van Andel serve as the CEO for before joining TransUnion?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2430": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2430",
+    "question": "What shows were created by Franco Dragone?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2430->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2430",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234",
+    "question": "Who directed the Cirque du Soleil show 'Memories'?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080",
+    "question": "Which Cirque du Soleil show stars Erica Linz and Igor Zaripov?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301",
+    "question": "Which Cirque du Soleil show stars Erica Linz and Igor Zaripov?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300",
+    "question": "What show did Jay Van Andel co-found with Richard DeVos?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432",
+    "question": "What was the previous location of Mystère before it premiered at the Aria Resort & Casino?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079",
+    "question": "Who directed the show 'Criss Angel Believe'?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082",
+    "question": "Who directed the Cirque du Soleil show Le Reve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2076": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2076",
+    "question": "What movie did Cirque du Soleil direct?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2076->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2076",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300",
+    "question": "What Cirque du Soleil show does the Treasure Island Hotel and Casino host?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2326->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2348": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2326",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2348",
+    "question": "What genus contains the Podocarpus plant?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2348->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2326": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2348",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2326",
+    "question": "How many species are currently listed in the Podocarpus genus?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2323": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2323",
+    "question": "What genus does Osmunda wehrii belong to?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2323->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2323",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320",
+    "question": "What is the relationship between Osmunda wehrii and other ferns in the Osmundaceae family?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409",
+    "question": "What did the source passage mention about the hybrid origin of the species?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2320",
+    "question": "What did Thornton station appear to be a species of?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175",
+    "question": "Which Amtrak trains does Lamphun Railway Station serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227",
+    "question": "What country does the Lamphun Railway Station belong to?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409",
+    "question": "What did the station originally have the name of?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230",
+    "question": "What did Thornton station originally stand under?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2371": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2371",
+    "question": "What business does the station serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2371->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2371",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230",
+    "question": "What type of building is the station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336",
+    "question": "What railway station was Su-ngai Kolok originally named?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401",
+    "question": "What was the name of the Khok Pho Station before it became Thon Buri Railway Station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409",
+    "question": "What were the previous names of Khok Pho Station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2409",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336",
+    "question": "What was the original name of the station before it became Thornton for Cleveleys?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364",
+    "question": "Which Amtrak train does this station serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379",
+    "question": "Which Amtrak trains does the Silver Star serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2077->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2078": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2077",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2078",
+    "question": "What was the name of the movie that premiered at the Tokyo International Film Festival on October 20, 2012?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2078->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2077": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2078",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2077",
+    "question": "What is the premiere date of the movie that tells the story of Mia going to a traveling circus?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2078->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2078",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079",
+    "question": "Which Cirque du Soleil show does Mia visit after falling in love with the Aerialist?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2078": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2078",
+    "question": "What movie was distributed by Paramount Pictures on December 21, 2012?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080",
+    "question": "Which Cirque du Soleil show featured performances by Aerialist and Mia after December 21, 2012?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079",
+    "question": "What shows did Erica Linz and Igor Zaripov perform in Las Vegas in 2011?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2307": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2307",
+    "question": "What was the Allied Army Group Sixth United States Army Group used for during World War II?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2307->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2307",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2382",
+    "question": "What field army did the Allies simulate for the operation to threaten an invasion of France?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091",
+    "question": "What position did he hold at Toro Company before becoming the chairman?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112",
+    "question": "What position did he hold at the Army during his time as chairman and CEO?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007",
+    "question": "What position did General [name] hold?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112",
+    "question": "What position did General [name] hold?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375",
+    "question": "Which U.S. military branch did this company contract with?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2375",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2383",
+    "question": "Which companies did the U.S. Armed Forces contract with besides NASA?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974",
+    "question": "What university did Jay Van Andel attend before becoming a professional football player?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2073",
+    "question": "What did he do after obtaining his juris doctorate?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288",
+    "question": "What other professional sports teams compete with the New England Patriots in the Continental Rivalry?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397",
+    "question": "What two MLS teams are mentioned in the target passage?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277",
+    "question": "Which MLS team has never participated in a rivalry cup?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2397",
+    "question": "Which MLS team has played against the New England Revolution?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274",
+    "question": "Which MLS teams have not competed in rivalry cups?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277",
+    "question": "Which MLS team has never participated in a rivalry cup?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220",
+    "question": "Which MLS team has never competed in rivalry cups?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2277",
+    "question": "Which MLS team has never participated in the rivalry cups?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026",
+    "question": "What college did he play football at?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274",
+    "question": "What college did he play football at?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270",
+    "question": "Which MLS team won the 2005 MLS Cup?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2274",
+    "question": "Which MLS Cup was won by the New England Revolution?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2271->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2271",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190",
+    "question": "Which professional sports team did LeVias play for during his time in the American Football League?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2271": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2271",
+    "question": "What team did Jay Van Andel play for during his professional career?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220",
+    "question": "Who founded the Colorado Springs Switchbacks MLS team?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2288",
+    "question": "What professional league does Kareem Smith play in?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270",
+    "question": "Who directed the MLS Cup 2005 match that decided the champion of the 2005 season?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2270",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2220",
+    "question": "Who was the winner of the MLS Cup 2005 match between New England Revolution and Los Angeles Galaxy?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2023->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2188": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2023",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2188",
+    "question": "What position did Jerry LeVias hold during his NFL career?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2188->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2023": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2188",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2023",
+    "question": "What position did Jerry LeVias hold during his NFL career?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2023->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2023",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051",
+    "question": "What company did he direct after leaving the NFL?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2023": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2023",
+    "question": "What position did he hold before becoming a director at Avant Credit Corporation?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103",
+    "question": "Which team did John Rutkowski play for after he finished his college football career?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026",
+    "question": "What team did Rutkowski play for after he finished his college football career?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981",
+    "question": "What position did Jay Van Andel hold on the young promising team?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2026",
+    "question": "What position did Jay Van Andel hold during his time at Wisconsin?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190",
+    "question": "Which professional sports team did LeVias play for during his time in the American Football League?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974",
+    "question": "What team did LeVias play for during his time in the NFL?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981",
+    "question": "What position did Ainsley Battles hold during his time as a defensive backs coach?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1974",
+    "question": "What position did Ainsley Battles hold during his time as a defensive backs coach?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103",
+    "question": "What position did General [name] hold?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1981",
+    "question": "What position did Rutkowski hold while coaching the Montreal Alouettes?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103",
+    "question": "Which team did Jay Van Andel play for after leaving the Boston Patriots?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2103",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124",
+    "question": "What team did Rutkowski play for after his Pro Football career?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190",
+    "question": "Who directed the Cirque du Soleil show 'Le Reve'?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2190",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2124",
+    "question": "What team did LeVias play on before joining the Houston Oilers?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2188->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2188",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982",
+    "question": "What position did Jerry LeVias hold before resigning as the Defensive Back coach?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2188": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2188",
+    "question": "Who did Jerry LeVias resign from the position of DB Coach?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132",
+    "question": "What position did [name] hold at CenturyTel?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1982",
+    "question": "What position did [name] hold after resigning from DB Coach?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184",
+    "question": "What business did Jay Van Andel co-found with Richard DeVos?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095",
+    "question": "Who founded the Amway Corporation alongside Jay Van Andel?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987",
+    "question": "Who founded the business that Doug DeVos owns with his father?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1987",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2095",
+    "question": "Who founded the businesses that Jay Van Andel co-owned with Richard DeVos?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1988->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1988",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184",
+    "question": "What business did Jay Van Andel co-found with Richard DeVos?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1988": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2184",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:1988",
+    "question": "What did Richard DeVos replace Jay Van Andel's Amway business with after the launch of Amway Global?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219",
+    "question": "What position did Jay Van Andel hold at CenturyTel in 1985?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2132",
+    "question": "What position did Jay Ornstein hold at CenturyTel from 1985 to 1986?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035",
+    "question": "What position did he hold at TransUnion during his tenure?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051",
+    "question": "What company did he serve as a director for after leaving HSBC North America?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007",
+    "question": "What position did he hold before becoming a director of Avant Credit Corporation?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2007",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051",
+    "question": "What company did he serve on the board of directors for after retiring from his CEO position?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035",
+    "question": "What position did he hold at TransUnion LLC?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2091",
+    "question": "What position did he hold at Toro Company before becoming the CEO?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219",
+    "question": "What position did Jay Van Andel hold at Public Storage Properties XI, Inc.?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008",
+    "question": "What company did Ornstein work for before becoming the Chairman of the Board and Chief Executive Officer?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203",
+    "question": "What organization does he serve as chairman on the board of directors?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2008",
+    "question": "What company did he serve on the board of directors for?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112",
+    "question": "What position did General [name] hold?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2112",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2219",
+    "question": "What position did General [name] hold?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051",
+    "question": "What company did he serve on the board of directors?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2051",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2203",
+    "question": "What company did he serve on the board of directors?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2247->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2247",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035",
+    "question": "What company did he serve as the CEO and President for?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2247": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2035",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2247",
+    "question": "What company did he serve as a director for?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301",
+    "question": "Which Cirque du Soleil show was created by Franco Dragone?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234",
+    "question": "Who directed the Cirque du Soleil show 'It'?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080",
+    "question": "What Cirque du Soleil show did Erica Linz and Igor Zaripov perform in?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234",
+    "question": "Who directed the Cirque du Soleil show 'Viva Elvis'?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232",
+    "question": "Which Cirque du Soleil show does Le Rêve belong to?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301",
+    "question": "Which Cirque du Soleil show does Le Rêve belong to?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079",
+    "question": "Which Cirque du Soleil show does 'Love' refer to?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2079",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2301",
+    "question": "Which Cirque du Soleil show does Love represent?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232",
+    "question": "What theater company's show does this production belong to?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432",
+    "question": "Which resort did Le Rêve premiere at?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080",
+    "question": "Which Cirque du Soleil show did Erica Linz and Igor Zaripov perform in the movie based on this love story?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2080",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2432",
+    "question": "What Cirque du Soleil show did Erica Linz and Igor Zaripov perform in this production?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2237->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2237",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082",
+    "question": "Who directed the Cirque du Soleil show Le Reve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2237": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2237",
+    "question": "Who directed the Cirque du Soleil show Le Reve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082",
+    "question": "Who directed the Cirque du Soleil show Le Rêve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2232",
+    "question": "Who directed the Cirque du Soleil show Le Rêve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300",
+    "question": "Who directed the Cirque du Soleil show Mystère?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2082",
+    "question": "Who directed the Cirque du Soleil show 'Mystère'?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234",
+    "question": "Who directed the Cirque du Soleil show Mystère?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2234",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2300",
+    "question": "What Cirque du Soleil production was created by Franco Dragone?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2326->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2346": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2326",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2346",
+    "question": "What genus does Podocarpus laetus belong to?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2346->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2326": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2346",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2326",
+    "question": "Which five to ten species are listed for the genus Podocarpus laetus?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2330->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2330",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400",
+    "question": "Which railway line does this station belong to?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2330": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2330",
+    "question": "What event marked the opening of the railway station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2330->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2330",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401",
+    "question": "What was the opening date of Su-ngai Kolok Station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2330": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2330",
+    "question": "What event marked the opening of Su-ngai Kolok Station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2001->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2001",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159",
+    "question": "Which railway station is closest to Suvarnabhumi Airport?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2001": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2001",
+    "question": "What is the nearest large railway station to King Mongkut's Institute of Technology Ladkrabang?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2001->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2001",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401",
+    "question": "What is the nearest railway station to Bangkok?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2001": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2401",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2001",
+    "question": "What is the relationship between Su-ngai Kolok Station and Aranyaprathet Railway Station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159",
+    "question": "Which railway station is closest to Suvarnabhumi Airport?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227",
+    "question": "What is the relationship between Bangkok Railway Station and Suvarnabhumi Airport?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336",
+    "question": "What event marked the opening of Lamphun Railway Station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2227",
+    "question": "What was the name of the previous station before Lamphun Railway Station opened?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400",
+    "question": "Which railway station is closest to Suvarnabhumi Airport?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2159",
+    "question": "Which large railway station is closest to King Mongkut's Institute of Technology Ladkrabang?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336",
+    "question": "What event marked the opening of It railway station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2336",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400",
+    "question": "What was the previous name of Khok Pho Station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230",
+    "question": "What type of station does this railway station belong to?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2230",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2400",
+    "question": "What type of railway station is this?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2068->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2068",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379",
+    "question": "Which Amtrak trains does this station serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2068": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2068",
+    "question": "Which train does this station serve along with the 'Silver Star'?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2068->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2176": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2068",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2176",
+    "question": "Which Amtrak trains does this station serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2176->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2068": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2176",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2068",
+    "question": "Which Amtrak trains does this station serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175",
+    "question": "Which Amtrak trains does Jacksonville station serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2379",
+    "question": "What other train service does Jacksonville station serve besides 'Silver Star'?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364",
+    "question": "Which Amtrak train lines pass through Jacksonville station?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2175",
+    "question": "Which Amtrak trains does Jacksonville station serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2176": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2176",
+    "question": "Which Amtrak trains does this station serve?"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2176->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2176",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2364",
+    "question": "Which train services share the same right-of-way as the 'Silver Star' train?"
+  }
+}

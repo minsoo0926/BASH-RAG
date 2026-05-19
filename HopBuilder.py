@@ -127,7 +127,7 @@ class QABuilder:
 
         return docid2nodes,node2questiondict# 
     
-    def create_nodes_offline(self,docs_dir:str='/path/to/docs',start_index=0,span=100)->Tuple[Dict[str,List[int]],Dict[Tuple[int,str],Dict[str,List[Tuple[str,Set,np.ndarray]]]]]:
+    def create_nodes_offline(self,docs_dir:str='/path/to/docs',start_index=0,span=100,checkpoint_dir=None,checkpoint_every=10)->Tuple[Dict[str,List[int]],Dict[Tuple[int,str],Dict[str,List[Tuple[str,Set,np.ndarray]]]]]:
         logger.info(f" starting creating offline nodes called {self.label} for docs in {docs_dir} from index {start_index} to {start_index+span-1}")
         docs_pool=os.listdir(docs_dir)
         docs_pool = sorted([x for x in docs_pool if x.endswith(".txt")])
@@ -135,7 +135,49 @@ class QABuilder:
         # print("DEBUG docs_pool size:", len(docs_pool))  
         docid2nodes={}
         node2questiondict={}
-        node_id=start_index*50 # assume 50 nodes for each previous doc to avoid node_id conflict
+        checkpoint_docid2nodes={}
+        checkpoint_node2questiondict={}
+        if checkpoint_dir is not None:
+            if not os.path.exists(checkpoint_dir):
+                os.makedirs(checkpoint_dir)
+            docid_path=os.path.join(checkpoint_dir,'docid2nodes.json')
+            node2q_path=os.path.join(checkpoint_dir,'node2questiondict.pkl')
+            if os.path.exists(docid_path):
+                with open(docid_path,'r', encoding='utf-8') as f:
+                    checkpoint_docid2nodes=json.load(f)
+                self.done.update(checkpoint_docid2nodes.keys())
+            if os.path.exists(node2q_path):
+                with open(node2q_path,'rb') as f:
+                    checkpoint_node2questiondict=pickle.load(f)
+
+        existing_node_ids=[
+            node_id
+            for node_ids in checkpoint_docid2nodes.values()
+            for node_id in node_ids
+        ]
+        node_id=max(existing_node_ids) if existing_node_ids else start_index*50 # assume 50 nodes for each previous doc to avoid node_id conflict
+
+        def save_checkpoint():
+            if checkpoint_dir is None:
+                return
+            merged_docid2nodes=dict(checkpoint_docid2nodes)
+            merged_docid2nodes.update(docid2nodes)
+            merged_node2questiondict=dict(checkpoint_node2questiondict)
+            merged_node2questiondict.update(node2questiondict)
+
+            docid_path=os.path.join(checkpoint_dir,'docid2nodes.json')
+            docid_tmp=docid_path+'.tmp'
+            with open(docid_tmp,'w', encoding='utf-8') as f:
+                json.dump(merged_docid2nodes,f)
+            os.replace(docid_tmp,docid_path)
+
+            node2q_path=os.path.join(checkpoint_dir,'node2questiondict.pkl')
+            node2q_tmp=node2q_path+'.tmp'
+            with open(node2q_tmp,'wb') as f:
+                pickle.dump(merged_node2questiondict,f)
+            os.replace(node2q_tmp,node2q_path)
+
+        processed_since_checkpoint=0
         for doc_id in tqdm(docs_pool[start_index:start_index+span],desc='create_nodes'): 
             if doc_id in self.done:
                 continue
@@ -153,10 +195,15 @@ class QABuilder:
                         node2questiondict[(node_id,doc_id)]=(node,tup[3]) # cache the node
                         nodes_id.append(node_id)
                 docid2nodes[doc_id]=nodes_id
+                processed_since_checkpoint+=1
+                if checkpoint_every and processed_since_checkpoint>=checkpoint_every:
+                    save_checkpoint()
+                    processed_since_checkpoint=0
             except Exception as e:
                 logger.info(f'error:{doc_id}——{e}')
                 time.sleep(3)
                 continue
+        save_checkpoint()
         return docid2nodes,node2questiondict# 
     
     def create_nodes_cache(self,cache_dir:str="path/to/cache_dir")->Tuple[Dict[str,List[int]],Dict[Tuple[int,str],Dict[str,List[Tuple[str,Set,np.ndarray]]]]]:
@@ -413,7 +460,14 @@ def main_nodes(cache_dir='quickstart_dataset/cache_hotpot',docs_dir="quickstart_
     builder = QABuilder(done=done,label=label)
     if original_cache_dir is None:
         if offline:
-            docid2nodes,node2questiondict=builder.create_nodes_offline(docs_dir,start_index=start_index,span=span)
+            checkpoint_every=int(os.getenv("HOPRAG_CHECKPOINT_EVERY", "10"))
+            docid2nodes,node2questiondict=builder.create_nodes_offline(
+                docs_dir,
+                start_index=start_index,
+                span=span,
+                checkpoint_dir=cache_dir,
+                checkpoint_every=checkpoint_every,
+            )
         else:
             docid2nodes,node2questiondict=builder.create_nodes(docs_dir,start_index=start_index,span=span)
     else:

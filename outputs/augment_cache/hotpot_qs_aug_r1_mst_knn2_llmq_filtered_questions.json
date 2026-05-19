@@ -1,0 +1,821 @@
+{
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2872->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2873": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2872",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2873",
+    "question": "Which field army did the Sixth United States Army Group include?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2872->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2794": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2872",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2794",
+    "question": "Who commanded the Sixth United States Army Group in World War II?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2602->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2622": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2602",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2622",
+    "question": "What position did Jay Van Andel hold at CenturyTel?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2797->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2873": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2797",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2873",
+    "question": "What specific information is provided about France?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2873->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2810": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2873",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2810",
+    "question": "What type of plant does this hybrid army formation resemble?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2563->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2472": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2563",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2472",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2887->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2710": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2887",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2710",
+    "question": "What position did Kareem Smith hold in the New England Patriots?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2887->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2614": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2887",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2614",
+    "question": "What specific information is provided about American?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2767->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2760": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2767",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2760",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2764->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2778": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2764",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2778",
+    "question": "What specific information is provided about MLS, Major League Soccer, that?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2778->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2760": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2778",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2760",
+    "question": "Which MLS team won the 2005 CONCACAF Champions League?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2913->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2929": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2913",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2929",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2929->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2567": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2929",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2567",
+    "question": "When did the film premiere?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2929->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2459": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2929",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2459",
+    "question": "Who wrote the disc that was released on March 7, 2006?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2929->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2830": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2929",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2830",
+    "question": "What was the release date of the 'Peace of Mind' album?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2801->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2459": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2801",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2459",
+    "question": "What specific information is provided about Beatles, It?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2801->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2926": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2801",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2926",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2801->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2845": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2801",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2845",
+    "question": "What was Orgasm's predecessor album?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2631->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2927": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2631",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2927",
+    "question": "Who performed on the album alongside Dick Wagner?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2845->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2925": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2845",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2925",
+    "question": "Which band was featured on the Rhythm Shower studio album by The Upsetters?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2830->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2927": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2830",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2927",
+    "question": "Who is one of the final recordings of guitarist Dick Wagner featured on 'Peace of Mind'?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2464->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2472": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2464",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2472",
+    "question": "What position did Ainsley Battles hold before resigning as a coach?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2472->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2537": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2472",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2537",
+    "question": "What position did Jay Van Andel hold at The Boston Consulting Group?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2481->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2674": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2481",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2674",
+    "question": "What business did Jay Van Andel co-found with Richard DeVos?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2481->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2636": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2481",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2636",
+    "question": "What year did the Van Andel Institute start?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2481->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2585": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2481",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2585",
+    "question": "What specific information is provided about 1959, Ada, American?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2916->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2810": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2916",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2810",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2477->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2674": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2477",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2674",
+    "question": "What business did Jay Van Andel co-found with Richard DeVos?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2477->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2865": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2477",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2865",
+    "question": "What business did Richard DeVos contract with for the United States Armed Forces?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2477->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2498": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2477",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2498",
+    "question": "What company did Richard DeVos serve as Chairman of the Board and CEO?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2622->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2709": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2622",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2709",
+    "question": "What specific information is provided about 1988?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2581->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2693": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2581",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2693",
+    "question": "What is his current position on the board of directors at The Global Automakers?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2865->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2684": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2865",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2684",
+    "question": "Who are the top leaders mentioned in this passage?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2498->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2734": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2498",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2734",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2684->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2727": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2684",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2727",
+    "question": "Who directed the Cirque du Soleil show featuring 90 performers and 250 cast and crew members?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2724->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2920": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2724",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2920",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2791->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2570": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2791",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2570",
+    "question": "Which Cirque du Soleil show stars Erica Linz and Igor Zaripov?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2922->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2790": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2922",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2790",
+    "question": "What Cirque du Soleil show does the Aria Resort & Casino host?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2572->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2569": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2572",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2569",
+    "question": "Who directed the show 'Criss Angel Believe'?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2790->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2566": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2790",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2566",
+    "question": "What movie did Cirque du Soleil direct after the show Mystère?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2816->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2838": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2816",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2838",
+    "question": "What genus has the most species?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2810->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2813": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2810",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2813",
+    "question": "What genus does Osmunda wehrii belong to?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2810->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2899": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2810",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2899",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2717->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2665": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2717",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2665",
+    "question": "Which Amtrak trains does Lamphun Railway Station serve?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2720->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2899": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2720",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2899",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2720->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2861": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2720",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2861",
+    "question": "What is the location of the Rocky Mount train station?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2891->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2826": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2891",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2826",
+    "question": "What specific information is provided about It, Thon Buri Railway Station, a class 1 railway station?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2826->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2899": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2826",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2899",
+    "question": "What were the different names used for Khok Pho Station during its lifetime?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2869->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2854": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2869",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2854",
+    "question": "Which other Amtrak trains share the same right-of-way as the Silver Star train?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2567->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2568": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2567",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2568",
+    "question": "Which movie was released theatrically in the United States on December 21, 2012?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2568->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2569": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2568",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2569",
+    "question": "Which Cirque du Soleil show does Mia visit after falling with the Aerialist?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2569->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2570": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2569",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2570",
+    "question": "Which Cirque du Soleil show featured performances by Aerialist during the time when Erica Linz was a main character?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2872->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2797": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2872",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2797",
+    "question": "What was the Allied Army Group Sixth United States Army Group involved in during World War II?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2602->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2581": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2602",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2581",
+    "question": "What was his role at Toro Company before becoming chairman?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2602->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2497": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2602",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2497",
+    "question": "What position did Jay Van Andel hold before becoming Chief Executive Officer?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2873->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2865": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2873",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2865",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2563->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2464": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2563",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2464",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2563->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2497": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2563",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2497",
+    "question": "What was his previous role before becoming Chief Executive Officer?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2887->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2778": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2887",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2778",
+    "question": "Which MLS team competes against the New England Revolution at Gillette Stadium?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2887->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2767": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2887",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2767",
+    "question": "Which MLS team has never participated in a rivalry cup?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2767->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2764": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2767",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2764",
+    "question": "What specific information is provided about 18th century, Derby, El Capitán?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2767->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2710": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2767",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2710",
+    "question": "Which MLS team did Kareem Smith play for before joining the New England Revolution?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2764->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2516": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2764",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2516",
+    "question": "What school did he play college football for?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2764->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2760": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2764",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2760",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2761->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2680": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2761",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2680",
+    "question": "Which professional sports team did LeVias play for during his time in the American Football League?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2778->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2710": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2778",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2710",
+    "question": "Who founded the Colorado Springs Switchbacks?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2710->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2760": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2710",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2760",
+    "question": "Who directed the MLS Cup 2005 match that decided the champion of the 2005 season?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2513->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2678": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2513",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2678",
+    "question": "What position did Jerry LeVias hold during his NFL career?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2513->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2541": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2513",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2541",
+    "question": "What organization has he been involved with since December 18, 2014?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2516->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2593": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2516",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2593",
+    "question": "Which team did John Rutkowski play for after closing out his Pro Football career?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2516->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2471": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2516",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2471",
+    "question": "What specific information is provided about American, the National Football League?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2464->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2680": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2464",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2680",
+    "question": "Which team did LeVias play for during his time in the NFL?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2464->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2471": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2464",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2471",
+    "question": "What position did Ainsley Battles hold during his time as a defensive backs coach?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2471->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2593": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2471",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2593",
+    "question": "What position did General Rutkowski hold?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2614->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2593": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2614",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2593",
+    "question": "What specific information is provided about American?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2614->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2680": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2614",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2680",
+    "question": "What specific information is provided about American, He, a former American football player?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2678->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2472": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2678",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2472",
+    "question": "What specific information is provided about American?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2585->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2674": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2585",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2674",
+    "question": "What business did Jay Van Andel co-found with Richard DeVos?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2585->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2477": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2585",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2477",
+    "question": "Who founded the business that Doug DeVos owns with his father?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2478->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2674": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2478",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2674",
+    "question": "What business did Jay Van Andel co-found with Richard DeVos?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2622->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2541": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2622",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2541",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2622->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2734": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2622",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2734",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2541->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2497": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2541",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2497",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2541->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2693": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2541",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2693",
+    "question": "What organization does he serve on the board of directors?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2581->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2497": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2581",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2497",
+    "question": "What was his role before he retired as Chief Executive Officer?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2581->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2709": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2581",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2709",
+    "question": "What position did Jay Van Andel hold at Toro Company in 1970?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2498->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2709": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2498",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2709",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2498->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2693": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2498",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2693",
+    "question": "What company does he serve on the board of directors?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2709->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2537": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2709",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2537",
+    "question": "What position did Jay Ornstein hold at The Boston Consulting Group?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2693->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2684": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2693",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2684",
+    "question": "What specific information is provided about Japan, Jim Lentz, Lentz?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2684->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2537": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2684",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2537",
+    "question": "What position did Jay Van Andel hold at The Boston Consulting Group?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2734->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2537": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2734",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2537",
+    "question": "What concrete fact is stated in the passage?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2724->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2791": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2724",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2791",
+    "question": "Which Cirque du Soleil show was created by Franco Dragone?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2724->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2570": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2724",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2570",
+    "question": "What Cirque du Soleil show did Erica Linz and Igor Zaripov perform in?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2791->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2722": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2791",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2722",
+    "question": "What specific information is provided about Cirque du Soleil, It, Las Vegas?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2791->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2569": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2791",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2569",
+    "question": "Which Cirque du Soleil show does 'Love' refer to?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2922->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2722": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2922",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2722",
+    "question": "What theater production did Jay Van Andel direct?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2922->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2570": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2922",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2570",
+    "question": "Which Cirque du Soleil show did Erica Linz and Igor Zaripov perform in the movie based on this love story?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2727->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2572": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2727",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2572",
+    "question": "Who directed the Cirque du Soleil show Le Reve?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2722->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2572": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2722",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2572",
+    "question": "Who directed the Cirque du Soleil show Le Rêve?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2572->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2790": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2572",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2790",
+    "question": "Who directed the Cirque du Soleil show Mystère?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2790->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2724": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2790",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2724",
+    "question": "Who directed the Cirque du Soleil show Mystère?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2816->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2836": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2816",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2836",
+    "question": "What genus does Podocarpus laetus belong to?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2820->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2890": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2820",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2890",
+    "question": "What was the opening date of the railway station?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2820->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2891": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2820",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2891",
+    "question": "What was the opening date of Su-ngai Kolok Station?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2491->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2649": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2491",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2649",
+    "question": "Which railway station is closest to Suvarnabhumi Airport?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2491->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2891": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2491",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2891",
+    "question": "What railway station is closest to Bangkok?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2717->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2649": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2717",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2649",
+    "question": "Which railway station is closest to Suvarnabhumi Airport?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2717->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2826": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2717",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2826",
+    "question": "Which railway line did Lamphun Railway Station open as part of?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2649->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2890": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2649",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2890",
+    "question": "Which railway station is closest to Suvarnabhumi Airport?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2890->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2826": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2890",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2826",
+    "question": "What event led to the opening of It railway station on April 1917?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2890->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2720": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2890",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2720",
+    "question": "What type of station does this railway station belong to?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2558->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2869": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2558",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2869",
+    "question": "What specific information is provided about Amtrak, Silver Star?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2558->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2666": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2558",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2666",
+    "question": "What specific information is provided about Amtrak, Silver Star, The station?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2869->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2665": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2869",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2665",
+    "question": "What specific information is provided about Amtrak, Florida, Silver Star?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2665->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2854": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2665",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2854",
+    "question": "Which Amtrak train lines pass through Jacksonville station?",
+    "used_fallback": false,
+    "validation_reason": "ok"
+  },
+  "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2854->4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2666": {
+    "source": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2854",
+    "target": "4:4500d550-2f38-4592-a5ca-b6d11bd95a6c:2666",
+    "question": "What specific information is provided about Amtrak, Silver Star, The station?",
+    "used_fallback": true,
+    "validation_reason": "fallback used after failed retries"
+  }
+}
