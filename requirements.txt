@@ -5,8 +5,6 @@ sentence_transformers
 numpy
 torch
 openai
-paddlepaddle
-paddlenlp
 nltk
 swifter
 jsonlines
