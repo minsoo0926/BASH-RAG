@@ -16,10 +16,18 @@ def parse_args():
     )
     parser.add_argument("--data", default="quickstart_dataset/hotpot_example.jsonl")
     parser.add_argument("--limit", type=int, default=10)
+    parser.add_argument("--start-index", type=int, default=0, help="Zero-based question offset before applying --limit.")
     parser.add_argument("--traversal", default="bfs_sim_node")
     parser.add_argument("--entry-type", default="node")
+    parser.add_argument("--hybrid", action="store_true", help="Use hybrid sparse+dense retrieval for the initial candidates.")
     parser.add_argument("--topk", type=int, default=5)
     parser.add_argument("--max-hop", type=int, default=2)
+    parser.add_argument(
+        "--epsilon",
+        type=float,
+        default=0.1,
+        help="HopQ explore/exploit balance. 0 uses query exploitation only; 1 uses graph exploration only.",
+    )
     parser.add_argument("--output", default=None)
     parser.add_argument(
         "--progress-interval",
@@ -35,10 +43,12 @@ def parse_args():
     return parser.parse_args()
 
 
-def load_questions(path, limit):
+def load_questions(path, limit, start_index=0):
     questions = []
     with open(path, "r", encoding="utf-8") as f:
-        for line in f:
+        for raw_idx, line in enumerate(f):
+            if raw_idx < start_index:
+                continue
             if line.strip():
                 questions.append(json.loads(line))
             if limit and len(questions) >= limit:
@@ -75,7 +85,13 @@ def evaluate_hit(example, retrieved_contexts):
     for support in supports:
         hit = any(text_hit(support["sentence"], context) for context in retrieved_contexts)
         support_hits.append({**support, "hit": hit})
-    return support_hits
+
+    retrieved_hit_count = 0
+    for context in retrieved_contexts:
+        if any(text_hit(support["sentence"], context) for support in supports):
+            retrieved_hit_count += 1
+
+    return support_hits, retrieved_hit_count
 
 
 def format_duration(seconds):
@@ -148,14 +164,15 @@ def main():
     from HopRetriever import HopRetriever
     from config import edge_name, local_model_name, node_name
 
-    questions = load_questions(args.data, args.limit)
+    questions = load_questions(args.data, args.limit, args.start_index)
     retriever = HopRetriever(
         llm=local_model_name,
         max_hop=args.max_hop,
         entry_type=args.entry_type,
-        if_hybrid=False,
+        if_hybrid=args.hybrid,
         topk=args.topk,
         traversal=args.traversal,
+        epsilon=args.epsilon,
     )
 
     results = []
@@ -187,9 +204,16 @@ def main():
                         contexts, scores = retriever.search_docs(query)
         elapsed = time.time() - item_start
 
-        support_hits = evaluate_hit(example, contexts)
+        support_hits, retrieved_hit_count = evaluate_hit(example, contexts)
         hit_count = sum(1 for hit in support_hits if hit["hit"])
         required_count = len(support_hits)
+        retrieval_precision = retrieved_hit_count / len(contexts) if contexts else 0.0
+        retrieval_recall = hit_count / required_count if required_count else 0.0
+        retrieval_f1 = (
+            2 * retrieval_precision * retrieval_recall / (retrieval_precision + retrieval_recall)
+            if retrieval_precision + retrieval_recall
+            else 0.0
+        )
         results.append(
             {
                 "id": example.get("_id"),
@@ -198,6 +222,10 @@ def main():
                 "retrieved_count": len(contexts),
                 "support_hit_count": hit_count,
                 "support_required_count": required_count,
+                "retrieved_support_context_count": retrieved_hit_count,
+                "retrieval_precision_proxy": retrieval_precision,
+                "retrieval_recall_proxy": retrieval_recall,
+                "retrieval_f1_proxy": retrieval_f1,
                 "all_supports_hit": hit_count == required_count and required_count > 0,
                 "any_support_hit": hit_count > 0,
                 "elapsed_seconds": elapsed,
@@ -220,19 +248,34 @@ def main():
     evaluated = len(results)
     total_supports = sum(row["support_required_count"] for row in results)
     total_support_hits = sum(row["support_hit_count"] for row in results)
+    total_retrieved = sum(row["retrieved_count"] for row in results)
+    total_retrieved_hits = sum(row["retrieved_support_context_count"] for row in results)
+    retrieval_precision_proxy = total_retrieved_hits / total_retrieved if total_retrieved else 0.0
+    retrieval_recall_proxy = total_support_hits / total_supports if total_supports else 0.0
+    retrieval_f1_proxy = (
+        2 * retrieval_precision_proxy * retrieval_recall_proxy / (retrieval_precision_proxy + retrieval_recall_proxy)
+        if retrieval_precision_proxy + retrieval_recall_proxy
+        else 0.0
+    )
     summary = {
         "label": node_name,
         "relationship": edge_name,
         "data": args.data,
         "limit": args.limit,
+        "start_index": args.start_index,
         "traversal": args.traversal,
         "entry_type": args.entry_type,
+        "hybrid": args.hybrid,
         "topk": args.topk,
         "max_hop": args.max_hop,
+        "epsilon": args.epsilon,
         "evaluated_questions": evaluated,
         "questions_with_any_support_hit": sum(1 for row in results if row["any_support_hit"]),
         "questions_with_all_supports_hit": sum(1 for row in results if row["all_supports_hit"]),
         "support_fact_hit_rate": total_support_hits / total_supports if total_supports else 0.0,
+        "retrieval_precision_proxy": retrieval_precision_proxy,
+        "retrieval_recall_proxy": retrieval_recall_proxy,
+        "retrieval_f1_proxy": retrieval_f1_proxy,
         "avg_elapsed_seconds": total_elapsed / evaluated if evaluated else 0.0,
         "total_elapsed_seconds": total_elapsed,
     }

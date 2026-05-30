@@ -12,8 +12,37 @@ from loguru import logger
 from typing import List, Tuple, Dict, Set, Union
 from collections import defaultdict
 
+def _safe_lucene_query(query) -> str:
+    cleaned = re.sub(r"[^0-9A-Za-z]+", " ", str(query)).strip()
+    return " ".join(cleaned.split())
+
+
+def _keyword_terms(keywords) -> List[str]:
+    if keywords is None:
+        return []
+    if isinstance(keywords, str):
+        raw_terms = [keywords]
+    else:
+        try:
+            raw_terms = list(keywords)
+        except TypeError:
+            raw_terms = [keywords]
+
+    terms = []
+    seen = set()
+    for keyword in raw_terms:
+        safe = _safe_lucene_query(keyword)
+        if not safe:
+            continue
+        key = safe.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        terms.append(safe)
+    return terms
+
 class HopRetriever(HopQMixin):
-    def __init__(self,llm='gpt-4o-mini',max_hop:int=5,entry_type="edge",if_hybrid=False,if_trim=False,cache_context_path="./context_outcome.json",tol=2,mock_dense=False,mock_sparse=False,topk=10,traversal="bfs",embedding_model=embed_model,reranker=None,epsilon=0.3):
+    def __init__(self,llm='gpt-4o-mini',max_hop:int=5,entry_type="edge",if_hybrid=False,if_trim=False,cache_context_path="./context_outcome.json",tol=2,mock_dense=False,mock_sparse=False,topk=10,traversal="bfs",embedding_model=embed_model,reranker=None,epsilon=0.1):
         self.emb_model = load_embed_model(embedding_model)
         self.driver = GraphDatabase.driver(neo4j_url, auth=(neo4j_user, neo4j_password), database=neo4j_dbname, notifications_disabled_categories=neo4j_notification_filter)
         self.max_hop = max_hop
@@ -36,7 +65,7 @@ class HopRetriever(HopQMixin):
     def process_query(self,query):
         # get embedding and keywords for hybrid retrieval
         query_embedding=get_doc_embeds(query, self.emb_model)
-        query_keywords=query # str
+        query_keywords=get_ner_eng(query)
         return query_embedding, query_keywords
     
     def query_reformulation(self,query):
@@ -47,16 +76,23 @@ class HopRetriever(HopQMixin):
         return subqueries
     
     def hybrid_retrieve_edge(self,keywords:str,embedding:List,context:Dict,mock_sparse:bool=False):
-        startNode_sparse=[]
+        sparse_by_question={}
         startNode_dense=[]
         with self.driver.session() as session:
-            result=session.run(retrieve_edge_sparse_query.format(keywords=repr(keywords),index=repr(edge_sparse_index_name)))
-            if result is None:
-                return None
-            for record in result: 
-                startNode_sparse.append((record['endNode'],record['sparse_edge'],record['sparse_score']))
+            for term in _keyword_terms(keywords):
+                result=session.run(retrieve_edge_sparse_query.format(keywords=repr(term),index=repr(edge_sparse_index_name)))
+                if result is None:
+                    return None
+                for record in result:
+                    question = record['sparse_edge'].get('question')
+                    if question is None:
+                        continue
+                    if question not in sparse_by_question:
+                        sparse_by_question[question] = [record['endNode'], record['sparse_edge'], 0]
+                    sparse_by_question[question][2] += 1
+            startNode_sparse=[tuple(value) for value in sparse_by_question.values()]
             if mock_sparse:
-                return startNode_sparse
+                return [(node, score) for node, _edge, score in startNode_sparse]
             result=session.run(retrieve_edge_dense_query.format(embedding=embedding,index=repr(edge_dense_index_name)))
             if result is None:
                 return None
@@ -65,7 +101,7 @@ class HopRetriever(HopQMixin):
 
         startNode_hybrid=[(x[0],x[2]+y[2]) for x in startNode_sparse for y in startNode_dense if x[1]['question']==y[1]['question']]
         if len(startNode_hybrid)==0:
-            startNode_hybrid=startNode_dense
+            startNode_hybrid=[(node, score) for node, _edge, score in startNode_dense]
         startNode_hybrid=[(node,score) for node,score in startNode_hybrid if node['text'] not in context] # Exclude nodes that are already in the context
 
 
@@ -74,14 +110,21 @@ class HopRetriever(HopQMixin):
         
     
     def hybrid_retrieve_node(self,keywords:str,embedding:List,context:Dict,mock_sparse:bool=False):
-        startNode_sparse=[]
+        sparse_by_text={}
         startNode_dense=[]
         with self.driver.session() as session:
-            result=session.run(retrieve_node_sparse_query.format(keywords=repr(keywords),index=repr(node_sparse_index_name)))
-            if result  is None:
-                return None
-            for record in result:
-                startNode_sparse.append((record['sparse_node'],record['sparse_score']))
+            for term in _keyword_terms(keywords):
+                result=session.run(retrieve_node_sparse_query.format(keywords=repr(term),index=repr(node_sparse_index_name)))
+                if result  is None:
+                    return None
+                for record in result:
+                    text = record['sparse_node'].get('text')
+                    if text is None:
+                        continue
+                    if text not in sparse_by_text:
+                        sparse_by_text[text] = [record['sparse_node'], 0]
+                    sparse_by_text[text][1] += 1
+            startNode_sparse=[tuple(value) for value in sparse_by_text.values()]
             if mock_sparse:
                 return startNode_sparse
             result=session.run(retrieve_node_dense_query.format(embedding=embedding,index=repr(node_dense_index_name)))
@@ -91,7 +134,7 @@ class HopRetriever(HopQMixin):
                 startNode_dense.append((record['dense_node'],record['dense_score']))
 
         startNode_dense=sorted(startNode_dense,key=lambda x:x[1],reverse=True)
-        startNode_hybrid=[(x[0],y[1]) for x in startNode_sparse for y in startNode_dense if x[0]['text']==y[0]['text']] # Hybrid is reflected in taking the intersection of dense and sparse results, but the internal score remains dense
+        startNode_hybrid=[(x[0],x[1]+y[1]) for x in startNode_sparse for y in startNode_dense if x[0]['text']==y[0]['text']]
         if len(startNode_hybrid)<self.max_hop:
             startNode_hybrid=startNode_dense
         startNode_hybrid=[(node,score_dense) for node,score_dense in startNode_hybrid if node['text'] not in context] # Exclude nodes that are already in the context
@@ -719,7 +762,7 @@ class HopRetriever(HopQMixin):
 if __name__ == "__main__":
     query="Donnie Smith who plays as a left back for New England Revolution belongs to what league featuring 22 teams?"
     retriever = HopRetriever(llm=traversal_model, max_hop=4, entry_type="node", if_trim=False, if_hybrid=True,
-                             tol=30, topk=10, traversal='hopq', epsilon=0.3, mock_dense=False, reranker=None)
+                             tol=30, topk=10, traversal='hopq', epsilon=0.1, mock_dense=False, reranker=None)
     context, scores = retriever.search_docs(query)
     print(context)
     print(scores)

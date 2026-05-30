@@ -32,7 +32,7 @@ parser.add_argument('--mode',default='common',type=str,help='common,reformulate,
 parser.add_argument('--label',type=str,default='hotpot_example_',help='the label for the output dir, used to distinguish different runs;not for the neo4j index name to retrieve!!')
 parser.add_argument('--topk',default=8,type=int)
 parser.add_argument('--traversal',default='bfs',type=str,help='bfs_node,bfs_hop2,bfs,bfs_sim_node,dfs,hopq')
-parser.add_argument('--epsilon',default=0.3,type=float,help='explore-exploit balance for hopq (0=exploit,1=explore)')
+parser.add_argument('--epsilon',default=0.1,type=float,help='explore-exploit balance for hopq (0=exploit,1=explore)')
 parser.add_argument('--retrieve_only',action='store_true', default=False,help='whether to only retrieve the context')
 generate_prompt="""You are a helpful assistant. Please answer my question given the following context. If the context lacks necessary information to answer the question, please try your best to reason and answer in the right format. You have to give an answer no matter what.
 
@@ -271,7 +271,7 @@ if __name__ == "__main__":
     #   --max_hop 4 \                          # max graph hops per query
     #   --topk 10 \                            # top-k nodes to retrieve
     #   --traversal 'hopq' \                   # traversal strategy
-    #   --epsilon 0.3 \                        # explore(1) vs exploit(0) balance
+    #   --epsilon 0.1 \                        # explore(1) vs exploit(0) balance
     #   --hybrid \                             # use hybrid (dense+sparse) for entry node
     #   --entry_type 'node' \                  # start retrieval from node index
     #   --mode 'common' \                      # common: retrieve then generate

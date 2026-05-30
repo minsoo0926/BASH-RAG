@@ -5,6 +5,43 @@ from typing import Any, List, Tuple, Dict, Set
 from config import expand_logic_query
 
 
+def _keyword_set(keywords):
+    if keywords is None:
+        return set()
+    if isinstance(keywords, str):
+        return {token.lower() for token in keywords.split() if token}
+    try:
+        return {str(token).lower() for token in keywords if str(token).strip()}
+    except TypeError:
+        token = str(keywords).strip().lower()
+        return {token} if token else set()
+
+
+def _sparse_similarity(left_keywords, right_keywords):
+    left = _keyword_set(left_keywords)
+    right = _keyword_set(right_keywords)
+    if not left or not right:
+        return 0.0
+    return len(left & right) / len(left | right)
+
+
+def _dense_similarity(left_emb, right_emb):
+    left = np.array(left_emb)
+    right = np.array(right_emb)
+    denom = np.linalg.norm(left) * np.linalg.norm(right)
+    if denom < 1e-9:
+        return None
+    return float(np.dot(left, right) / denom)
+
+
+def _hybrid_similarity(left_emb, right_emb, left_keywords, right_keywords):
+    dense = _dense_similarity(left_emb, right_emb)
+    if dense is None:
+        return None
+    sparse = _sparse_similarity(left_keywords, right_keywords)
+    return 0.5 * sparse + 0.5 * dense
+
+
 class HopQMixin:
     # Stubs for attributes/methods provided by HopRetriever
     topk: int
@@ -28,9 +65,6 @@ class HopQMixin:
         if mock_result[0] is not None:
             return mock_result
         start_nodes = mock_result[1]  # List[Tuple[Dict, float]]
-
-        q_emb = np.array(query_embedding)
-        q_norm = np.linalg.norm(q_emb)
 
         # Max-heap via negated scores; counter breaks ties to avoid dict comparison
         H = []
@@ -61,24 +95,28 @@ class HopQMixin:
                     break
 
                 expanded.add(v['text'])
-                v_emb = np.array(v['embed'])
-                v_norm = np.linalg.norm(v_emb)
-                if v_norm < 1e-9:
-                    continue
 
-                # Select next hop neighbors of v using explore-exploit scoring
+                # Select next hop neighbors of v using hybrid sparse+dense similarity.
                 neighbors = []
                 result = session.run(expand_logic_query, {'text': v['text']})
                 for record in result:
                     vp = record['logic_node']
-                    vp_emb = np.array(vp['embed'])
-                    vp_norm = np.linalg.norm(vp_emb)
 
-                    if vp_norm < 1e-9:
+                    exploration = _hybrid_similarity(
+                        v.get('embed'),
+                        vp.get('embed'),
+                        v.get('keywords'),
+                        vp.get('keywords'),
+                    )
+                    exploitation = _hybrid_similarity(
+                        query_embedding,
+                        vp.get('embed'),
+                        query_keywords,
+                        vp.get('keywords'),
+                    )
+                    if exploration is None or exploitation is None:
                         continue
 
-                    exploration = float(np.dot(v_emb, vp_emb) / (v_norm * vp_norm))
-                    exploitation = float(np.dot(q_emb, vp_emb) / (q_norm * vp_norm))
                     score = self.epsilon * exploration + (1 - self.epsilon) * exploitation
                     neighbors.append((score, vp))
 
