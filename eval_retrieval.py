@@ -20,6 +20,8 @@ def parse_args():
     parser.add_argument("--traversal", default="bfs_sim_node")
     parser.add_argument("--entry-type", default="node")
     parser.add_argument("--hybrid", action="store_true", help="Use hybrid sparse+dense retrieval for the initial candidates.")
+    parser.add_argument("--mock-dense", action="store_true", help="Return dense initial retrieval only, without traversal.")
+    parser.add_argument("--mock-sparse", action="store_true", help="Return sparse initial retrieval only, without traversal.")
     parser.add_argument("--topk", type=int, default=5)
     parser.add_argument("--max-hop", type=int, default=2)
     parser.add_argument(
@@ -170,6 +172,8 @@ def main():
         max_hop=args.max_hop,
         entry_type=args.entry_type,
         if_hybrid=args.hybrid,
+        mock_dense=args.mock_dense,
+        mock_sparse=args.mock_sparse,
         topk=args.topk,
         traversal=args.traversal,
         epsilon=args.epsilon,
@@ -266,6 +270,8 @@ def main():
         "traversal": args.traversal,
         "entry_type": args.entry_type,
         "hybrid": args.hybrid,
+        "mock_dense": args.mock_dense,
+        "mock_sparse": args.mock_sparse,
         "topk": args.topk,
         "max_hop": args.max_hop,
         "epsilon": args.epsilon,

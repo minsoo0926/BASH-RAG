@@ -1,0 +1,196 @@
+\section{Methodology}
+\label{sec:methodology}
+
+We evaluate retrieval strategies for multi-hop question answering over a fixed
+HotpotQA-derived HopRAG graph. Each node represents a passage unit with text,
+keywords, and a dense embedding; each edge represents an answerable relation
+between two nodes and stores a relation question, keywords, and an edge
+embedding. Given a query $q$, the retriever first computes a dense query
+embedding and extracts query entities/keywords. Unless otherwise stated, all
+methods use the same hybrid sparse--dense entry retrieval, top-$k=20$, node
+entry, and a maximum traversal budget of four hops.
+
+\subsection{Hybrid Entry Retrieval}
+\label{sec:method-entry-retrieval}
+
+The entry retriever combines sparse keyword matching with dense vector search.
+For sparse retrieval, we extract named-entity keywords from the query and issue
+one full-text lookup per extracted keyword. Candidate nodes are assigned a
+sparse count equal to the number of query keywords that match the node text. For
+dense retrieval, we retrieve nearest neighbors using cosine similarity between
+the query embedding and node embeddings. Hybrid entry candidates are formed by
+intersecting sparse and dense candidates and scoring each candidate with the sum
+of its sparse match count and dense similarity. This design avoids treating a
+raw multi-token query string as a single sparse query and makes the sparse score
+interpretable as entity-level match evidence.
+
+\subsection{Paper BFS Baseline}
+\label{sec:method-paper-bfs}
+
+We compare against a paper-style breadth-first traversal baseline. Starting from
+the top-$k$ entry nodes, the method asks the traversal model to select at most
+one follow-up neighbor for each queued node at each hop. The method records the
+number of visits to each node and prunes the visited set using a helpfulness
+score that averages query-node similarity and visit-based importance. This
+baseline follows the original graph traversal intuition, but it requires many
+LLM calls during retrieval and therefore has substantially higher latency.
+
+\subsection{HopQ Traversal}
+\label{sec:method-hopq}
+
+HopQ replaces LLM-based edge selection with a deterministic priority-queue
+traversal. Let $H$ be a max-priority queue initialized with the hybrid entry
+candidates. At each expansion step, HopQ removes the highest-scoring unexpanded
+node $v$, scores each linked neighbor $v'$ using an explore--exploit objective,
+updates the global candidate score table, and pushes the best unexpanded
+neighbor back into the queue. The traversal runs for at most
+$top_k \times n_{hop}$ expansions and then returns the top-$k$ nodes from the
+candidate score table.
+
+For a neighbor $v'$, HopQ computes
+\begin{equation}
+    s(v') = \epsilon \cdot \mathrm{SIM}(v, v') + (1 - \epsilon) \cdot \mathrm{SIM}(q, v'),
+\end{equation}
+where $\mathrm{SIM}$ is a hybrid sparse--dense similarity. The dense component
+is cosine similarity between embeddings, and the sparse component is Jaccard
+similarity between keyword sets. We use equal weighting between sparse and dense
+components:
+\begin{equation}
+    \mathrm{SIM}(a,b) = \frac{1}{2}\mathrm{Jaccard}(K_a,K_b) + \frac{1}{2}\cos(E_a,E_b).
+\end{equation}
+This implementation matches the algorithmic form in which exploration is a
+node--node similarity $\mathrm{SIM}(v,v')$ and exploitation is query--node
+similarity $\mathrm{SIM}(q,v')$. We explicitly avoid mixing unnormalized sparse
+full-text scores with traversal cosine scores when interpreting retrieval
+quality; all reported effectiveness metrics are computed against gold support
+facts, not against internal retrieval scores.
+
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Experimental Setup}
+\label{sec:experimental-setup}
+
+We evaluate on the first 1{,}000 examples from \texttt{dataset/hotpot.jsonl}.
+All retrieval runs use the same query order, Neo4j snapshot, embedding model,
+node-entry retrieval, top-$k=20$, and maximum hop count of four. We report
+retrieval-only metrics rather than answer-generation accuracy in order to
+isolate evidence retrieval quality.
+
+The primary metric is \emph{All Supports Hit}, the number of questions for which
+all gold supporting facts are retrieved. This metric captures whether the
+retriever obtains a complete evidence set for multi-hop answering. We also
+report support fact hit rate, which is the recall of individual gold supporting
+facts over the retrieved top-$k$ contexts; any-support hit count; a precision/F1
+proxy computed over retrieved contexts; and average retrieval latency per query.
+The precision and F1 values are treated as proxies because retrieved contexts
+are passage strings while gold annotations are sentence-level support facts.
+
+\subsection{Graphs}
+\label{sec:graphs}
+
+We evaluate three graph variants. The original graph contains 40{,}454 nodes and
+170{,}178 relationships. The LLM-augmented graph starts from the same node set
+and adds 2{,}112 generated bridge edges: 1{,}084 minimum-spanning-tree edges and
+1{,}028 nearest-neighbor shortcut edges. This augmentation reduces the number
+of weakly connected components from 933 to 46 and increases the largest
+component from 274 nodes to 39{,}021 nodes. We also construct a fast augmented
+graph for diagnostics; it adds 3{,}696 edges and collapses the graph into one
+component, but we treat it as diagnostic rather than a main comparison because
+its shortcut construction is less selective.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrr}
+\hline
+Graph & Nodes & Edges & Aug. Edges & WCC & Largest WCC \\
+\hline
+Original & 40{,}454 & 170{,}178 & 0 & 933 & 274 \\
+LLM-Augmented & 40{,}454 & 172{,}290 & 2{,}112 & 46 & 39{,}021 \\
+Fast-Augmented & 40{,}454 & 173{,}874 & 3{,}696 & 1 & 40{,}454 \\
+\hline
+\end{tabular}
+\caption{Graph statistics for the evaluated HotpotQA graph variants. WCC denotes weakly connected components. The fast augmented graph is used only as a diagnostic graph.}
+\label{tab:graph-stats}
+\end{table}
+
+\subsection{HopQ Parameter Selection}
+\label{sec:epsilon-selection}
+
+We tune the HopQ explore--exploit parameter $\epsilon$ on the first 100
+questions using the original and LLM-augmented graphs. The sweep evaluates
+$\epsilon \in \{0.0,0.1,0.2,0.3,0.5,0.7,0.9,1.0\}$. Pure exploitation
+($\epsilon=0$) obtains the highest support fact hit rate on both graphs, while
+$\epsilon=0.2$ is the best nonzero setting and remains close to the best score.
+For the 1{,}000-question main comparison we report HopQ with $\epsilon=0.2$ to
+retain an explicit graph-exploration component; the $\epsilon=0$ result is kept
+as an ablation showing that the current graph is strongly query-relevance
+dominant.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrrrr}
+\hline
+Graph & 0.0 & 0.1 & 0.2 & 0.3 & 0.5 & 0.7 & 0.9 & 1.0 \\
+\hline
+Original & 0.8395 & 0.8230 & 0.8313 & 0.8189 & 0.7613 & 0.7160 & 0.7078 & 0.6914 \\
+LLM-Aug. & 0.8354 & 0.8189 & 0.8313 & 0.8189 & 0.7654 & 0.7160 & 0.7078 & 0.6914 \\
+\hline
+\end{tabular}
+\caption{HopQ support fact hit rate on a 100-question epsilon sweep. Larger $\epsilon$ increases reliance on graph-neighborhood exploration.}
+\label{tab:epsilon-sweep}
+\end{table}
+
+\subsection{Main Retrieval Results}
+\label{sec:main-results}
+
+Table~\ref{tab:main-retrieval-results} reports the 1{,}000-question retrieval
+comparison. HopQ substantially improves complete-support retrieval over the
+hybrid top-$k$ baseline and the paper-style BFS traversal. On the original
+graph, HopQ retrieves all gold supporting facts for 642 questions, compared
+with 587 for paper BFS and 485 for hybrid top-$k$. HopQ also improves support
+fact hit rate from 0.7859 to 0.8210 relative to paper BFS. The improvement is
+paired with a large latency reduction: HopQ averages 1.263 seconds per query,
+whereas paper BFS averages 22.630 seconds per query.
+
+The LLM-augmented graph does not materially improve HopQ under the current
+setting. HopQ on the augmented graph reaches a support fact hit rate of 0.8206
+and 642 all-support hits, effectively matching the original graph. Paper BFS
+shows a small support-recall increase on the augmented graph, from 0.7859 to
+0.7871, but its all-support count decreases from 587 to 581. These results
+suggest that the current augmentation mainly changes graph connectivity rather
+than improving the evidence paths used by the retrievers.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llrrrrr}
+\hline
+Graph & Method & All & Any & Support Hit & F1 Proxy & Sec./Q \\
+\hline
+Original & Hybrid top-$k$ & 485 & 942 & 0.7127 & 0.2103 & 0.231 \\
+Original & Paper BFS & 587 & 971 & 0.7859 & 0.1760 & 22.630 \\
+Original & HopQ ($\epsilon=0.2$) & \textbf{642} & \textbf{981} & \textbf{0.8210} & 0.1790 & \textbf{1.263} \\
+LLM-Aug. & Paper BFS & 581 & 973 & 0.7871 & 0.1763 & 22.908 \\
+LLM-Aug. & HopQ ($\epsilon=0.2$) & \textbf{642} & \textbf{980} & \textbf{0.8206} & 0.1789 & \textbf{1.313} \\
+\hline
+\end{tabular}
+\caption{Retrieval results on 1{,}000 HotpotQA examples. All is the number of questions for which all gold supporting facts are retrieved. Any is the number of questions for which at least one gold supporting fact is retrieved. Support Hit is support fact recall over gold support facts.}
+\label{tab:main-retrieval-results}
+\end{table}
+
+\subsection{Discussion}
+\label{sec:discussion}
+
+The results support three conclusions. First, deterministic HopQ traversal is a
+stronger and much faster retrieval strategy than the LLM-heavy paper BFS
+baseline in this setting. Second, complete-support retrieval is a stricter and
+more informative metric than individual support fact recall: HopQ improves both,
+which indicates that the gain is not merely from retrieving isolated support
+sentences. Third, the current LLM augmentation does not yield a measurable gain
+for HopQ despite greatly increasing graph connectivity. This indicates that
+connectivity alone is insufficient; augmented edges must align with useful
+multi-hop evidence paths, otherwise additional graph shortcuts do not improve
+retrieval and may add traversal noise.
