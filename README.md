@@ -62,8 +62,6 @@ Important files:
 - `HopGenerator.py`: end-to-end retrieval-augmented generation entry point.
 - `graph_augment.py`: graph cloning and bridge-edge augmentation.
 - `eval_retrieval.py`: retrieval-only benchmark runner used for the reported experiments.
-- `reports/final_paper_methodology_experiments.tex`: methodology and experiments draft section.
-- `reports/final_paper_experiment_plan.md`: experiment plan and execution checklist.
 
 ## Setup
 
@@ -76,10 +74,12 @@ Requirements:
 Install dependencies:
 
 ```bash
+git clone https://github.com/minsoo0926/HopRAG.git
+cd HopRAG
 pip install -r requirements.txt
 ```
 
-Configure `config.py` before running experiments:
+Configure your local `config.py` before running experiments. Do not commit private credentials or machine-specific paths:
 
 - Neo4j connection: `neo4j_url`, `neo4j_user`, `neo4j_password`, `neo4j_dbname`
 - graph labels and indexes: `node_name`, `edge_name`, dense/sparse index names
@@ -90,26 +90,29 @@ Configure `config.py` before running experiments:
 
 ### 1. Build or load a graph
 
-Use `HopBuilder.py` for offline node construction and Neo4j upload. The original HopRAG pipeline is still supported:
+Use `HopBuilder.py` for offline cache construction, Neo4j upload, relationship upload, and index creation.
+The default script path runs all stages on the quickstart HotpotQA sample:
 
-```python
-# Offline node construction
-main_nodes(
-    cache_dir="quickstart_dataset/cache_hotpot_offline",
-    docs_dir="quickstart_dataset/hotpot_example_docs",
-    label=node_name,
-)
-
-# Online upload from offline cache
-main_nodes(
-    cache_dir="quickstart_dataset/cache_hotpot_online",
-    docs_dir="quickstart_dataset/hotpot_example_docs",
-    label=node_name,
-    original_cache_dir="quickstart_dataset/cache_hotpot_offline",
-)
+```bash
+python HopBuilder.py
 ```
 
-Then build graph edges and indexes with `main_edges_index` in `HopBuilder.py`.
+For larger runs, execute the same pipeline one stage at a time so the local cache can be reused:
+
+```bash
+HOPRAG_BUILD_STAGE=offline HOPRAG_BUILD_SPAN=100 python HopBuilder.py
+HOPRAG_BUILD_STAGE=offline_edges python HopBuilder.py
+HOPRAG_BUILD_STAGE=upload python HopBuilder.py
+HOPRAG_BUILD_STAGE=upload_edges python HopBuilder.py
+```
+
+Useful environment variables:
+
+- `HOPRAG_DOCS_DIR`: source document directory.
+- `HOPRAG_PROBLEMS_PATH`: HotpotQA or MuSiQue jsonl file used to create edges.
+- `HOPRAG_OFFLINE_CACHE_DIR`: local node/edge cache path.
+- `HOPRAG_ONLINE_CACHE_DIR`: online upload cache path.
+- `HOPRAG_BUILD_START_INDEX`, `HOPRAG_BUILD_SPAN`: document range for node construction.
 
 ### 2. Clone and augment a graph
 
@@ -132,7 +135,7 @@ python graph_augment.py augment \
   --r 2 \
   --k 2 \
   --generate-questions \
-  --question-cache outputs/augmentation/hotpot_full_aug_r2_k2_llmq_v2_questions.json
+  --question-cache outputs/augmentation/bash_rag_bridge_questions.json
 ```
 
 ### 3. Run retrieval-only evaluation
