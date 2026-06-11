@@ -1,176 +1,201 @@
-# HopRAG: Multi-hop Reasoning for Logic-Aware Retrieval-Augmented Generation
+# BASH-RAG: Bridge Augmented Swift Hop for Retrieval-Augmented Generation
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+BASH-RAG is a graph-based retrieval framework for multi-hop question answering.
+It builds on HopRAG-style document graphs, but focuses on two practical changes:
 
-Official repository for **HopRAG: Multi-hop Reasoning for Logic-Aware Retrieval-Augmented Generation**, accepted to ACL Findings 2025.
+1. **Bridge augmentation**: add generated bridge edges between semantically related graph components.
+2. **Swift hop retrieval**: replace expensive LLM-guided traversal with a deterministic priority-queue traversal strategy, HopQ.
 
-HopRAG is a novel Retrieval-Augmented Generation (RAG) framework that leverages graph databases to enhance multi-hop reasoning. Instead of treating documents as a flat collection, HopRAG models them as a graph of interconnected text chunks (nodes) within a **Neo4j** database. This structure allows for more sophisticated, logic-aware retrieval paths, enabling Large Language Models (LLMs) to answer complex questions that require synthesizing information from multiple sources.
+The goal is to retrieve complete multi-hop evidence more accurately and much faster than LLM-heavy graph traversal baselines.
 
-We provide demonstration datasets from **HotpotQA**, **2WikiMultiHop**, and **MuSiQue** to get you started quickly.
+## Overview
 
------
+Traditional RAG retrieves passages from a flat index. BASH-RAG instead retrieves over a Neo4j graph:
 
-## 🚀 Getting Started
+- nodes are passage chunks with text, keywords, and dense embeddings;
+- edges are answerable relations between chunks;
+- bridge edges optionally connect distant but semantically related graph regions;
+- HopQ expands the graph using a hybrid sparse+dense explore-exploit score.
 
-Follow these steps to set up the HopRAG environment and prepare for your first run.
+For a query `q`, HopQ scores each neighbor `v'` from current node `v` as:
 
-### Prerequisites
-
-  * Python `3.10.10` or later
-  * **Neo4j Community Edition** `5.26.0` installed and running locally.
-
-### Installation and Configuration
-
-1.  **Clone the repository:**
-
-    ```bash
-    # TODO: Update the repository URL once available
-    git clone https://github.com/LIU-Hao-2002/HopRAG.git
-    cd HopRAG
-    ```
-
-2.  **Install Python dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Configure the Environment (`config.py`):**
-    Before running any scripts, you must update `config.py` with your local setup details.
-
-      * **Neo4j Connection:** Set your database credentials.
-
-          * `neo4j_url`
-          * `neo4j_user`
-          * `neo4j_password`
-          * `neo4j_dbname`
-
-      * **LLM API:** Provide your API endpoint and key for generation, either openai api or local vllm api.
-
-          * `personal_base`
-          * `personal_key`
-          * `default_gpt_model`
-          * `local_base`
-          * `local_key`
-          * `local_model_name`
-
-      * **Embedding Model:** Specify the path to your locally downloaded embedding model. This model must be the same for both building the graph and retrieval.
-
-          * `embed_model`
-          * `embed_model_dict`
-          * `embed_dim`
-
-      * **(Optional) Local Models:** If you are using local models (transformer framework) for pseudo-query, traversal or reranking, update their paths. `query_generator_model` and `traversal_model` could also be the openai model name or locally deployed vllm model name.
-
-          * `reranker`
-          * `query_generator_model`
-          * `traversal_model`
-
------
-
-## ⚙️ Usage: A Step-by-Step Guide
-
-Follow this pipeline to build the graph, run retrieval, and generate answers.
-
-### Step 1: Prepare the Dataset
-
-First, preprocess your dataset (`.json` or `.jsonl`) using `data_preprocess.py`. This script converts the data into a standardized `.jsonl` format and extracts all document passages into a directory of `.txt` files (the "doc pool").
-
-  * For **HotpotQA** or **2WikiMultiHop**, use the `main_hotpot_2wiki` function.
-  * For **MuSiQue**, use the `main_musique` function.
-
-**Note:** Ensure the sentence delimiter used in this step (e.g., `\n\n` in line 25 of `process_data` function) matches the `signal` variable in `config.py` for consistent document chunking.
-
-### Step 2: Build Graph Nodes
-
-This step chunks the documents from your doc pool and creates a node for each chunk in the Neo4j database. Run the `main_nodes` function in `HopBuilder.py`.
-
-**Key Parameters:**
-
-  * `docs_dir`: Path to the doc pool directory created in Step 1 (e.g., `quickstart_dataset/hotpot_example_docs`).
-  * `cache_dir`: A directory to log progress. This allows the script to be resumed after an interruption.
-  * `node_name`: A unique name (type) for your nodes in Neo4j (e.g., `hotpot_bgeen_qwen1b5`). Set this in `config.py`.
-
-We recommend the **separate offline-online mode** for faster and more stable node creation.
-
-#### Mode 1: Separate (Recommended)
-
-1.  **Generate nodes offline:** This step processes the documents and saves the node data locally without connecting to Neo4j.
-    ```python
-    # In HopBuilder.py
-    main_nodes(cache_dir='quickstart_dataset/cache_hotpot_offline',
-               docs_dir="quickstart_dataset/hotpot_example_docs",
-               label=node_name)
-    ```
-2.  **Push nodes to Neo4j:** This step uploads the locally cached nodes to your online database.
-    ```python
-    # In HopBuilder.py
-    main_nodes(cache_dir='quickstart_dataset/cache_hotpot_online',
-               docs_dir="quickstart_dataset/hotpot_example_docs",
-               label=node_name,
-               original_cache_dir='quickstart_dataset/cache_hotpot_offline')
-    ```
-
-#### Mode 2: Hybrid (Alternative)
-
-This mode processes and uploads nodes in a single step.
-
-```python
-# In HopBuilder.py
-main_nodes(cache_dir='quickstart_dataset/cache_hotpot_online',
-           docs_dir="quickstart_dataset/hotpot_example_docs",
-           label=node_name,
-           offline=False)
+```text
+score(v') = epsilon * SIM(v, v') + (1 - epsilon) * SIM(q, v')
 ```
 
-### Step 3: Build Edges and Index
+where `SIM` combines dense cosine similarity and sparse keyword overlap. This keeps traversal deterministic and avoids LLM calls during neighbor selection.
 
-Next, connect the nodes with edges and create the vector and keyword indices needed for efficient retrieval. Run the `main_edges_index` function in `HopBuilder.py`. Before running `HopBuilder.py`, please carefully examine the variables in `config.py`, especially `query_generator_model`, `embed_model`, `dataset_name`（`dataset_name` must contain only one of `hotpot`,`musique` or `wiki` to clearly specify which dataset）, `node_name`, `node_dense_index_name` etc.
+## Current Experimental Results
 
+We evaluate retrieval on the first 1,000 HotpotQA examples using a 40,454-node graph.
+The main metric is **All Supports Hit**, the number of questions for which all gold supporting facts are retrieved. We also report support fact recall and average latency per query.
 
-  * **Specify Index Names:** Before running, define your index names in `config.py`:
-      * `node_dense_index_name`
-      * `edge_dense_index_name`
-      * `node_sparse_index_name`
-      * `edge_sparse_index_name`
-  * **Run the script:** The `main_edges_index` function uses dataset-specific logic (e.g., `create_edges_hotpot` or `create_edges_musique`) to create edges based on the different data format. `create_edges_hotpot` can be used for both hotpot and 2wiki dataset.
+| Graph | Method | All Supports Hit | Any Support Hit | Support Fact Recall | F1 Proxy | sec/query |
+|---|---:|---:|---:|---:|---:|---:|
+| Original | Hybrid top-k | 485 | 942 | 0.7127 | 0.2103 | 0.231 |
+| Original | Paper BFS | 587 | 971 | 0.7859 | 0.1760 | 22.630 |
+| Original | HopQ, epsilon=0.2 | **642** | **981** | **0.8210** | 0.1790 | **1.263** |
+| LLM-Augmented | Paper BFS | 581 | 973 | 0.7871 | 0.1763 | 22.908 |
+| LLM-Augmented | HopQ, epsilon=0.2 | **642** | **980** | **0.8206** | 0.1789 | **1.313** |
 
-After this step, your graph is fully built and indexed, ready for retrieval\!
+Key takeaways:
 
-### Step 4: Test Retrieval (Optional)
+- HopQ improves complete-support retrieval over Paper BFS on the original graph: `642` vs. `587` all-support hits.
+- HopQ is much faster than Paper BFS: about `1.26s/query` vs. `22.63s/query`.
+- The current LLM-augmented graph greatly improves connectivity, but does not materially improve HopQ retrieval quality in this setting.
 
-To verify that the graph and retrieval functions are working correctly, you can run a standalone search using the `search_docs` function in `HopRetriever.py`. This is a great way to debug or experiment with different retrieval hyperparameters, e.g. `max_hop`, `topk`, `traversal`, or `node_dense_index_name`/`edge_dense_index_name`/`node_sparse_index_name`/`edge_sparse_index_name` (the specific index names to retrieve from). HopRAG provides a lot of traversal strategies: `bfs_node`, `bfs_hop2` and so on. Feel free to test them here.
+Graph statistics:
 
-### Step 5: Retrieval-Augmented Generation
+| Graph | Nodes | Edges | Augmented Edges | Weak Components | Largest Component |
+|---|---:|---:|---:|---:|---:|
+| Original | 40,454 | 170,178 | 0 | 933 | 274 |
+| LLM-Augmented | 40,454 | 172,290 | 2,112 | 46 | 39,021 |
+| Fast-Augmented | 40,454 | 173,874 | 3,696 | 1 | 40,454 |
 
-Now, run the end-to-end RAG pipeline using `HopGenerator.py` from your command line. This script retrieves relevant context from the graph and passes it to the LLM to generate the final answer. Before running `HopGenerator.py`, please carefully examine the variables in `config.py`, especially `traversal_model`, `embed_model`, `dataset_name`, `node_dense_index_name`(the specific index names to retrieve from) etc.
+## Repository Layout
 
-**Example Command:**
+Important files:
+
+- `HopRetriever.py`: retrieval strategies, including Paper BFS and HopQ.
+- `HopQStrategy.py`: deterministic HopQ priority-queue traversal.
+- `HopBuilder.py`: graph node/edge construction utilities.
+- `HopGenerator.py`: end-to-end retrieval-augmented generation entry point.
+- `graph_augment.py`: graph cloning and bridge-edge augmentation.
+- `eval_retrieval.py`: retrieval-only benchmark runner used for the reported experiments.
+- `reports/final_paper_methodology_experiments.tex`: methodology and experiments draft section.
+- `reports/final_paper_experiment_plan.md`: experiment plan and execution checklist.
+
+## Setup
+
+Requirements:
+
+- Python 3.10+
+- Neo4j Community Edition 5.x
+- Python dependencies from `requirements.txt` or the project environment
+
+Install dependencies:
 
 ```bash
-nohup python3 HopGenerator.py \
-    --model_name 'gpt-3.5-turbo' \
-    --data_path 'quickstart_dataset/hotpot_example.jsonl' \
-    --save_dir 'quickstart_dataset/hotpot_output' \
-    --retriever_name 'HopRetriever' \
-    --max_hop 4 \
-    --topk 20 \
-    --traversal 'bfs_node' \
-    --mode 'common' \
-    --label 'hotpot_bgeen_qwen1b5' > hotpot_run_log.txt &
+pip install -r requirements.txt
 ```
 
-The script will generate a results file formatted for official evaluation scripts and a `cache` directory with detailed logs for each question.
+Configure `config.py` before running experiments:
 
-### Step 6: Evaluation
+- Neo4j connection: `neo4j_url`, `neo4j_user`, `neo4j_password`, `neo4j_dbname`
+- graph labels and indexes: `node_name`, `edge_name`, dense/sparse index names
+- embedding model: `embed_model`, `embed_dim`
+- local or API LLM settings: `local_model_name`, `query_generator_model`, `traversal_model`
 
-The output files produced in the previous step are ready for evaluation. Use the corresponding official evaluation tools for your benchmark (e.g., the HotpotQA evaluation suite) to measure performance.
+## How To Run
 
------
+### 1. Build or load a graph
 
-## 📜 Citing HopRAG
+Use `HopBuilder.py` for offline node construction and Neo4j upload. The original HopRAG pipeline is still supported:
 
-If you find our work useful in your research, please cite our paper:
+```python
+# Offline node construction
+main_nodes(
+    cache_dir="quickstart_dataset/cache_hotpot_offline",
+    docs_dir="quickstart_dataset/hotpot_example_docs",
+    label=node_name,
+)
+
+# Online upload from offline cache
+main_nodes(
+    cache_dir="quickstart_dataset/cache_hotpot_online",
+    docs_dir="quickstart_dataset/hotpot_example_docs",
+    label=node_name,
+    original_cache_dir="quickstart_dataset/cache_hotpot_offline",
+)
+```
+
+Then build graph edges and indexes with `main_edges_index` in `HopBuilder.py`.
+
+### 2. Clone and augment a graph
+
+Clone a graph into a separate label/relationship pair:
+
+```bash
+python graph_augment.py clone \
+  --source-label hotpot_bgeen_qwen2_5_1b5 \
+  --source-relationship pen2ans_hotpot_bgeen_qwen2_5_1b5 \
+  --target-label hotpot_bgeen_qwen2_5_1b5_spacy_full_aug_r2_k2_llmq_v2 \
+  --target-relationship pen2ans_hotpot_bgeen_qwen2_5_1b5_spacy_full_aug_r2_k2_llmq_v2
+```
+
+Add bridge edges using a question cache or an LLM:
+
+```bash
+python graph_augment.py augment \
+  --label hotpot_bgeen_qwen2_5_1b5_spacy_full_aug_r2_k2_llmq_v2 \
+  --relationship pen2ans_hotpot_bgeen_qwen2_5_1b5_spacy_full_aug_r2_k2_llmq_v2 \
+  --r 2 \
+  --k 2 \
+  --generate-questions \
+  --question-cache outputs/augmentation/hotpot_full_aug_r2_k2_llmq_v2_questions.json
+```
+
+### 3. Run retrieval-only evaluation
+
+HopQ on the original graph:
+
+```bash
+python eval_retrieval.py \
+  --label hotpot_bgeen_qwen2_5_1b5 \
+  --data dataset/hotpot.jsonl \
+  --limit 1000 \
+  --traversal hopq \
+  --entry-type node \
+  --hybrid \
+  --topk 20 \
+  --max-hop 4 \
+  --epsilon 0.2 \
+  --output outputs/retrieval/final_paper/original_hopq_eps0_2_limit1000.json
+```
+
+Paper BFS baseline:
+
+```bash
+python eval_retrieval.py \
+  --label hotpot_bgeen_qwen2_5_1b5 \
+  --data dataset/hotpot.jsonl \
+  --limit 1000 \
+  --traversal paper_bfs \
+  --entry-type node \
+  --hybrid \
+  --topk 20 \
+  --max-hop 4 \
+  --output outputs/retrieval/final_paper/original_paper_bfs_limit1000.json
+```
+
+### 4. Run end-to-end generation
+
+Use `HopGenerator.py` when answer generation is needed:
+
+```bash
+python HopGenerator.py \
+  --model_name gpt-3.5-turbo \
+  --data_path quickstart_dataset/hotpot_example.jsonl \
+  --save_dir quickstart_dataset/hotpot_output \
+  --retriever_name HopRetriever \
+  --max_hop 4 \
+  --topk 20 \
+  --traversal hopq \
+  --epsilon 0.2 \
+  --hybrid \
+  --entry_type node \
+  --mode common
+```
+
+## Notes
+
+- Internal retrieval scores are not used as final quality metrics because sparse full-text scores and dense/traversal scores may have different scales.
+- For multi-hop retrieval, `All Supports Hit` is the strictest reported retrieval metric and should be read alongside support fact recall.
+- The current bridge augmentation improves graph connectivity but should be evaluated carefully; more edges do not automatically imply better retrieval.
+
+## Citation
+
+This repository builds on HopRAG. If you use the original HopRAG components, cite:
 
 ```bibtex
 @article{liu2025hoprag,
@@ -180,5 +205,3 @@ If you find our work useful in your research, please cite our paper:
   year={2025}
 }
 ```
-
-Thank you for your interest in HopRAG\!
