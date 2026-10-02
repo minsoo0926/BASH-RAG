@@ -3,3 +3,5 @@ quickstart_dataset/
 __pycache__/
 logs/
 *.txt
+.DS_Store
+*.gz
